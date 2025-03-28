@@ -20,6 +20,12 @@ from .auxiliary_functions import jsonp, gzipped, nocache, lang_sorting_key, copy
 from .search_pipelines import *
 
 
+@app.route('/favicon.ico')
+def favicon():
+    return send_from_directory(os.path.join(app.root_path, 'static/favicons'),
+                               'favicon.ico', mimetype='image/vnd.microsoft.icon')
+
+
 @app.route('/search')
 @app.route('/search_minimalistic')
 def search_page():
@@ -30,8 +36,14 @@ def search_page():
     if request.query_string is not None:
         queryString = request.query_string.decode('utf-8')
     ready4work = settings.ready_for_work
+    sc.start_elastic_service()
     if settings.ready_for_work:
         ready4work = sc.is_alive()
+        if (not ready4work
+                and settings.try_restart_elastic
+                and (settings.elastic_url is None or len(settings.elastic_url) <= 0)):
+            # The local Elasticsearch server is down, try to restart it
+            sc.start_elastic_service()
     bMinimalistic = ('minimalistic' in request.url_rule.rule)
     locales = settings.interface_languages
     if type(locales) == list:
@@ -56,6 +68,7 @@ def search_page():
                            negative_search_enabled=settings.negative_search_enabled,
                            fulltext_search_enabled=settings.fulltext_search_enabled,
                            year_sort_enabled=settings.year_sort_enabled,
+                           sent_id_sort_enabled=settings.sent_id_sort_enabled,
                            debug=settings.debug,
                            subcorpus_selection=settings.search_meta,
                            sentence_meta=settings.sentence_meta,
@@ -63,9 +76,12 @@ def search_page():
                                                           ensure_ascii=False, indent=-1),
                            auto_switch_tiers=json.dumps(settings.auto_switch_tiers,
                                                         ensure_ascii=False, indent=-1),
+                           int_meta_fields=json.dumps(settings.integer_meta_fields,
+                                                      ensure_ascii=False, indent=-1),
                            generate_dictionary=settings.generate_dictionary,
                            citation=settings.citation,
                            start_page_url=settings.start_page_url,
+                           part_of_collection=settings.part_of_collection,
                            default_view=settings.default_view,
                            max_request_time=settings.query_timeout + 1,
                            max_page_size=MAX_PAGE_SIZE,
@@ -204,11 +220,16 @@ def get_doc_stats(metaField, lang='all'):
         return jsonify({})
     query = copy_request_args()
     change_display_options(query)
-    docIDs = subcorpus_ids(query)
+    docIDs = subcorpus_ids(query, curLocale=get_locale())
     langID = -1
     if lang != 'all' and lang in settings.languages:
         langID = settings.languages.index(lang)
-    buckets = get_buckets_for_doc_metafield(metaField, langID=langID, docIDs=docIDs)
+    buckets = get_buckets_for_doc_metafield(metaField, langID=langID,
+                                            docIDs=docIDs, curLocale=get_locale())
+    if metaField in settings.localized_meta_values and len(buckets) <= 0:
+        # Maybe there was no localized version of this field for this interface language
+        buckets = get_buckets_for_doc_metafield(metaField, langID=langID,
+                                                docIDs=docIDs, curLocale='')
     return jsonify(buckets)
 
 
@@ -329,7 +350,8 @@ def get_word_stats(searchType, metaField):
         searchIndex = 'sentences'
 
     results = get_word_buckets(searchType, metaField, nWords, htmlQuery,
-                               queryWordConstraints, langID, searchIndex)
+                               queryWordConstraints, langID, searchIndex,
+                               curLocale=get_locale())
     return jsonify(results)
 
 
@@ -346,7 +368,8 @@ def search_sent(page=-1):
     #     return render_template('search_results/result_sentences.html', message='Request timeout.')
     cur_search_context().add_sent_to_session(hits)
     hitsProcessed = sentView.process_sent_json(hits,
-                                               translit=cur_search_context().translit)
+                                               translit=cur_search_context().translit,
+                                               curLocale=get_locale())
     # hitsProcessed['languages'] = settings.languages
     if len(settings.languages) > 1 and 'hits' in hits and 'hits' in hits['hits']:
         add_parallel(hits['hits']['hits'], hitsProcessed)
@@ -362,6 +385,9 @@ def search_sent(page=-1):
     maxPageNumber = (min(hitsProcessed['n_sentences'], settings.max_hits_retrieve) - 1) \
                     // hitsProcessed['page_size'] + 1
     hitsProcessed['too_many_hits'] = (settings.max_hits_retrieve < hitsProcessed['n_sentences'])
+
+    if request.args and 'response_format' in request.args and request.args['response_format'] == 'json':
+        return jsonify(hitsProcessed)
 
     return render_template('search_results/result_sentences.html',
                            data=hitsProcessed,
@@ -409,6 +435,7 @@ def search_word(searchType='word', page=-1):
     return render_template('search_results/result_words.html',
                            data=hitsProcessed,
                            word_table_fields=settings.word_table_fields,
+                           lemma_table_fields=settings.lemma_table_fields,
                            word_search_display_gr=settings.word_search_display_gr,
                            display_freq_rank=settings.display_freq_rank,
                            search_type=searchType,
@@ -422,13 +449,28 @@ def search_doc():
     query = copy_request_args()
     log_query('doc', query)
     change_display_options(query)
-    query = sc.qp.subcorpus_query(query,
-                                  sortOrder=get_session_data('sort'),
-                                  query_size=settings.max_docs_retrieve)
-    hits = sc.get_docs(query)
+    esQuery = sc.qp.subcorpus_query(query,
+                                    sortOrder=get_session_data('sort'),
+                                    query_size=settings.max_docs_retrieve,
+                                    primaryLanguages=settings.primary_languages,
+                                    curLocale=get_locale())
+    hits = sc.get_docs(esQuery)
+    if (len(settings.localized_meta_values) > 0
+            and 'hits' not in hits
+            or 'total' not in hits['hits']
+            or hits['hits']['total']['value'] <= 0):
+        # Maybe some metadata fields were localized, but there are
+        # no localized fields for this interface language
+        esQuery = sc.qp.subcorpus_query(query,
+                                        sortOrder=get_session_data('sort'),
+                                        query_size=settings.max_docs_retrieve,
+                                        primaryLanguages=settings.primary_languages,
+                                        curLocale='')
+        hits = sc.get_docs(esQuery)
     hitsProcessed = sentView.process_docs_json(hits,
                                                exclude=get_session_data('excluded_doc_ids'),
-                                               corpusSize=settings.corpus_size)
+                                               corpusSize=settings.corpus_size,
+                                               primaryLanguages=settings.primary_languages)
     hitsProcessed['media'] = settings.media
     hitsProcessed['images'] = settings.images
     return render_template('search_results/result_docs.html', data=hitsProcessed,
@@ -443,7 +485,7 @@ def autocomplete_meta(metafield):
     query = request.args['query']
     if metafield not in settings.viewable_meta:
         return jsonify({'query': query, 'suggestions': []})
-    suggests = suggest_metafield(metafield, query)
+    suggests = suggest_metafield(metafield, query, curLocale=get_locale())
     return jsonify({'query': query,
                     'suggestions': suggests})
 
@@ -516,8 +558,12 @@ def send_text_html(doc_fname):
             'rows': [],
             'page': 1
         }
+    viewableMeta = copy.deepcopy(settings.viewable_meta)
+    viewableMeta += [vm + '_' + il
+                     for vm in settings.localized_meta_values
+                     for il in settings.interface_languages]
     data['meta'] = {k: data['meta'][k]
-                    for k in data['meta'] if k in settings.viewable_meta}
+                    for k in data['meta'] if k in viewableMeta}
     page = request.args.get('page', 1)
     try:
         page = int(page) - 1
@@ -539,7 +585,7 @@ def send_text_html(doc_fname):
                            citation=settings.citation,
                            start_page_url=settings.start_page_url,
                            locales=settings.interface_languages,
-                           viewable_meta=settings.viewable_meta,
+                           viewable_meta=viewableMeta,
                            data=data,
                            max_page_number=maxPage + 1)
 
@@ -584,7 +630,7 @@ def download_cur_results_xlsx():
 @app.route('/toggle_sentence/<int:sentNum>')
 def toggle_sentence(sentNum):
     """
-    Togle currently viewed sentence with the given number on or off.
+    Toggle currently viewed sentence with the given number on or off.
     The sentences that have been switched off are not written to the
     CSV/XLSX when the user wants to download the search results.
     """
@@ -603,11 +649,12 @@ def toggle_sentence(sentNum):
 @app.route('/toggle_doc/<int:docID>')
 def toggle_document(docID):
     """
-    Togle given docID on or off. The documents that have been switched off
+    Toggle given docID on or off. The documents that have been switched off
     are not included in the search.
     """
     excludedDocIDs = get_session_data('excluded_doc_ids')
-    nWords = sc.get_n_words_in_document(docId=docID)
+    nWords = sc.get_n_words_in_document(docId=docID,
+                                        primaryLanguages=settings.primary_languages)
     sizePercent = round(nWords * 100 / settings.corpus_size, 3)
     if docID in excludedDocIDs:
         excludedDocIDs.remove(docID)
@@ -674,6 +721,8 @@ def get_glossed_sentence(n):
     if sentData is None or n >= len(sentData) or 'languages' not in sentData[n]:
         return ''
     curSentData = sentData[n]
+    result = {}     # langID -> text; for language with the smallest langID, tab-delimited text with the glosses
+    curLangs = []
     for langView in curSentData['languages']:
         lang = langView
         try:
@@ -682,13 +731,25 @@ def get_glossed_sentence(n):
             # Language + number of the translation version: chop off the number
             langID = settings.languages.index(re.sub('_[0-9]+$', '', langView))
             lang = settings.languages[langID]
-        if langID != 0:
-            continue  # for now
-        result = sentView.get_glossed_sentence(curSentData['languages'][langView]['source'], lang=lang)
-        if type(result) == str:
-            return result
-        return ''
-    return ''
+        result[langID] = ''
+        curLangs.append((langID, lang, langView))
+    bInterlinearAdded = False
+    for langID, lang, langView in sorted(curLangs):
+        if not bInterlinearAdded:
+            result[langID] = sentView.get_glossed_sentence(curSentData['languages'][langView]['source'],
+                                                           lang=lang, curLocale=get_locale())
+            bInterlinearAdded = True
+        else:
+            s = curSentData['languages'][langView]['source']
+            if 'text' in s and len(s['text']) > 0:
+                result[langID] = s['text'].strip()
+    resultStr = ''
+    for langID, lang, langView in sorted(curLangs):
+        if type(result[langID]) == str:
+            if len(resultStr) > 0 and not resultStr.endswith('\n'):
+                resultStr += '\n'
+            resultStr += result[langID]
+    return resultStr
 
 
 @app.route('/set_locale/<lang>')
@@ -713,6 +774,18 @@ def help_dialogue():
                            media=settings.media,
                            video=settings.video,
                            gloss_search_enabled=settings.gloss_search_enabled)
+
+
+@app.route('/other_corpora_dialogue')
+@app.route('/docs/other_corpora_dialogue')
+def other_corpora_dialogue():
+    if not settings.part_of_collection:
+        return ''
+    l = get_locale()
+    try:
+        return render_template('modals/other_corpora_dialogue_' + l + '.html')
+    except:
+        return ''
 
 
 @app.route('/docs/dictionary/<lang>')

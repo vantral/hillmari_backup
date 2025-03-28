@@ -1,15 +1,16 @@
 import json
 import html
-import os
 import copy
 import math
+import random
 import re
 import jinja2
 from flask import render_template
+# from .session_management import get_locale
 try:
     from .transliteration import *
 except ImportError:
-    # This happens when response_processots.py is imported
+    # This happens when response_processors.py is imported
     # from outside this package, but we do not need the
     # transliterations in that case
     pass
@@ -26,6 +27,7 @@ class SentenceViewer:
     rxTextSpans = re.compile('</?span.*?>|[^<>]+', flags=re.DOTALL)
     rxTabs = re.compile('^\t*$')
     rxKW = re.compile('_kw$')
+    rxStartSpacesNewlines = re.compile('^[\r\n\t ]+', flags=re.DOTALL)
     invisibleAnaFields = {'gloss_index'}
 
     def __init__(self, settings, search_client, fullText=False):
@@ -195,12 +197,12 @@ class SentenceViewer:
         if not gramdic:
             try:
                 return render_template('search_results/grammar_popup.html', grAnaPart=grAnaPart).strip()
-            except AttributeError:
+            except (AttributeError, RuntimeError):
                 return self.render_jinja_html('../search/web_app/templates/search_results',
                                               'grammar_popup.html', grAnaPart=grAnaPart).strip()
         try:
             return render_template('search_results/gramdic_popup.html', grAnaPart=grAnaPart).strip()
-        except AttributeError:
+        except (AttributeError, RuntimeError):
             return self.render_jinja_html('../search/web_app/templates/search_results',
                                           'gramdic_popup.html', grAnaPart=grAnaPart).strip()
 
@@ -253,7 +255,7 @@ class SentenceViewer:
             ana4template['other_fields'].sort(key=lambda x: x['key'])
         try:
             return render_template('search_results/analysis_div.html', ana=ana4template).strip()
-        except AttributeError:
+        except (AttributeError, RuntimeError):
             return self.render_jinja_html('../search/web_app/templates/search_results',
                                           'analysis_div.html', ana=ana4template).strip()
 
@@ -276,7 +278,7 @@ class SentenceViewer:
                 data4template['analyses'].append(ana4template)
         try:
             return render_template('search_results/analyses_popup.html', data=data4template)
-        except AttributeError:
+        except (AttributeError, RuntimeError):
             return self.render_jinja_html('../search/web_app/templates/search_results',
                                           'analyses_popup.html', data=data4template)
 
@@ -359,7 +361,7 @@ class SentenceViewer:
                     offEnds[i - indexSubtr] = {'smatch'}
                 indexSubtr += 5
 
-    def process_sentence_header(self, sentSource, format='html'):
+    def process_sentence_header(self, sentSource, format='html', curLocale=''):
         """
         Retrieve the metadata of the document the sentence
         belongs to. Return a string with this data that can
@@ -371,6 +373,7 @@ class SentenceViewer:
         authour or title.
         """
         docID = sentSource['doc_id']
+        curLocale = '_' + curLocale
         meta = self.sc.get_doc_by_id(docID)
         if (meta is None
                 or 'hits' not in meta
@@ -395,6 +398,17 @@ class SentenceViewer:
             dateDisplay = str(meta['year_from'])
             if meta['year_to'] != meta['year_from']:
                 dateDisplay += '–' + str(meta['year_to'])
+
+        # Localize values if needed, e.g. store title_en as just title
+        # if curLocale == '_en'
+        if len(self.settings.localized_meta_values) > 0 and len(curLocale) > 1:
+            for k in [_ for _ in meta.keys()]:
+                if k.endswith(curLocale):
+                    kGeneric = k[:-len(curLocale)]
+                    if kGeneric in self.settings.localized_meta_values:
+                        meta[kGeneric] = meta[k]
+                        del meta[k]
+
         metaHtml = render_template('modals/metadata_table.html',
                                    data={'meta': meta},
                                    viewable_meta=self.settings.viewable_meta)
@@ -416,8 +430,16 @@ class SentenceViewer:
                     for k, v in meta.items()
                     if self.rxKW.sub('', k) in self.settings.viewable_meta
                     and k not in ['filename', 'filename_kw']}
-            for k, v in sorted(meta.items()):
-                newField = '[' + k + ': ' + v.replace('\t', ' ') + ']'
+            sortedMetaFields = []
+            for f in self.settings.viewable_meta:
+                # Sort in the same order as listed in conf/corpus.json
+                if f not in ['filename', 'filename_kw'] and f not in self.settings.sentence_meta:
+                    sortedMetaFields.append(f)
+            for f in sortedMetaFields:
+                v = ''
+                if f in meta:
+                    v = str(meta[f]).replace('\t', ' ')
+                newField = '[' + f + ': ' + v + ']'
                 if newField not in result:
                     result.append(newField)
         else:
@@ -579,13 +601,13 @@ class SentenceViewer:
             alignment['start'] = str(float(alignment['start']) + difference)
             alignment['end'] = str(float(alignment['end']) + difference)
 
-    def process_sentence_csv(self, sJSON, lang='', translit=None):
+    def process_sentence_csv(self, sJSON, lang='', translit=None, curLocale=''):
         """
         Process one sentence taken from response['hits']['hits'].
         Return a CSV string for this sentence.
         """
         sDict = self.process_sentence(sJSON, numSent=0, getHeader=False, format='csv',
-                                      lang=lang, translit=translit)
+                                      lang=lang, translit=translit, curLocale=curLocale)
         if ('languages' not in sDict
                 or lang not in sDict['languages']
                 or 'text' not in sDict['languages'][lang]
@@ -624,11 +646,18 @@ class SentenceViewer:
         metaSpan = '<span class="sentence_meta">'
         if format == 'csv':
             metaSpan = ''
-        for k, v in sorted(meta2show.items()):
+        sortedMetaFields = []
+        for f in self.settings.sentence_meta:
+            if f not in ['filename', 'filename_kw', 'sent_analyses', 'sent_analyses_kw']:
+                sortedMetaFields.append(f)
+        for f in sortedMetaFields:
+            v = ''
+            if f in meta2show:
+                v = str(meta2show[f]).replace('\t', ' ')
             if format == 'csv':
-                metaSpan += '[' + k + ': ' + str(v).replace('\t', ' ') + ']\t'
-            else:
-                metaSpan += html.escape(k + ': ' + str(v))
+                metaSpan += '[' + f + ': ' + v + ']\t'
+            elif len(v) > 0:
+                metaSpan += html.escape(f + ': ' + v)
                 metaSpan += '<br>'
         if format == 'csv':
             metaSpan = metaSpan.strip(' ')
@@ -638,7 +667,8 @@ class SentenceViewer:
             metaSpan += '</span>'
         return metaSpan
 
-    def process_sentence(self, s, numSent=1, getHeader=False, lang='', langView='', translit=None, format='html'):
+    def process_sentence(self, s, numSent=1, getHeader=False, lang='', langView='',
+                         translit=None, format='html', curLocale=''):
         """
         Process one sentence taken from response['hits']['hits'].
         If getHeader is True, retrieve the metadata from the database.
@@ -658,7 +688,7 @@ class SentenceViewer:
 
         header = {}
         if getHeader:
-            header = self.process_sentence_header(sSource, format)
+            header = self.process_sentence_header(sSource, format, curLocale=curLocale)
         if 'highlight' in s and 'text' in s['highlight']:
             highlightedText = s['highlight']['text']
             if type(highlightedText) == list:
@@ -666,6 +696,10 @@ class SentenceViewer:
                     highlightedText = highlightedText[0]
                 else:
                     highlightedText = sSource['text']
+            if (self.rxStartSpacesNewlines.search(sSource['text']) is not None
+                    and self.rxStartSpacesNewlines.search(highlightedText) is None):
+                # For some reason, the highlighted text is trimmed
+                highlightedText = self.rxStartSpacesNewlines.search(sSource['text']).group(0) + highlightedText
         else:
             highlightedText = sSource['text']
         if 'words' not in sSource:
@@ -775,7 +809,8 @@ class SentenceViewer:
                 'toggled_on': relationsSatisfied,
                 'src_alignment': fragmentInfo}
 
-    def get_glossed_sentence(self, s, getHeader=True, lang='', translit=None):
+    def get_glossed_sentence(self, s, getHeader=True, lang='', glossOnly=False,
+                             translit=None, curLocale=''):
         """
         Process one sentence taken from response['hits']['hits'].
         If getHeader is True, retrieve the metadata from the database.
@@ -807,7 +842,7 @@ class SentenceViewer:
 
         header = ''
         if getHeader:
-            header = ' [' + self.process_sentence_header(s, 'csv')[0] + ']'
+            header = ' [' + self.process_sentence_header(s, 'csv', curLocale=curLocale)[0] + ']'
         if 'words' not in s:
             return {s['text'] + header}
         text = self.transliterate_baseline(s['text'].strip(' \t\n').replace('\n', '\\n '),
@@ -832,22 +867,28 @@ class SentenceViewer:
                 analyses = []
                 if 'ana' in w:
                     analyses = self.simplify_ana(w['ana'], [])[0]
-                setParts = set(ana['parts'] for ana in analyses if 'parts' in ana)
-                setGloss = set(ana['gloss'] for ana in analyses if 'gloss' in ana)
-                setLemmata = set(ana['lex'] for ana in analyses if 'lex' in ana)
+                setParts = set(str(ana['parts']) for ana in analyses
+                               if 'parts' in ana and type(ana['parts']) in (str, list))
+                setGloss = set(str(ana['gloss']) for ana in analyses
+                               if 'gloss' in ana and type(ana['gloss']) in (str, list))
+                setLemmata = set(str(ana['lex']) for ana in analyses
+                                 if 'lex' in ana and type(ana['lex']) in (str, list))
                 if len(setParts) > 1:
-                    parts += ' || '.join(ana['parts'] for ana in analyses if 'parts' in ana)
+                    parts += ' || '.join(str(ana['parts']) for ana in analyses
+                                         if 'parts' in ana and type(ana['parts']) in (str, list))
                 elif len(setParts) == 1:
                     parts += setParts.pop()
                 else:
                     parts += w['wf']
                 if len(setGloss) != 1:
-                    gloss += ' || '.join(ana['gloss'] for ana in analyses if 'gloss' in ana)
+                    gloss += ' || '.join(str(ana['gloss']) for ana in analyses
+                                         if 'gloss' in ana and type(ana['gloss']) in (str, list))
                 else:
                     gloss += setGloss.pop()
                 gramm += ' || '.join(get_ana_gramm(ana) for ana in analyses)
                 if len(setLemmata) != 1:
-                    lemmata += ' || '.join(ana['lex'] for ana in analyses if 'lex' in ana)
+                    lemmata += ' || '.join(str(ana['lex']) for ana in analyses
+                                           if 'lex' in ana and type(ana['lex']) in (str, list))
                 else:
                     lemmata += setLemmata.pop()
         if self.rxTabs.search(parts) is not None:
@@ -858,9 +899,12 @@ class SentenceViewer:
             gramm = ''
         if self.rxTabs.search(lemmata) is not None:
             lemmata = ''
-        if len(parts) > 0:
-            return text + parts + '\n' + gloss + '\n' + lemmata + '\n' + gramm + '\n'
-        return text + tokens + '\n' + parts + '\n' + gloss + '\n' + lemmata + '\n' + gramm + '\n'
+        if not glossOnly:
+            if len(parts) > 0:
+                return text + parts + '\n' + gloss + '\n' + lemmata + '\n' + gramm + '\n'
+            return text + tokens + '\n' + parts + '\n' + gloss + '\n' + lemmata + '\n' + gramm + '\n'
+        # glossOnly == True means that we don't need anything other than the glossed example
+        return parts.replace('\t', ' ') + '\t' + gloss.replace('\t', ' ')
 
     def count_word_subcorpus_stats(self, w, docIDs):
         """
@@ -913,10 +957,13 @@ class SentenceViewer:
             if 'n_sents' in wSource:
                 nSents = str(wSource['n_sents'])
             wf = wfDisplay = ''
-            otherFields = []
+            otherFields = self.get_lemma_table_fields(wSource)
             lemma = self.transliterate_baseline(wSource['wf'], lang=lang, translit=translit)
             gr = ''
+            if 'grdic' in wSource:
+                gr = wSource['grdic']   # lexeme-level grammatical tags as a string
             nForms = str(wSource['n_forms'])
+
         if 'w_id' in w:
             wID = w['w_id']  # word or lemma found in the sentences index
         else:
@@ -981,12 +1028,21 @@ class SentenceViewer:
             nSents = str(wSource['n_sents'])
 
         if searchType == 'word':
+            wf = self.transliterate_baseline(wSource['wf'], lang=lang, translit=translit)
+            wfDisplay = ''
+            if 'wf_display' in wSource:
+                wfDisplay = self.transliterate_baseline(wSource['wf_display'], lang=lang, translit=translit)
+            lemma = self.get_lemma(wSource)
+            gr = self.get_gramm(wSource, lang)
+            otherFields = self.get_word_table_fields(wSource)
             return render_template('search_results/word_table_row.html',
                                    ana_popup=html.escape(self.build_ana_popup(wSource, lang, translit=translit)),
                                    wf=self.transliterate_baseline(wSource['wf'], lang=lang, translit=translit),
-                                   lemma=self.get_lemma(wSource),
-                                   gr=self.get_gramm(wSource, lang),
+                                   wfDisplay=wfDisplay,
+                                   lemma=lemma,
+                                   gr=gr,
                                    word_search_display_gr=self.settings.word_search_display_gr,
+                                   other_fields=otherFields,
                                    freq=freq,
                                    display_freq_rank=self.settings.display_freq_rank,
                                    rank=rank,
@@ -994,19 +1050,28 @@ class SentenceViewer:
                                    nDocs=nDocs,
                                    wID=w['_id'],
                                    wfSearch=wSource['wf'])
-        return render_template('search_results/lemma_table_row.html',
-                               ana_popup=html.escape(self.build_ana_popup(wSource, lang, translit=translit)),
-                               lemma=self.transliterate_baseline(wSource['wf'], lang=lang, translit=translit),
-                               gr=self.get_gramm(wSource, lang),
-                               word_search_display_gr=self.settings.word_search_display_gr,
-                               freq=freq,
-                               display_freq_rank=self.settings.display_freq_rank,
-                               rank=rank,
-                               nSents=nSents,
-                               nDocs=nDocs,
-                               nForms=nForms,
-                               lID=w['_id'],
-                               wfSearch=wSource['wf'])
+        else:
+            otherFields = self.get_lemma_table_fields(wSource)
+            lemma = self.transliterate_baseline(wSource['wf'], lang=lang, translit=translit)
+            gr = ''
+            if 'grdic' in wSource:
+                gr = wSource['grdic']  # lexeme-level grammatical tags as a string
+            return render_template('search_results/lemma_table_row.html',
+                                   wf='',
+                                   wfDisplay='',
+                                   ana_popup=html.escape(self.build_ana_popup(wSource, lang, translit=translit)),
+                                   lemma=lemma,
+                                   gr=gr,
+                                   word_search_display_gr=self.settings.word_search_display_gr,
+                                   other_fields=otherFields,
+                                   freq=freq,
+                                   display_freq_rank=self.settings.display_freq_rank,
+                                   rank=rank,
+                                   nSents=nSents,
+                                   nDocs=nDocs,
+                                   nForms=nForms,
+                                   lID=w['_id'],
+                                   wfSearch=wSource['wf'])
 
     def filter_multi_word_highlight_iter(self, hit, nWords=1, negWords=None, keepOnlyFirst=False):
         """
@@ -1191,9 +1256,29 @@ class SentenceViewer:
             wordTableValues.append('/'.join(v for v in sorted(curValues)))
         return wordTableValues
 
+    def get_lemma_table_fields(self, lemma):
+        """
+        Return a list with values of fields that have to be displayed
+        in a lemma search hits table, along with the lemma.
+        """
+        lemmaTableValues = []
+        for field in self.settings.lemma_table_fields:
+            if field in ['lex', 'wf']:
+                continue
+            curValues = set()
+            for k, v in lemma.items():
+                if k == field:
+                    if type(v) == list:
+                        for value in v:
+                            curValues.add(value)
+                    elif type(v) == str:
+                        curValues.add(v)
+            lemmaTableValues.append('/'.join(v for v in sorted(curValues)))
+        return lemmaTableValues
+
     def process_words_collected_from_sentences(self, hitsProcessedAll,
                                                sortOrder='freq', searchType='word',
-                                               startFrom=0, pageSize=10):
+                                               startFrom=0, pageSize=10, randomSeed=0):
         """
         Process all words collected from the sentences with a multi-word query. Modify
         hitsProcessedAll so that hitsProcessedAll['words'] stores data about all
@@ -1223,14 +1308,17 @@ class SentenceViewer:
                 hitsProcessedAll['words'].sort(key=lambda w: w['_source']['wf'])
             elif sortOrder == 'lemma' and searchType == 'word':
                 hitsProcessedAll['words'].sort(key=lambda w: w['_source']['lemma'])
+            elif sortOrder == 'random':
+                random.Random(randomSeed).shuffle(hitsProcessedAll['words'])
         processedWords = []
         for i in range(startFrom, min(len(hitsProcessedAll['words']), startFrom + pageSize)):
             word = hitsProcessedAll['words'][i]
             wordSource = self.sc.get_word_by_id(word['w_id'])['hits']['hits'][0]['_source']
             wordSource.update(word['_source'])
             word['_source'] = wordSource
-            processedWords.append(self.process_word(word, lang=self.settings.languages[word['_source']['lang']],
-                                                    searchType=searchType))
+            if 'lang' in word['_source']:
+                processedWords.append(self.process_word(word, lang=self.settings.languages[word['_source']['lang']],
+                                                        searchType=searchType))
         hitsProcessed = copy.deepcopy(hitsProcessedAll)
         hitsProcessed['words'] = processedWords
         return hitsProcessed
@@ -1288,7 +1376,7 @@ class SentenceViewer:
         offsets of the words that matched the word-level query
         and offsets of the respective analyses, if any.
         Search for word offsets recursively, so that the procedure
-        does not depend excatly on the response structure.
+        does not depend exactly on the response structure.
         Return a dictionary where keys are offsets of highlighted words
         and values are sets of the pairs (ID of the words, ID of its ana)
         that were found by the search query .
@@ -1354,7 +1442,7 @@ class SentenceViewer:
         lang = self.settings.languages[langID]
         return langID, lang
 
-    def process_sent_json(self, response, translit=None):
+    def process_sent_json(self, response, translit=None, curLocale=''):
         result = {
             'n_occurrences': 0,
             'n_sentences': 0,
@@ -1363,7 +1451,8 @@ class SentenceViewer:
             'message': 'Nothing found.',
             'contexts': [],
             'languages': [],
-            'too_many_hits': False
+            'too_many_hits': False,
+            'approximate': False
         }
         result['context_header_rtl'] = self.settings.context_header_rtl
         if ('hits' not in response or 'total' not in response['hits']
@@ -1377,6 +1466,9 @@ class SentenceViewer:
         if 'aggregations' in response:
             if 'agg_ndocs' in response['aggregations']:
                 result['n_docs'] = int(response['aggregations']['agg_ndocs']['value'])
+                if ('approximate' in response['aggregations']['agg_ndocs']
+                        and response['aggregations']['agg_ndocs']['approximate']):
+                    result['approximate'] = True
             if result['n_docs'] > 0 and 'agg_nwords' in response['aggregations']:
                 result['n_occurrences'] = int(math.floor(response['aggregations']['agg_nwords']['sum']))
                 result['n_sentences'] = int(math.floor(response['aggregations']['agg_nwords']['count']))
@@ -1392,7 +1484,8 @@ class SentenceViewer:
                                                getHeader=True,
                                                lang=lang,
                                                langView=langView,
-                                               translit=translit)
+                                               translit=translit,
+                                               curLocale=curLocale)
             if 'src_alignment' in curContext:
                 srcAlignmentInfo.update(curContext['src_alignment'])
             result['contexts'].append(curContext)
@@ -1467,6 +1560,7 @@ class SentenceViewer:
                 # found items comes from word[wtype=word_freq] objects and
                 # therefore is stored in a subaggregation.
                 # If not, it will be taken from the item itself by process_word_buckets.
+                # print(response['aggregations']['agg_group_by_word'])
                 wordFreq = response['aggregations']['agg_group_by_word']['buckets'][iHit]['subagg_freq']['value']
             except KeyError:
                 wordFreq = None
@@ -1481,7 +1575,7 @@ class SentenceViewer:
                                                              translit=translit))
         return result
 
-    def process_docs_json(self, response, exclude=None, corpusSize=1):
+    def process_docs_json(self, response, exclude=None, corpusSize=1, primaryLanguages=None):
         result = {'n_words': 0, 'n_sentences': 0, 'n_docs': 0,
                   'size_percent': 0.0,
                   'message': 'Nothing found.',
@@ -1495,13 +1589,21 @@ class SentenceViewer:
         result['message'] = ''
         result['n_docs'] = response['hits']['total']['value']
         result['n_words'] = int(round(response['aggregations']['agg_nwords']['value'], 0))
+        if primaryLanguages is not None and len(primaryLanguages) > 0:
+            result['n_words'] = 0
+            for lang in primaryLanguages:
+                result['n_words'] = int(round(response['aggregations']['agg_nwords_' + lang]['value'], 0))
         result['docs'] = []
         for iHit in range(len(response['hits']['hits'])):
             if exclude is not None and int(response['hits']['hits'][iHit]['_id']) in exclude:
                 result['n_docs'] -= 1
-                result['n_words'] -= response['hits']['hits'][iHit]['_source']['n_words']
+                if primaryLanguages is not None and len(primaryLanguages) > 0:
+                    for lang in primaryLanguages:
+                        result['n_words'] -= int(round(response['hits']['hits'][iHit]['_source']['n_words_' + lang], 0))
+                else:
+                    result['n_words'] -= int(round(response['hits']['hits'][iHit]['_source']['n_words'], 0))
             result['docs'].append(self.process_doc(response['hits']['hits'][iHit], exclude))
-        result['size_percent'] = round(result['n_words'] * 100 / corpusSize, 3)
+        result['size_percent'] = min(100, max(0, round(result['n_words'] * 100 / corpusSize, 3)))
         return result
 
     def extract_cumulative_freq_by_rank(self, hits):

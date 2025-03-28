@@ -3,6 +3,7 @@ $(function() {
 	
 	$("#search_sent_json").click(function() {
 		//$("#corpus_header").html( $("#search_main").serialize() );
+		clear_saved_words_table();
 		$.ajax({
 			url: "search_sent_json",
 			data: $("#search_main").serialize(),
@@ -20,6 +21,7 @@ $(function() {
 	
 	$("#search_sent_query").click(function() {
 		//$("#corpus_header").html( $("#search_main").serialize() );
+		clear_saved_words_table();
 		$.ajax({
 			url: "search_sent_query",
 			data: $("#search_main").serialize(),
@@ -38,6 +40,7 @@ $(function() {
 	$("#search_word").click(function() {
 		//$("#query").html( $("#search_main").serialize() );
 		remember_query('word');
+		clear_saved_words_table();
 		$.ajax({
 			url: "search_word",
 			data: $("#search_main").serialize(),
@@ -55,6 +58,7 @@ $(function() {
 	$("#search_lemma").click(function() {
 		//$("#query").html( $("#search_main").serialize() );
 		remember_query('lemma');
+		clear_saved_words_table();
 		$.ajax({
 			url: "search_lemma",
 			data: $("#search_main").serialize(),
@@ -295,6 +299,7 @@ function get_sentences() {
 }
 
 function get_sentences_page(page) {
+	clear_saved_words_table();
 	if (page < 0) {
 		remember_query('sentence');
 		$.ajax({
@@ -331,6 +336,7 @@ function assign_input_events() {
 	//$("neg_query_checkbox").unbind('change');
 	$(".neg_query").unbind('click');
 	$("#show_help").unbind('click');
+	$("#part_of_collection").unbind('click');
 	$("#show_dictionary").unbind('click');
 	$("#enable_virtual_keyboard").unbind('click');
 	$("#show_settings").unbind('click');
@@ -355,6 +361,7 @@ function assign_input_events() {
 	//$("neg_query_checkbox").change(negative_query);
 	$(".neg_query").click(negative_query_span);
 	$("#show_help").click(show_help);
+	$("#part_of_collection").click(show_other_corpora);
 	$("#show_dictionary").click(show_dictionary);
 	$("#enable_virtual_keyboard").click(toggle_keyboards);
 	$("#show_settings").click(show_settings);
@@ -466,12 +473,12 @@ function expand_word_input(e) {
 	var div_extra_fields = $(e.target).parent().parent().find('.add_word_fields');
 	div_extra_fields.finish();
 	if (div_extra_fields.css('max-height') == '0px') {
-		div_extra_fields.css('max-height', '300px');
+		div_extra_fields.css('max-height', '600px');
 		div_extra_fields.css('height', 'initial');
 		div_extra_fields.css('visibility', 'visible');
 		$(e.target).find('.tooltip_prompt').html(lessFieldsCaption);
 	}
-	else if (div_extra_fields.css('max-height') == '300px') {
+	else if (div_extra_fields.css('max-height') == '600px') {
 		div_extra_fields.css('max-height', '0px');
 		div_extra_fields.css('height', '0px');
 		div_extra_fields.css('visibility', 'hidden');
@@ -604,9 +611,9 @@ function search_if_enter(e) {
     }
 }
 
-function search_if_query() {
+async function search_if_query() {
 	if ($('#query_to_load').val().length > 1) {
-		$('#query_load_ok').click();
+		await load_query();
 		$('#search_sent').click();
 	}
 }

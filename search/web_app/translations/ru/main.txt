@@ -32,7 +32,7 @@ msgstr "до "
 
 #: templates/index.html:26
 msgid "Select combinations of tags"
-msgstr "Выбор грамматических тэгов"
+msgstr "Выбор тэгов"
 
 #: templates/index.html:27
 msgid "Select glosses"
@@ -271,6 +271,9 @@ msgstr "по частотности"
 #: templates/modals/display_settings.html:23
 msgid "by year (decreasing; sentence queries)"
 msgstr "по году (по убыванию; поиск предложений)"
+
+msgid "by sentence ID (sentence queries)"
+msgstr "по ID предложения (поиск предложений)"
 
 #: templates/modals/display_settings.html:26
 msgid "no sorting"
@@ -743,4 +746,11 @@ msgstr "статистика"
 msgid "Full text (opens in a new tab)"
 msgstr "Полный текст (откроется в новой вкладке)"
 
+msgid "Virtual keyboard"
+msgstr "Виртуальная клавиатура"
 
+msgid "Other corpora"
+msgstr "Другие корпуса"
+
+msgid "Filter"
+msgstr "Фильтр"

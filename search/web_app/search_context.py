@@ -8,13 +8,14 @@ because it can be quite large and cookies have size limits.
 This means that Tsakorpus API is not as RESTful as you might
 have imagined.
 """
-
-
+import re
 from . import sentView, settings
 
 
 class SearchContext:
-    def __init__(self):
+    rxCSVMeta = re.compile('^\\[.*:.*\\]$')
+
+    def __init__(self, curLocale=''):
         """
         Whenever someone clicks one of the Search buttons, a new
         SearchContext object is created and stored in sessionData.
@@ -26,6 +27,9 @@ class SearchContext:
         self.processed_words = []  # List of word hits taken from sentences when looking for
                                    # word/lemma in multi-word search
         self.after_key = None      # ID of the last retrieved word/lemma bucket for pagination
+        self.locale = settings.default_locale
+        if len(curLocale) > 0:
+            self.locale = curLocale
 
     def flush(self):
         """
@@ -64,12 +68,14 @@ class SearchContext:
             if (len(sentData['header_csv']) <= 0
                     or (len(sentData['header_csv']) == 1 and len(sentData['header_csv'][0]) <= 0)):
                 sentData['header_csv'] = sentView.process_sentence_header(sent['_source'],
-                                                                          format='csv')
+                                                                          format='csv',
+                                                                          curLocale=self.locale)
             if 'lang' in sent['_source']:
                 langID = sent['_source']['lang']
                 highlightedText = sentView.process_sentence_csv(sent,
                                                                 lang=settings.languages[langID],
-                                                                translit=self.translit)
+                                                                translit=self.translit,
+                                                                curLocale=self.locale)
             lang = settings.languages[langID]
             langView = lang
             if 'transVar' in sent['_source']:
@@ -131,6 +137,10 @@ class SearchContext:
                 else:
                     sentPageDataDict['highlighted_text_csv'].append(
                         self.sentence_data[iHit]['languages'][lang]['highlighted_text'])
+                    glossed = sentView.get_glossed_sentence(self.sentence_data[iHit]['languages'][lang]['source'],
+                                                            lang=lang, glossOnly=True, curLocale=self.locale)
+                    if settings.gloss_search_enabled and '{{' in self.sentence_data[iHit]['languages'][lang]['highlighted_text']:
+                        sentPageDataDict['glossed'] = glossed
                 if 'header_csv' in self.sentence_data[iHit]:
                     sentPageDataDict['header_csv'] = self.sentence_data[iHit]['header_csv']
             result.append(sentPageDataDict)
@@ -183,7 +193,9 @@ class SearchContext:
                     curLine = sent['header_csv']
                     for s in sent['highlighted_text_csv']:
                         for sPart in s.split('\t'):
-                            if not sPart.startswith('[') or sPart not in curLine:
+                            if len(sPart) > 0 and (self.rxCSVMeta.search(sPart) is None or sPart not in curLine):
                                 curLine.append(sPart)
+                    if settings.gloss_search_enabled and 'glossed' in sent:
+                        curLine.append(sent['glossed'])
                     result.append(curLine)
         return result

@@ -69,9 +69,10 @@
 				</div>
 				<br>
 	{% if fulltext_search_enabled %}
+				<div id="fulltext_div">
 				<label for="txt">{{ _('Full-text search:') }}</label>
 				<input type="text" class="search_input virtual-keyboard" data-kioskboard-type="keyboard" data-kioskboard-specialcharacters="true" name="txt" id="txt">
-				<input type="checkbox" name="precise" id="precise" checked> <label for="precise">{{ _('Precise match') }}</label><br>
+				<input type="checkbox" name="precise" id="precise" checked> <label for="precise">{{ _('Precise match') }}</label></div>
 	{% endif %}
 			</div>
 		</form>
@@ -104,6 +105,7 @@
 				</div>
 			{% endif %}
 		</div>
+		<div id="saved_words_table" class="saved_words_table" style="display: none;"></div>
 	</div>
 <button id="hide_query_button" title={{ _('Back to search') }} rel="toggle-query_slide"><i id="hide_query_icon" class="bi bi-arrow-bar-up"></i><span id="hide_query_caption">{{ _('Back to search') }}</span></button>
 <div class="alert alert-warning alert-dismissible fade show" role="alert" id="greeting">

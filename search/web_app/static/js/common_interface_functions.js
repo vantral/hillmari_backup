@@ -18,6 +18,13 @@ function hide_tooltips() {
 	$(".tooltip").hide();
 }
 
+function clear_saved_words_table() {
+	if ($('#w_id1').val().length <= 0 && $('#l_id1').val().length <= 0) {
+		$('#saved_words_table').empty();
+		$('#saved_words_table').toggle(false);
+	}
+}
+
 function select_subcorpus(e) {
 	$('#subcorpus_selector').modal('show');
 }
@@ -29,6 +36,20 @@ function show_help(e) {
 			success: function(result) {
 				$('#help_dialogue_body').html(result);
 				$('#help_dialogue').modal('show');
+			},
+			error: function(errorThrown) {
+				alert( JSON.stringify(errorThrown) );
+			}
+		});
+}
+
+function show_other_corpora(e) {
+	$.ajax({
+			url: "other_corpora_dialogue",
+			type: "GET",
+			success: function(result) {
+				$('#other_corpora_dialogue_body').html(result);
+				$('#other_corpora_dialogue').modal('show');
 			},
 			error: function(errorThrown) {
 				alert( JSON.stringify(errorThrown) );
@@ -141,7 +162,7 @@ function assign_gram_popup() {
 		$('#analysis').show();
         if ($('.sentence_meta').length > 0) {
 			var prevEl = $(this).prev();
-			while (true) {
+			while (prevEl.length > 0) {
 				if (prevEl.hasClass('sentence_meta')) {
 					break;
 				}
@@ -212,8 +233,36 @@ function toggle_interlinear() {
 	}
 }
 
+	
+function enable_datatables(tableName) {
+	var paging = true;
+	var rowCount = $(tableName + " tr").length;
+	if (rowCount <= 50) {
+		paging = false;
+	}
+	$(tableName).DataTable({
+		fixedHeader: {
+			header: true
+		},
+		layout: {
+			topStart: {
+				search: {
+					text: filterCaption + ': _INPUT_'
+				}
+			},
+			bottomStart: 'paging',
+			topEnd: 'info'
+		},
+		paging: paging,
+		pageLength: 50,
+		lengthChange: false
+	});
+}
+
 function html_decode(input){
   var e = document.createElement('textarea');
   e.innerHTML = input;
   return e.childNodes.length === 0 ? "" : e.childNodes[0].nodeValue;
 }
+
+const sleep = ms => new Promise(r => setTimeout(r, ms));

@@ -1,7 +1,8 @@
 from elasticsearch import Elasticsearch, helpers
 from elasticsearch.client import IndicesClient
-import json
+import subprocess
 import os
+import json
 import time
 from .query_parsers import InterfaceQueryParser
 
@@ -14,6 +15,20 @@ def log_if_needed(f):
         if self.logging == 'query':
             self.query_log.append(esQuery)
         hits = f(self, esQuery)
+        if self.logging == 'hits' and type(hits) == dict:
+            self.query_log.append(hits)
+        return hits
+    return f_decorated
+
+
+def log_if_needed_partition(f):
+    """
+    A decorator used to log the query if logging is on.
+    """
+    def f_decorated(self, esQuery, partition=0):
+        if self.logging == 'query':
+            self.query_log.append(esQuery)
+        hits = f(self, esQuery, partition=partition)
         if self.logging == 'hits' and type(hits) == dict:
             self.query_log.append(hits)
         return hits
@@ -96,33 +111,46 @@ class SearchClient:
                                 query=esQuery)
         return iterator
 
-    @log_if_needed
-    def get_sentences(self, esQuery):
+    @log_if_needed_partition
+    def get_sentences(self, esQuery, partition=0):
+        # print(json.dumps(esQuery, ensure_ascii=False, indent=1))
+        indexName = self.name + '.sentences'
+        if partition > 0:
+            indexName += '.' + str(partition - 1)
+        else:
+            indexName += '*'
+        # print(esQuery)
         if self.settings.query_timeout > 0:
-            hits = self.es.search(index=self.name + '.sentences',
+            hits = self.es.search(index=indexName,
                                   body=esQuery, request_timeout=self.settings.query_timeout)
         else:
-            hits = self.es.search(index=self.name + '.sentences',
+            hits = self.es.search(index=indexName,
                                   body=esQuery)
         # print(json.dumps(hits, ensure_ascii=False, indent=1))
         return hits
 
-    @log_if_needed
-    def get_all_sentences(self, esQuery):
+    @log_if_needed_partition
+    def get_all_sentences(self, esQuery, partition=0):
         """
         Iterate over all sentences found with the query.
         """
+        indexName = self.name + '.sentences'
+        if partition > 0:
+            indexName += '.' + str(partition - 1)
+        else:
+            indexName += '*'
+        # print(esQuery)
         if self.settings.query_timeout > 0:
-            iterator = helpers.scan(self.es, index=self.name + '.sentences',
+            iterator = helpers.scan(self.es, index=indexName,
                                     query=esQuery, request_timeout=self.settings.query_timeout)
         else:
-            iterator = helpers.scan(self.es, index=self.name + '.sentences',
+            iterator = helpers.scan(self.es, index=indexName,
                                     query=esQuery)
         return iterator
 
     def get_sentence_by_id(self, sentId):
         esQuery = {'query': {'term': {'_id': sentId}}}
-        hits = self.es.search(index=self.name + '.sentences',
+        hits = self.es.search(index=self.name + '.sentences*',
                               body=esQuery)
         return hits
 
@@ -138,24 +166,41 @@ class SearchClient:
                               body=esQuery)
         return hits
 
-    def get_n_words(self):
+    def get_n_words(self, primaryLanguages=None, partition=0):
         """
-        Return total number of words in the primary language in the corpus.
+        Return total number of words in the primary language(s) in the corpus.
         """
         aggNWords = {'agg_nwords': {'sum': {'field': 'n_words'}}}
+        if primaryLanguages is not None and len(primaryLanguages) > 0:
+            for lang in primaryLanguages:
+                aggNWords['agg_nwords_' + lang] = {'sum': {'field': 'n_words_' + lang}}
         esQuery = {'query': {'match_all': {}}, 'from': 0, 'size': 0,
                    'aggs': aggNWords}
-        hits = self.es.search(index=self.name + '.docs',
+        index = self.name + '.docs'
+        if partition > 0:
+            index = self.name + '.sentences.' + str(partition - 1)
+        # print(esQuery, index)
+        hits = self.es.search(index=index,
                               body=esQuery)
+        if primaryLanguages is not None and len(primaryLanguages) > 0:
+            nWords = 0
+            for lang in primaryLanguages:
+                nWords += hits['aggregations']['agg_nwords_' + lang]['value']
+            return nWords
         return hits['aggregations']['agg_nwords']['value']
 
-    def get_n_words_in_document(self, docId):
+    def get_n_words_in_document(self, docId, primaryLanguages=None):
         """
         Return number of words in the primary language in given document.
         """
         response = self.get_doc_by_id(docId=docId)
         if response['hits']['total']['value'] <= 0:
             return 0
+        if primaryLanguages is not None and len(primaryLanguages) > 0:
+            nWords = 0
+            for lang in primaryLanguages:
+                nWords += response['hits']['hits'][0]['_source']['n_words_' + lang]
+            return nWords
         return response['hits']['hits'][0]['_source']['n_words']
 
     def get_word_freq_by_rank(self, lang):
@@ -179,6 +224,14 @@ class SearchClient:
         hits = self.es.search(index=self.name + '.words',
                               body=esQuery)
         return hits
+
+    def start_elastic_service(self):
+        """
+        Try to restart the system's Elasticsearch server.
+        """
+        if os.name != 'nt':
+            subprocess.Popen(os.path.abspath('restart_elasticsearch.sh'), shell=True,
+                             stdout=subprocess.PIPE)
 
     def is_alive(self):
         """
