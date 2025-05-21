@@ -385,7 +385,7 @@ class Xml_Flex2JSON(Txt2JSON):
                 elif element.attrib['type'] in ['ft', 'lt', 'lit', 'gls'] and\
                         'lang' in element.attrib and\
                         re.sub('-.*', '', element.attrib['lang']) in self.corpusSettings['language_codes']:
-                    print(self.corpusSettings['language_codes'],  element.attrib['lang'])
+                    # print(self.corpusSettings['language_codes'],  element.attrib['lang'])
                     transLang = self.corpusSettings['language_codes'][re.sub('-.*', '', element.attrib['lang'])]
                     if element.text is not None:
                         seTrans[transLang] = element.text

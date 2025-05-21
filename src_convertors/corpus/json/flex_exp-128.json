@@ -3745,6 +3745,2300 @@
           "off_end": 135,
           "para_id": 7709
         }
+      ],
+      "last": true
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Значит",
+          "wtype": "word",
+          "off_end": 6,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 6,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 7,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 8,
+          "wf": "выпустили",
+          "wtype": "word",
+          "off_end": 17,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 18,
+          "wf": "книгу",
+          "wtype": "word",
+          "off_end": 23,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 23,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 24,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 25,
+          "wf": "называется",
+          "wtype": "word",
+          "off_end": 35,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 36,
+          "wf": "«",
+          "wtype": "punct",
+          "off_end": 37,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 37,
+          "wf": "История",
+          "wtype": "word",
+          "off_end": 44,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 45,
+          "wf": "создания",
+          "wtype": "word",
+          "off_end": 53,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 53,
+          "wf": "»...",
+          "wtype": "punct",
+          "off_end": 57,
+          "next_word": 10
+        }
+      ],
+      "text": "Значит, выпустили книгу, называется «История создания»...",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 57,
+          "para_id": 7691
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "\"",
+          "wtype": "punct",
+          "off_end": 1,
+          "next_word": 1
+        },
+        {
+          "off_start": 1,
+          "wf": "История",
+          "wtype": "word",
+          "off_end": 8,
+          "next_word": 2,
+          "sentence_index": 0,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 8,
+          "wf": "»...",
+          "wtype": "punct",
+          "off_end": 12,
+          "next_word": 3,
+          "sentence_index": 1,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 13,
+          "wf": "ну",
+          "wtype": "word",
+          "off_end": 15,
+          "next_word": 4,
+          "sentence_index": 2,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 16,
+          "wf": "«",
+          "wtype": "punct",
+          "off_end": 17,
+          "next_word": 5,
+          "sentence_index": 3,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 17,
+          "wf": "История",
+          "wtype": "word",
+          "off_end": 24,
+          "next_word": 6,
+          "sentence_index": 4,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 25,
+          "wf": "образования",
+          "wtype": "word",
+          "off_end": 36,
+          "next_word": 7,
+          "sentence_index": 5,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 37,
+          "wf": "деревень",
+          "wtype": "word",
+          "off_end": 45,
+          "next_word": 8,
+          "sentence_index": 6,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 46,
+          "wf": "Горномарийского",
+          "wtype": "word",
+          "off_end": 61,
+          "next_word": 9,
+          "sentence_index": 7,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 62,
+          "wf": "района",
+          "wtype": "word",
+          "off_end": 68,
+          "next_word": 10,
+          "sentence_index": 8,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 68,
+          "wf": "»",
+          "wtype": "punct",
+          "off_end": 69,
+          "next_word": 11,
+          "sentence_index": 9,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 70,
+          "wf": "называется",
+          "wtype": "word",
+          "off_end": 80,
+          "next_word": 12,
+          "sentence_index": 10,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 81,
+          "wf": "книга",
+          "wtype": "word",
+          "off_end": 86,
+          "next_word": 13,
+          "sentence_index": 11,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 86,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 87,
+          "next_word": 14
+        }
+      ],
+      "text": "\"История»... ну «История образования деревень Горномарийского района» называется книга.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 87,
+          "para_id": 7692
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "И",
+          "wtype": "word",
+          "off_end": 1,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 2,
+          "wf": "работали",
+          "wtype": "word",
+          "off_end": 10,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 11,
+          "wf": "работники",
+          "wtype": "word",
+          "off_end": 20,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 20,
+          "wf": "...",
+          "wtype": "punct",
+          "off_end": 23,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 24,
+          "wf": "Горномарийского",
+          "wtype": "word",
+          "off_end": 39,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 40,
+          "wf": "муниципального",
+          "wtype": "word",
+          "off_end": 54,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 55,
+          "wf": "образования",
+          "wtype": "word",
+          "off_end": 66,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 66,
+          "wf": "...",
+          "wtype": "punct",
+          "off_end": 69,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 70,
+          "wf": "Горномарийский",
+          "wtype": "word",
+          "off_end": 84,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 85,
+          "wf": "район",
+          "wtype": "word",
+          "off_end": 90,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 90,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 91,
+          "next_word": 11
+        }
+      ],
+      "text": "И работали работники... Горномарийского муниципального образования... Горномарийский район.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 91,
+          "para_id": 7693
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "В",
+          "wtype": "word",
+          "off_end": 1,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 12
+        },
+        {
+          "off_start": 2,
+          "wf": "этой",
+          "wtype": "word",
+          "off_end": 6,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 7,
+          "wf": "книге",
+          "wtype": "word",
+          "off_end": 12,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 13,
+          "wf": "написано",
+          "wtype": "word",
+          "off_end": 21,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 21,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 22,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 23,
+          "wf": "откуда",
+          "wtype": "word",
+          "off_end": 29,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 29,
+          "wf": "...",
+          "wtype": "punct",
+          "off_end": 32,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 33,
+          "wf": "откуда",
+          "wtype": "word",
+          "off_end": 39,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 39,
+          "wf": "...",
+          "wtype": "punct",
+          "off_end": 42,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 43,
+          "wf": "откуда",
+          "wtype": "word",
+          "off_end": 49,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 50,
+          "wf": "появились",
+          "wtype": "word",
+          "off_end": 59,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 60,
+          "wf": "названия",
+          "wtype": "word",
+          "off_end": 68,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 69,
+          "wf": "деревень",
+          "wtype": "word",
+          "off_end": 77,
+          "next_word": 13,
+          "sentence_index": 12,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 77,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 78,
+          "next_word": 14
+        }
+      ],
+      "text": "В этой книге написано, откуда... откуда... откуда появились названия деревень.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 78,
+          "para_id": 7694
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Вот",
+          "wtype": "word",
+          "off_end": 3,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 3,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 4,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 5,
+          "wf": "например",
+          "wtype": "word",
+          "off_end": 13,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 13,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 14,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 15,
+          "wf": "деревня",
+          "wtype": "word",
+          "off_end": 22,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 22,
+          "wf": "...",
+          "wtype": "punct",
+          "off_end": 25,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 26,
+          "wf": "Сараново",
+          "wtype": "word",
+          "off_end": 34,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 34,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 35,
+          "next_word": 8
+        }
+      ],
+      "text": "Вот, например, деревня... Сараново.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 35,
+          "para_id": 7695
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Название",
+          "wtype": "word",
+          "off_end": 8,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 9,
+          "wf": "Сараново",
+          "wtype": "word",
+          "off_end": 17,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 17,
+          "wf": "...",
+          "wtype": "punct",
+          "off_end": 20,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 21,
+          "wf": "название",
+          "wtype": "word",
+          "off_end": 29,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 29,
+          "wf": "...",
+          "wtype": "punct",
+          "off_end": 32,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 33,
+          "wf": "название",
+          "wtype": "word",
+          "off_end": 41,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 42,
+          "wf": "Сараново",
+          "wtype": "word",
+          "off_end": 50,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 51,
+          "wf": "дали",
+          "wtype": "word",
+          "off_end": 55,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 55,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 56,
+          "next_word": 9
+        }
+      ],
+      "text": "Название Сараново... название... название Сараново дали.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 56,
+          "para_id": 7696
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Это",
+          "wtype": "word",
+          "off_end": 3,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 15
+        },
+        {
+          "off_start": 4,
+          "wf": "то",
+          "wtype": "word",
+          "off_end": 6,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 14
+        },
+        {
+          "off_start": 7,
+          "wf": "есть",
+          "wtype": "word",
+          "off_end": 11,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 13
+        },
+        {
+          "off_start": 12,
+          "wf": "они",
+          "wtype": "word",
+          "off_end": 15,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 12
+        },
+        {
+          "off_start": 16,
+          "wf": "писали",
+          "wtype": "word",
+          "off_end": 22,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 22,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 23,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 24,
+          "wf": "что",
+          "wtype": "word",
+          "off_end": 27,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 28,
+          "wf": "дали",
+          "wtype": "word",
+          "off_end": 32,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 32,
+          "wf": "...",
+          "wtype": "punct",
+          "off_end": 35,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 36,
+          "wf": "первопоселенец",
+          "wtype": "word",
+          "off_end": 50,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 51,
+          "wf": "Саран",
+          "wtype": "word",
+          "off_end": 56,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 56,
+          "wf": "...",
+          "wtype": "punct",
+          "off_end": 59,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 60,
+          "wf": "по",
+          "wtype": "word",
+          "off_end": 62,
+          "next_word": 13,
+          "sentence_index": 12,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 63,
+          "wf": "имени",
+          "wtype": "word",
+          "off_end": 68,
+          "next_word": 14,
+          "sentence_index": 13,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 69,
+          "wf": "первопоселенца",
+          "wtype": "word",
+          "off_end": 83,
+          "next_word": 15,
+          "sentence_index": 14,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 84,
+          "wf": "Сарана",
+          "wtype": "word",
+          "off_end": 90,
+          "next_word": 16,
+          "sentence_index": 15,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 90,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 91,
+          "next_word": 17
+        }
+      ],
+      "text": "Это то есть они писали, что дали... первопоселенец Саран... по имени первопоселенца Сарана.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 91,
+          "para_id": 7697
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Но",
+          "wtype": "word",
+          "off_end": 2,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 13
+        },
+        {
+          "off_start": 3,
+          "wf": "и",
+          "wtype": "word",
+          "off_end": 4,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 12
+        },
+        {
+          "off_start": 5,
+          "wf": "еще",
+          "wtype": "word",
+          "off_end": 8,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 9,
+          "wf": "написали",
+          "wtype": "word",
+          "off_end": 17,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 17,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 18,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 19,
+          "wf": "что",
+          "wtype": "word",
+          "off_end": 22,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 22,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 23,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 24,
+          "wf": "может",
+          "wtype": "word",
+          "off_end": 29,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 29,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 30,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 31,
+          "wf": "пошло",
+          "wtype": "word",
+          "off_end": 36,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 37,
+          "wf": "от",
+          "wtype": "word",
+          "off_end": 39,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 40,
+          "wf": "слова",
+          "wtype": "word",
+          "off_end": 45,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 46,
+          "wf": "«",
+          "wtype": "punct",
+          "off_end": 47,
+          "next_word": 13,
+          "sentence_index": 12,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 47,
+          "wf": "särän",
+          "wtype": "word",
+          "off_end": 52,
+          "next_word": 14,
+          "sentence_index": 13,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 52,
+          "wf": "».",
+          "wtype": "punct",
+          "off_end": 54,
+          "next_word": 15
+        }
+      ],
+      "text": "Но и еще написали, что, может, пошло от слова «särän».",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 54,
+          "para_id": 7698
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "\"",
+          "wtype": "punct",
+          "off_end": 1,
+          "next_word": 1
+        },
+        {
+          "off_start": 1,
+          "wf": "Särän",
+          "wtype": "word",
+          "off_end": 6,
+          "next_word": 2,
+          "sentence_index": 0,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 6,
+          "wf": "»",
+          "wtype": "punct",
+          "off_end": 7,
+          "next_word": 3,
+          "sentence_index": 1,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 8,
+          "wf": "-",
+          "wtype": "punct",
+          "off_end": 9,
+          "next_word": 4,
+          "sentence_index": 2,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 10,
+          "wf": "это",
+          "wtype": "word",
+          "off_end": 13,
+          "next_word": 5,
+          "sentence_index": 3,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 14,
+          "wf": "значит",
+          "wtype": "word",
+          "off_end": 20,
+          "next_word": 6,
+          "sentence_index": 4,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 21,
+          "wf": "«",
+          "wtype": "punct",
+          "off_end": 22,
+          "next_word": 7,
+          "sentence_index": 5,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 22,
+          "wf": "поляна",
+          "wtype": "word",
+          "off_end": 28,
+          "next_word": 8,
+          "sentence_index": 6,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 28,
+          "wf": "».",
+          "wtype": "punct",
+          "off_end": 30,
+          "next_word": 9
+        }
+      ],
+      "text": "\"Särän» - это значит «поляна».",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 30,
+          "para_id": 7699
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "На",
+          "wtype": "word",
+          "off_end": 2,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 3,
+          "wf": "русский",
+          "wtype": "word",
+          "off_end": 10,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 11,
+          "wf": "переводится",
+          "wtype": "word",
+          "off_end": 22,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 23,
+          "wf": "как",
+          "wtype": "word",
+          "off_end": 26,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 27,
+          "wf": "«",
+          "wtype": "punct",
+          "off_end": 28,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 28,
+          "wf": "поляна",
+          "wtype": "word",
+          "off_end": 34,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 34,
+          "wf": "».",
+          "wtype": "punct",
+          "off_end": 36,
+          "next_word": 7
+        }
+      ],
+      "text": "На русский переводится как «поляна».",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 36,
+          "para_id": 7700
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Но",
+          "wtype": "word",
+          "off_end": 2,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 24
+        },
+        {
+          "off_start": 3,
+          "wf": "я",
+          "wtype": "word",
+          "off_end": 4,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 23
+        },
+        {
+          "off_start": 4,
+          "wf": "...",
+          "wtype": "punct",
+          "off_end": 7,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 22
+        },
+        {
+          "off_start": 8,
+          "wf": "но",
+          "wtype": "word",
+          "off_end": 10,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 21
+        },
+        {
+          "off_start": 11,
+          "wf": "я",
+          "wtype": "word",
+          "off_end": 12,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 20
+        },
+        {
+          "off_start": 13,
+          "wf": "с",
+          "wtype": "word",
+          "off_end": 14,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 19
+        },
+        {
+          "off_start": 15,
+          "wf": "этой",
+          "wtype": "word",
+          "off_end": 19,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 18
+        },
+        {
+          "off_start": 20,
+          "wf": "версией",
+          "wtype": "word",
+          "off_end": 27,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 17
+        },
+        {
+          "off_start": 28,
+          "wf": "не",
+          "wtype": "word",
+          "off_end": 30,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 16
+        },
+        {
+          "off_start": 31,
+          "wf": "согласен",
+          "wtype": "word",
+          "off_end": 39,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 15
+        },
+        {
+          "off_start": 39,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 40,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 14
+        },
+        {
+          "off_start": 41,
+          "wf": "так",
+          "wtype": "word",
+          "off_end": 44,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 13
+        },
+        {
+          "off_start": 45,
+          "wf": "как",
+          "wtype": "word",
+          "off_end": 48,
+          "next_word": 13,
+          "sentence_index": 12,
+          "sentence_index_neg": 12
+        },
+        {
+          "off_start": 48,
+          "wf": "...",
+          "wtype": "punct",
+          "off_end": 51,
+          "next_word": 14,
+          "sentence_index": 13,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 52,
+          "wf": "в",
+          "wtype": "word",
+          "off_end": 53,
+          "next_word": 15,
+          "sentence_index": 14,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 54,
+          "wf": "той",
+          "wtype": "word",
+          "off_end": 57,
+          "next_word": 16,
+          "sentence_index": 15,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 58,
+          "wf": "деревне",
+          "wtype": "word",
+          "off_end": 65,
+          "next_word": 17,
+          "sentence_index": 16,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 66,
+          "wf": "жили",
+          "wtype": "word",
+          "off_end": 70,
+          "next_word": 18,
+          "sentence_index": 17,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 70,
+          "wf": "...",
+          "wtype": "punct",
+          "off_end": 73,
+          "next_word": 19,
+          "sentence_index": 18,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 74,
+          "wf": "жили",
+          "wtype": "word",
+          "off_end": 78,
+          "next_word": 20,
+          "sentence_index": 19,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 79,
+          "wf": "много",
+          "wtype": "word",
+          "off_end": 84,
+          "next_word": 21,
+          "sentence_index": 20,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 85,
+          "wf": "людей",
+          "wtype": "word",
+          "off_end": 90,
+          "next_word": 22,
+          "sentence_index": 21,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 91,
+          "wf": "с",
+          "wtype": "word",
+          "off_end": 92,
+          "next_word": 23,
+          "sentence_index": 22,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 93,
+          "wf": "фамилией",
+          "wtype": "word",
+          "off_end": 101,
+          "next_word": 24,
+          "sentence_index": 23,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 102,
+          "wf": "Сарамбаев",
+          "wtype": "word",
+          "off_end": 111,
+          "next_word": 25,
+          "sentence_index": 24,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 111,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 112,
+          "next_word": 26
+        }
+      ],
+      "text": "Но я... но я с этой версией не согласен, так как... в той деревне жили... жили много людей с фамилией Сарамбаев.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 112,
+          "para_id": 7701
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Cемьи",
+          "wtype": "word",
+          "off_end": 5,
+          "next_word": 1,
+          "sentence_index": 0
+        },
+        {
+          "off_start": 5,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 6,
+          "next_word": 2
+        }
+      ],
+      "text": "Cемьи.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 6,
+          "para_id": 7702
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "И",
+          "wtype": "word",
+          "off_end": 1,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 17
+        },
+        {
+          "off_start": 2,
+          "wf": "из",
+          "wtype": "word",
+          "off_end": 4,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 16
+        },
+        {
+          "off_start": 5,
+          "wf": "татарского",
+          "wtype": "word",
+          "off_end": 15,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 15
+        },
+        {
+          "off_start": 16,
+          "wf": "языка",
+          "wtype": "word",
+          "off_end": 21,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 14
+        },
+        {
+          "off_start": 22,
+          "wf": "я",
+          "wtype": "word",
+          "off_end": 23,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 13
+        },
+        {
+          "off_start": 24,
+          "wf": "узнал",
+          "wtype": "word",
+          "off_end": 29,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 12
+        },
+        {
+          "off_start": 29,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 30,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 31,
+          "wf": "что",
+          "wtype": "word",
+          "off_end": 34,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 35,
+          "wf": "слово",
+          "wtype": "word",
+          "off_end": 40,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 41,
+          "wf": "«",
+          "wtype": "punct",
+          "off_end": 42,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 42,
+          "wf": "saran",
+          "wtype": "word",
+          "off_end": 47,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 47,
+          "wf": "»",
+          "wtype": "punct",
+          "off_end": 48,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 49,
+          "wf": "переводится",
+          "wtype": "word",
+          "off_end": 60,
+          "next_word": 13,
+          "sentence_index": 12,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 61,
+          "wf": "на",
+          "wtype": "word",
+          "off_end": 63,
+          "next_word": 14,
+          "sentence_index": 13,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 64,
+          "wf": "русский",
+          "wtype": "word",
+          "off_end": 71,
+          "next_word": 15,
+          "sentence_index": 14,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 72,
+          "wf": "как",
+          "wtype": "word",
+          "off_end": 75,
+          "next_word": 16,
+          "sentence_index": 15,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 76,
+          "wf": "«",
+          "wtype": "punct",
+          "off_end": 77,
+          "next_word": 17,
+          "sentence_index": 16,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 77,
+          "wf": "скупой",
+          "wtype": "word",
+          "off_end": 83,
+          "next_word": 18,
+          "sentence_index": 17,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 83,
+          "wf": "».",
+          "wtype": "punct",
+          "off_end": 85,
+          "next_word": 19
+        }
+      ],
+      "text": "И из татарского языка я узнал, что слово «saran» переводится на русский как «скупой».",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 85,
+          "para_id": 7703
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "И",
+          "wtype": "word",
+          "off_end": 1,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 2,
+          "wf": "получается",
+          "wtype": "word",
+          "off_end": 12,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 12,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 13,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 14,
+          "wf": "что",
+          "wtype": "word",
+          "off_end": 17,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 18,
+          "wf": "фамилия",
+          "wtype": "word",
+          "off_end": 25,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 26,
+          "wf": "Сарамбаев",
+          "wtype": "word",
+          "off_end": 35,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 36,
+          "wf": "первоначально",
+          "wtype": "word",
+          "off_end": 49,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 50,
+          "wf": "была",
+          "wtype": "word",
+          "off_end": 54,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 55,
+          "wf": "как",
+          "wtype": "word",
+          "off_end": 58,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 59,
+          "wf": "Саранбаев",
+          "wtype": "word",
+          "off_end": 68,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 68,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 69,
+          "next_word": 11
+        }
+      ],
+      "text": "И получается, что фамилия Сарамбаев первоначально была как Саранбаев.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 69,
+          "para_id": 7704
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [],
+      "text": "",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 0,
+          "para_id": 7705
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Живущие",
+          "wtype": "word",
+          "off_end": 7,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 14
+        },
+        {
+          "off_start": 8,
+          "wf": "люди",
+          "wtype": "word",
+          "off_end": 12,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 13
+        },
+        {
+          "off_start": 12,
+          "wf": "...",
+          "wtype": "punct",
+          "off_end": 15,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 12
+        },
+        {
+          "off_start": 16,
+          "wf": "были",
+          "wtype": "word",
+          "off_end": 20,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 21,
+          "wf": "тогда",
+          "wtype": "word",
+          "off_end": 26,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 27,
+          "wf": "государства",
+          "wtype": "word",
+          "off_end": 38,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 38,
+          "wf": ":",
+          "wtype": "punct",
+          "off_end": 39,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 40,
+          "wf": "Волжская",
+          "wtype": "word",
+          "off_end": 48,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 49,
+          "wf": "Булгария",
+          "wtype": "word",
+          "off_end": 57,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 57,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 58,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 59,
+          "wf": "Золотая",
+          "wtype": "word",
+          "off_end": 66,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 67,
+          "wf": "Орда",
+          "wtype": "word",
+          "off_end": 71,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 71,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 72,
+          "next_word": 13,
+          "sentence_index": 12,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 73,
+          "wf": "Крымское",
+          "wtype": "word",
+          "off_end": 81,
+          "next_word": 14,
+          "sentence_index": 13,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 82,
+          "wf": "ханство",
+          "wtype": "word",
+          "off_end": 89,
+          "next_word": 15,
+          "sentence_index": 14,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 89,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 90,
+          "next_word": 16
+        }
+      ],
+      "text": "Живущие люди... были тогда государства: Волжская Булгария, Золотая Орда, Крымское ханство.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 90,
+          "para_id": 7706
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "В",
+          "wtype": "word",
+          "off_end": 1,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 2,
+          "wf": "то",
+          "wtype": "word",
+          "off_end": 4,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 5,
+          "wf": "время",
+          "wtype": "word",
+          "off_end": 10,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 11,
+          "wf": "жили",
+          "wtype": "word",
+          "off_end": 15,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 16,
+          "wf": "тюркоязычные",
+          "wtype": "word",
+          "off_end": 28,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 29,
+          "wf": "люди",
+          "wtype": "word",
+          "off_end": 33,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 33,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 34,
+          "next_word": 7
+        }
+      ],
+      "text": "В то время жили тюркоязычные люди.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 34,
+          "para_id": 7707
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "И",
+          "wtype": "word",
+          "off_end": 1,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 2,
+          "wf": "от",
+          "wtype": "word",
+          "off_end": 4,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 5,
+          "wf": "этого",
+          "wtype": "word",
+          "off_end": 10,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 11,
+          "wf": "произошло",
+          "wtype": "word",
+          "off_end": 20,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 21,
+          "wf": "слово",
+          "wtype": "word",
+          "off_end": 26,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 27,
+          "wf": "«",
+          "wtype": "punct",
+          "off_end": 28,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 28,
+          "wf": "cаранбай",
+          "wtype": "word",
+          "off_end": 36,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 36,
+          "wf": "»,",
+          "wtype": "punct",
+          "off_end": 38,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 39,
+          "wf": "то",
+          "wtype": "word",
+          "off_end": 41,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 42,
+          "wf": "есть",
+          "wtype": "word",
+          "off_end": 46,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 47,
+          "wf": "скупой",
+          "wtype": "word",
+          "off_end": 53,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 54,
+          "wf": "бай",
+          "wtype": "word",
+          "off_end": 57,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 57,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 58,
+          "next_word": 13
+        }
+      ],
+      "text": "И от этого произошло слово «cаранбай», то есть скупой бай.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 58,
+          "para_id": 7708
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Со",
+          "wtype": "word",
+          "off_end": 2,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 22
+        },
+        {
+          "off_start": 3,
+          "wf": "временем",
+          "wtype": "word",
+          "off_end": 11,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 21
+        },
+        {
+          "off_start": 11,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 12,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 20
+        },
+        {
+          "off_start": 13,
+          "wf": "так",
+          "wtype": "word",
+          "off_end": 16,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 19
+        },
+        {
+          "off_start": 17,
+          "wf": "как",
+          "wtype": "word",
+          "off_end": 20,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 18
+        },
+        {
+          "off_start": 21,
+          "wf": "в",
+          "wtype": "word",
+          "off_end": 22,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 17
+        },
+        {
+          "off_start": 23,
+          "wf": "этой",
+          "wtype": "word",
+          "off_end": 27,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 16
+        },
+        {
+          "off_start": 28,
+          "wf": "деревне",
+          "wtype": "word",
+          "off_end": 35,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 15
+        },
+        {
+          "off_start": 36,
+          "wf": "жило",
+          "wtype": "word",
+          "off_end": 40,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 14
+        },
+        {
+          "off_start": 41,
+          "wf": "много",
+          "wtype": "word",
+          "off_end": 46,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 13
+        },
+        {
+          "off_start": 47,
+          "wf": "[",
+          "wtype": "punct",
+          "off_end": 48,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 12
+        },
+        {
+          "off_start": 48,
+          "wf": "людей",
+          "wtype": "word",
+          "off_end": 53,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 53,
+          "wf": "]",
+          "wtype": "punct",
+          "off_end": 54,
+          "next_word": 13,
+          "sentence_index": 12,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 55,
+          "wf": "с",
+          "wtype": "word",
+          "off_end": 56,
+          "next_word": 14,
+          "sentence_index": 13,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 57,
+          "wf": "фамилией",
+          "wtype": "word",
+          "off_end": 65,
+          "next_word": 15,
+          "sentence_index": 14,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 66,
+          "wf": "Сарамбаев",
+          "wtype": "word",
+          "off_end": 75,
+          "next_word": 16,
+          "sentence_index": 15,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 75,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 76,
+          "next_word": 17,
+          "sentence_index": 16,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 77,
+          "wf": "и",
+          "wtype": "word",
+          "off_end": 78,
+          "next_word": 18,
+          "sentence_index": 17,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 79,
+          "wf": "от",
+          "wtype": "word",
+          "off_end": 81,
+          "next_word": 19,
+          "sentence_index": 18,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 82,
+          "wf": "этого",
+          "wtype": "word",
+          "off_end": 87,
+          "next_word": 20,
+          "sentence_index": 19,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 88,
+          "wf": "деревня",
+          "wtype": "word",
+          "off_end": 95,
+          "next_word": 21,
+          "sentence_index": 20,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 96,
+          "wf": "стала",
+          "wtype": "word",
+          "off_end": 101,
+          "next_word": 22,
+          "sentence_index": 21,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 102,
+          "wf": "Сараново",
+          "wtype": "word",
+          "off_end": 110,
+          "next_word": 23,
+          "sentence_index": 22,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 110,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 111,
+          "next_word": 24
+        }
+      ],
+      "text": "Со временем, так как в этой деревне жило много [людей] с фамилией Сарамбаев, и от этого деревня стала Сараново.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 111,
+          "para_id": 7709
+        }
       ]
     }
   ]

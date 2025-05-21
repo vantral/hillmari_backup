@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Музыкальные инструменты",
-    "filename": "corpus/xml/flex_exp.xml"
+    "filename": "corpus\\xml\\flex_exp.xml"
   },
   "sentences": [
     {
@@ -2542,6 +2542,1192 @@
         {
           "off_start": 0,
           "off_end": 45,
+          "para_id": 5084
+        }
+      ],
+      "last": true
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "В",
+          "wtype": "word",
+          "off_end": 1,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 12
+        },
+        {
+          "off_start": 2,
+          "wf": "детстве",
+          "wtype": "word",
+          "off_end": 9,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 9,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 10,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 11,
+          "wf": "когда",
+          "wtype": "word",
+          "off_end": 16,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 17,
+          "wf": "учился",
+          "wtype": "word",
+          "off_end": 23,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 24,
+          "wf": "в",
+          "wtype": "word",
+          "off_end": 25,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 26,
+          "wf": "3-4",
+          "wtype": "word",
+          "off_end": 29,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 30,
+          "wf": "классе",
+          "wtype": "word",
+          "off_end": 36,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 36,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 37,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 38,
+          "wf": "мне",
+          "wtype": "word",
+          "off_end": 41,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 42,
+          "wf": "купили",
+          "wtype": "word",
+          "off_end": 48,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 49,
+          "wf": "маленькую",
+          "wtype": "word",
+          "off_end": 58,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 59,
+          "wf": "гармонь",
+          "wtype": "word",
+          "off_end": 66,
+          "next_word": 13,
+          "sentence_index": 12,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 66,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 67,
+          "next_word": 14
+        }
+      ],
+      "text": "В детстве, когда учился в 3-4 классе, мне купили маленькую гармонь.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 67,
+          "para_id": 5073
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Гармонь",
+          "wtype": "word",
+          "off_end": 7,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 7,
+          "wf": "...",
+          "wtype": "punct",
+          "off_end": 10,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 11,
+          "wf": "самодельную",
+          "wtype": "word",
+          "off_end": 22,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 23,
+          "wf": "гармнонь",
+          "wtype": "word",
+          "off_end": 31,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 31,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 32,
+          "next_word": 5
+        }
+      ],
+      "text": "Гармонь... самодельную гармнонь.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 32,
+          "para_id": 5074
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "На",
+          "wtype": "word",
+          "off_end": 2,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 12
+        },
+        {
+          "off_start": 3,
+          "wf": "этой",
+          "wtype": "word",
+          "off_end": 7,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 8,
+          "wf": "гармони",
+          "wtype": "word",
+          "off_end": 15,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 16,
+          "wf": "играл",
+          "wtype": "word",
+          "off_end": 21,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 21,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 22,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 23,
+          "wf": "ну",
+          "wtype": "word",
+          "off_end": 25,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 26,
+          "wf": "что",
+          "wtype": "word",
+          "off_end": 29,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 30,
+          "wf": "делал",
+          "wtype": "word",
+          "off_end": 35,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 35,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 36,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 37,
+          "wf": "научился",
+          "wtype": "word",
+          "off_end": 45,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 45,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 46,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 47,
+          "wf": "играть",
+          "wtype": "word",
+          "off_end": 53,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 54,
+          "wf": "научился",
+          "wtype": "word",
+          "off_end": 62,
+          "next_word": 13,
+          "sentence_index": 12,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 62,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 63,
+          "next_word": 14
+        }
+      ],
+      "text": "На этой гармони играл, ну что делал, научился, играть научился.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 63,
+          "para_id": 5075
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Потом",
+          "wtype": "word",
+          "off_end": 5,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 6,
+          "wf": "мне",
+          "wtype": "word",
+          "off_end": 9,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 10,
+          "wf": "купили",
+          "wtype": "word",
+          "off_end": 16,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 17,
+          "wf": "баян",
+          "wtype": "word",
+          "off_end": 21,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 21,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 22,
+          "next_word": 5
+        }
+      ],
+      "text": "Потом мне купили баян.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 22,
+          "para_id": 5076
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "На",
+          "wtype": "word",
+          "off_end": 2,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 3,
+          "wf": "баяне",
+          "wtype": "word",
+          "off_end": 8,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 9,
+          "wf": "тоже",
+          "wtype": "word",
+          "off_end": 13,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 14,
+          "wf": "играть",
+          "wtype": "word",
+          "off_end": 20,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 21,
+          "wf": "учился",
+          "wtype": "word",
+          "off_end": 27,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 27,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 28,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 29,
+          "wf": "это",
+          "wtype": "word",
+          "off_end": 32,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 33,
+          "wf": "самое",
+          "wtype": "word",
+          "off_end": 38,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 38,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 39,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 40,
+          "wf": "играть",
+          "wtype": "word",
+          "off_end": 46,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 47,
+          "wf": "научился",
+          "wtype": "word",
+          "off_end": 55,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 55,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 56,
+          "next_word": 12
+        }
+      ],
+      "text": "На баяне тоже играть учился, это самое, играть научился.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 56,
+          "para_id": 5077
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "После",
+          "wtype": "word",
+          "off_end": 5,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 6,
+          "wf": "баяна",
+          "wtype": "word",
+          "off_end": 11,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 12,
+          "wf": "купили",
+          "wtype": "word",
+          "off_end": 18,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 19,
+          "wf": "аккордеон",
+          "wtype": "word",
+          "off_end": 28,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 28,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 29,
+          "next_word": 5
+        }
+      ],
+      "text": "После баяна купили аккордеон.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 29,
+          "para_id": 5078
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Пришлось",
+          "wtype": "word",
+          "off_end": 8,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 9,
+          "wf": "учиться",
+          "wtype": "word",
+          "off_end": 16,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 17,
+          "wf": "тоже",
+          "wtype": "word",
+          "off_end": 21,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 22,
+          "wf": "играть",
+          "wtype": "word",
+          "off_end": 28,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 29,
+          "wf": "на",
+          "wtype": "word",
+          "off_end": 31,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 32,
+          "wf": "аккордеоне",
+          "wtype": "word",
+          "off_end": 42,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 42,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 43,
+          "next_word": 7
+        }
+      ],
+      "text": "Пришлось учиться тоже играть на аккордеоне.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 43,
+          "para_id": 5079
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "С",
+          "wtype": "word",
+          "off_end": 1,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 15
+        },
+        {
+          "off_start": 2,
+          "wf": "аккордеоном",
+          "wtype": "word",
+          "off_end": 13,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 14
+        },
+        {
+          "off_start": 14,
+          "wf": "ходили",
+          "wtype": "word",
+          "off_end": 20,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 13
+        },
+        {
+          "off_start": 21,
+          "wf": "в",
+          "wtype": "word",
+          "off_end": 22,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 12
+        },
+        {
+          "off_start": 23,
+          "wf": "соседнюю",
+          "wtype": "word",
+          "off_end": 31,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 32,
+          "wf": "чувашскую",
+          "wtype": "word",
+          "off_end": 41,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 42,
+          "wf": "деревню",
+          "wtype": "word",
+          "off_end": 49,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 49,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 50,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 51,
+          "wf": "Большое",
+          "wtype": "word",
+          "off_end": 58,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 59,
+          "wf": "Карачкино",
+          "wtype": "word",
+          "off_end": 68,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 68,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 69,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 70,
+          "wf": "с",
+          "wtype": "word",
+          "off_end": 71,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 72,
+          "wf": "концертом",
+          "wtype": "word",
+          "off_end": 81,
+          "next_word": 13,
+          "sentence_index": 12,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 81,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 82,
+          "next_word": 14,
+          "sentence_index": 13,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 83,
+          "wf": "показывать",
+          "wtype": "word",
+          "off_end": 93,
+          "next_word": 15,
+          "sentence_index": 14,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 94,
+          "wf": "концерт",
+          "wtype": "word",
+          "off_end": 101,
+          "next_word": 16,
+          "sentence_index": 15,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 101,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 102,
+          "next_word": 17
+        }
+      ],
+      "text": "С аккордеоном ходили в соседнюю чувашскую деревню, Большое Карачкино, с концертом, показывать концерт.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 102,
+          "para_id": 5080
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Показывать",
+          "wtype": "word",
+          "off_end": 10,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 11,
+          "wf": "концерт",
+          "wtype": "word",
+          "off_end": 18,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 18,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 19,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 20,
+          "wf": "на",
+          "wtype": "word",
+          "off_end": 22,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 23,
+          "wf": "этом",
+          "wtype": "word",
+          "off_end": 27,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 28,
+          "wf": "аккордеоне",
+          "wtype": "word",
+          "off_end": 38,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 39,
+          "wf": "играл",
+          "wtype": "word",
+          "off_end": 44,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 45,
+          "wf": "и",
+          "wtype": "word",
+          "off_end": 46,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 47,
+          "wf": "пел",
+          "wtype": "word",
+          "off_end": 50,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 51,
+          "wf": "песни",
+          "wtype": "word",
+          "off_end": 56,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 57,
+          "wf": "сразу",
+          "wtype": "word",
+          "off_end": 62,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 62,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 63,
+          "next_word": 12
+        }
+      ],
+      "text": "Показывать концерт, на этом аккордеоне играл и пел песни сразу.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 63,
+          "para_id": 5081
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Вот",
+          "wtype": "word",
+          "off_end": 3,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 13
+        },
+        {
+          "off_start": 4,
+          "wf": "так",
+          "wtype": "word",
+          "off_end": 7,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 12
+        },
+        {
+          "off_start": 8,
+          "wf": "поехали",
+          "wtype": "word",
+          "off_end": 15,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 16,
+          "wf": "в",
+          "wtype": "word",
+          "off_end": 17,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 18,
+          "wf": "деревню",
+          "wtype": "word",
+          "off_end": 25,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 26,
+          "wf": "под",
+          "wtype": "word",
+          "off_end": 29,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 30,
+          "wf": "названием",
+          "wtype": "word",
+          "off_end": 39,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 40,
+          "wf": "Большое",
+          "wtype": "word",
+          "off_end": 47,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 48,
+          "wf": "Карачкино",
+          "wtype": "word",
+          "off_end": 57,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 58,
+          "wf": "все",
+          "wtype": "word",
+          "off_end": 61,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 62,
+          "wf": "на",
+          "wtype": "word",
+          "off_end": 64,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 65,
+          "wf": "лошадиных",
+          "wtype": "word",
+          "off_end": 74,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 75,
+          "wf": "повозках",
+          "wtype": "word",
+          "off_end": 83,
+          "next_word": 13,
+          "sentence_index": 12,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 84,
+          "wf": "зимой",
+          "wtype": "word",
+          "off_end": 89,
+          "next_word": 14,
+          "sentence_index": 13,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 89,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 90,
+          "next_word": 15
+        }
+      ],
+      "text": "Вот так поехали в деревню под названием Большое Карачкино все на лошадиных повозках зимой.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 90,
+          "para_id": 5082
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Дороги",
+          "wtype": "word",
+          "off_end": 6,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 7,
+          "wf": "нет",
+          "wtype": "word",
+          "off_end": 10,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 10,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 11,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 12,
+          "wf": "метет",
+          "wtype": "word",
+          "off_end": 17,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 17,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 18,
+          "next_word": 5
+        }
+      ],
+      "text": "Дороги нет, метет.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 18,
+          "para_id": 5083
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Вот",
+          "wtype": "word",
+          "off_end": 3,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 4,
+          "wf": "в",
+          "wtype": "word",
+          "off_end": 5,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 6,
+          "wf": "таких",
+          "wtype": "word",
+          "off_end": 11,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 12,
+          "wf": "концертах",
+          "wtype": "word",
+          "off_end": 21,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 22,
+          "wf": "участвовал",
+          "wtype": "word",
+          "off_end": 32,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 32,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 33,
+          "next_word": 6
+        }
+      ],
+      "text": "Вот в таких концертах участвовал.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 33,
           "para_id": 5084
         }
       ]

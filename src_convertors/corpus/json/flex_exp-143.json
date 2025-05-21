@@ -5337,6 +5337,2555 @@
           "off_end": 72,
           "para_id": 9001
         }
+      ],
+      "last": true
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Трава",
+          "wtype": "word",
+          "off_end": 5,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 6,
+          "wf": "выросла",
+          "wtype": "word",
+          "off_end": 13,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 13,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 14,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 15,
+          "wf": "косой",
+          "wtype": "word",
+          "off_end": 20,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 21,
+          "wf": "ее",
+          "wtype": "word",
+          "off_end": 23,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 24,
+          "wf": "скосили",
+          "wtype": "word",
+          "off_end": 31,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 31,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 32,
+          "next_word": 7
+        }
+      ],
+      "text": "Трава выросла, косой ее скосили.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 32,
+          "para_id": 8975
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "На",
+          "wtype": "word",
+          "off_end": 2,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 3,
+          "wf": "солнце",
+          "wtype": "word",
+          "off_end": 9,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 10,
+          "wf": "высохло",
+          "wtype": "word",
+          "off_end": 17,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 18,
+          "wf": "сено",
+          "wtype": "word",
+          "off_end": 22,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 22,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 23,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 24,
+          "wf": "можно",
+          "wtype": "word",
+          "off_end": 29,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 30,
+          "wf": "ворошить",
+          "wtype": "word",
+          "off_end": 38,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 38,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 39,
+          "next_word": 8
+        }
+      ],
+      "text": "На солнце высохло сено, можно ворошить.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 39,
+          "para_id": 8976
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [],
+      "text": "",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 0,
+          "para_id": 8977
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Ладно",
+          "wtype": "word",
+          "off_end": 5,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 18
+        },
+        {
+          "off_start": 5,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 6,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 17
+        },
+        {
+          "off_start": 7,
+          "wf": "трава",
+          "wtype": "word",
+          "off_end": 12,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 16
+        },
+        {
+          "off_start": 12,
+          "wf": "...",
+          "wtype": "punct",
+          "off_end": 15,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 15
+        },
+        {
+          "off_start": 16,
+          "wf": "когда",
+          "wtype": "word",
+          "off_end": 21,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 14
+        },
+        {
+          "off_start": 22,
+          "wf": "трава",
+          "wtype": "word",
+          "off_end": 27,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 13
+        },
+        {
+          "off_start": 28,
+          "wf": "выросла",
+          "wtype": "word",
+          "off_end": 35,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 12
+        },
+        {
+          "off_start": 35,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 36,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 37,
+          "wf": "траву",
+          "wtype": "word",
+          "off_end": 42,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 43,
+          "wf": "надо",
+          "wtype": "word",
+          "off_end": 47,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 48,
+          "wf": "скосить",
+          "wtype": "word",
+          "off_end": 55,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 55,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 56,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 57,
+          "wf": "а",
+          "wtype": "word",
+          "off_end": 58,
+          "next_word": 13,
+          "sentence_index": 12,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 59,
+          "wf": "то",
+          "wtype": "word",
+          "off_end": 61,
+          "next_word": 14,
+          "sentence_index": 13,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 62,
+          "wf": "и",
+          "wtype": "word",
+          "off_end": 63,
+          "next_word": 15,
+          "sentence_index": 14,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 64,
+          "wf": "в",
+          "wtype": "word",
+          "off_end": 65,
+          "next_word": 16,
+          "sentence_index": 15,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 66,
+          "wf": "огород",
+          "wtype": "word",
+          "off_end": 72,
+          "next_word": 17,
+          "sentence_index": 16,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 73,
+          "wf": "выйти",
+          "wtype": "word",
+          "off_end": 78,
+          "next_word": 18,
+          "sentence_index": 17,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 79,
+          "wf": "неприятно",
+          "wtype": "word",
+          "off_end": 88,
+          "next_word": 19,
+          "sentence_index": 18,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 88,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 89,
+          "next_word": 20
+        }
+      ],
+      "text": "Ладно, трава... когда трава выросла, траву надо скосить, а то и в огород выйти неприятно.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 89,
+          "para_id": 8978
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Надо",
+          "wtype": "word",
+          "off_end": 4,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 5,
+          "wf": "пройти",
+          "wtype": "word",
+          "off_end": 11,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 12,
+          "wf": "к",
+          "wtype": "word",
+          "off_end": 13,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 14,
+          "wf": "грядкам",
+          "wtype": "word",
+          "off_end": 21,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 22,
+          "wf": "грядку",
+          "wtype": "word",
+          "off_end": 28,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 29,
+          "wf": "полоть",
+          "wtype": "word",
+          "off_end": 35,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 35,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 36,
+          "next_word": 7
+        }
+      ],
+      "text": "Надо пройти к грядкам грядку полоть.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 36,
+          "para_id": 8979
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Везде",
+          "wtype": "word",
+          "off_end": 5,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 6,
+          "wf": "трава",
+          "wtype": "word",
+          "off_end": 11,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 12,
+          "wf": "выросла",
+          "wtype": "word",
+          "off_end": 19,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 19,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 20,
+          "next_word": 4
+        }
+      ],
+      "text": "Везде трава выросла.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 20,
+          "para_id": 8980
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Нынче",
+          "wtype": "word",
+          "off_end": 5,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 6,
+          "wf": "трава",
+          "wtype": "word",
+          "off_end": 11,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 12,
+          "wf": "долго",
+          "wtype": "word",
+          "off_end": 17,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 18,
+          "wf": "не",
+          "wtype": "word",
+          "off_end": 20,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 21,
+          "wf": "вырастала",
+          "wtype": "word",
+          "off_end": 30,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 30,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 31,
+          "next_word": 6
+        }
+      ],
+      "text": "Нынче трава долго не вырастала.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 31,
+          "para_id": 8981
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Позднее",
+          "wtype": "word",
+          "off_end": 7,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 7,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 8,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 9,
+          "wf": "потом",
+          "wtype": "word",
+          "off_end": 14,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 15,
+          "wf": "благодаря",
+          "wtype": "word",
+          "off_end": 24,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 25,
+          "wf": "дождям",
+          "wtype": "word",
+          "off_end": 31,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 32,
+          "wf": "хорошая",
+          "wtype": "word",
+          "off_end": 39,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 40,
+          "wf": "выросла",
+          "wtype": "word",
+          "off_end": 47,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 47,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 48,
+          "next_word": 8
+        }
+      ],
+      "text": "Позднее, потом благодаря дождям хорошая выросла.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 48,
+          "para_id": 8982
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Косить",
+          "wtype": "word",
+          "off_end": 6,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 7,
+          "wf": "даже",
+          "wtype": "word",
+          "off_end": 11,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 12,
+          "wf": "трудно",
+          "wtype": "word",
+          "off_end": 18,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 19,
+          "wf": "теперь",
+          "wtype": "word",
+          "off_end": 25,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 25,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 26,
+          "next_word": 5
+        }
+      ],
+      "text": "Косить даже трудно теперь.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 26,
+          "para_id": 8983
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Уже",
+          "wtype": "word",
+          "off_end": 3,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 4,
+          "wf": "стебель",
+          "wtype": "word",
+          "off_end": 11,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 12,
+          "wf": "снизу",
+          "wtype": "word",
+          "off_end": 17,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 18,
+          "wf": "гнить",
+          "wtype": "word",
+          "off_end": 23,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 24,
+          "wf": "начал",
+          "wtype": "word",
+          "off_end": 29,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 29,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 30,
+          "next_word": 6
+        }
+      ],
+      "text": "Уже стебель снизу гнить начал.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 30,
+          "para_id": 8984
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Вот",
+          "wtype": "word",
+          "off_end": 3,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 13
+        },
+        {
+          "off_start": 4,
+          "wf": "теперь",
+          "wtype": "word",
+          "off_end": 10,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 12
+        },
+        {
+          "off_start": 11,
+          "wf": "скошенная",
+          "wtype": "word",
+          "off_end": 20,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 20,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 21,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 22,
+          "wf": "это",
+          "wtype": "word",
+          "off_end": 25,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 26,
+          "wf": "наше",
+          "wtype": "word",
+          "off_end": 30,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 31,
+          "wf": "сено",
+          "wtype": "word",
+          "off_end": 35,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 36,
+          "wf": "три",
+          "wtype": "word",
+          "off_end": 39,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 40,
+          "wf": "дня",
+          "wtype": "word",
+          "off_end": 43,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 44,
+          "wf": "пролежало",
+          "wtype": "word",
+          "off_end": 53,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 54,
+          "wf": "на",
+          "wtype": "word",
+          "off_end": 56,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 57,
+          "wf": "земле",
+          "wtype": "word",
+          "off_end": 62,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 62,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 63,
+          "next_word": 13,
+          "sentence_index": 12,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 64,
+          "wf": "мокло",
+          "wtype": "word",
+          "off_end": 69,
+          "next_word": 14,
+          "sentence_index": 13,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 69,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 70,
+          "next_word": 15
+        }
+      ],
+      "text": "Вот теперь скошенная, это наше сено три дня пролежало на земле, мокло.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 70,
+          "para_id": 8985
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Вот",
+          "wtype": "word",
+          "off_end": 3,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 4,
+          "wf": "теперь",
+          "wtype": "word",
+          "off_end": 10,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 11,
+          "wf": "скосили",
+          "wtype": "word",
+          "off_end": 18,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 19,
+          "wf": "сено",
+          "wtype": "word",
+          "off_end": 23,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 23,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 24,
+          "next_word": 5
+        }
+      ],
+      "text": "Вот теперь скосили сено.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 24,
+          "para_id": 8986
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Сено-то",
+          "wtype": "word",
+          "off_end": 7,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 8,
+          "wf": "надо",
+          "wtype": "word",
+          "off_end": 12,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 13,
+          "wf": "косить",
+          "wtype": "word",
+          "off_end": 19,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 20,
+          "wf": "косой",
+          "wtype": "word",
+          "off_end": 25,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 25,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 26,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 27,
+          "wf": "вручную",
+          "wtype": "word",
+          "off_end": 34,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 34,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 35,
+          "next_word": 7
+        }
+      ],
+      "text": "Сено-то надо косить косой, вручную.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 35,
+          "para_id": 8987
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "А",
+          "wtype": "word",
+          "off_end": 1,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 2,
+          "wf": "теперь",
+          "wtype": "word",
+          "off_end": 8,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 9,
+          "wf": "люди",
+          "wtype": "word",
+          "off_end": 13,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 14,
+          "wf": "косят",
+          "wtype": "word",
+          "off_end": 19,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 19,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 20,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 21,
+          "wf": "как",
+          "wtype": "word",
+          "off_end": 24,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 25,
+          "wf": "говорится",
+          "wtype": "word",
+          "off_end": 34,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 34,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 35,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 36,
+          "wf": "бензокосой",
+          "wtype": "word",
+          "off_end": 46,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 46,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 47,
+          "next_word": 10
+        }
+      ],
+      "text": "А теперь люди косят, как говорится, бензокосой.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 47,
+          "para_id": 8988
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "У",
+          "wtype": "word",
+          "off_end": 1,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 12
+        },
+        {
+          "off_start": 2,
+          "wf": "нас",
+          "wtype": "word",
+          "off_end": 5,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 6,
+          "wf": "Валент",
+          "wtype": "word",
+          "off_end": 12,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 13,
+          "wf": "Корнилович",
+          "wtype": "word",
+          "off_end": 23,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 24,
+          "wf": "не",
+          "wtype": "word",
+          "off_end": 26,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 27,
+          "wf": "любит",
+          "wtype": "word",
+          "off_end": 32,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 33,
+          "wf": "такую",
+          "wtype": "word",
+          "off_end": 38,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 39,
+          "wf": "бензокосу",
+          "wtype": "word",
+          "off_end": 48,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 48,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 49,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 50,
+          "wf": "говорит",
+          "wtype": "word",
+          "off_end": 57,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 57,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 58,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 59,
+          "wf": "очень",
+          "wtype": "word",
+          "off_end": 64,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 65,
+          "wf": "шумно",
+          "wtype": "word",
+          "off_end": 70,
+          "next_word": 13,
+          "sentence_index": 12,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 70,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 71,
+          "next_word": 14
+        }
+      ],
+      "text": "У нас Валент Корнилович не любит такую бензокосу, говорит, очень шумно.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 71,
+          "para_id": 8989
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Вручную",
+          "wtype": "word",
+          "off_end": 7,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 8,
+          "wf": "косит",
+          "wtype": "word",
+          "off_end": 13,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 13,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 14,
+          "next_word": 3
+        }
+      ],
+      "text": "Вручную косит.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 14,
+          "para_id": 8990
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Вот",
+          "wtype": "word",
+          "off_end": 3,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 4,
+          "wf": "это",
+          "wtype": "word",
+          "off_end": 7,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 8,
+          "wf": "столько",
+          "wtype": "word",
+          "off_end": 15,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 16,
+          "wf": "огорода",
+          "wtype": "word",
+          "off_end": 23,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 24,
+          "wf": "он",
+          "wtype": "word",
+          "off_end": 26,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 27,
+          "wf": "скосил",
+          "wtype": "word",
+          "off_end": 33,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 33,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 34,
+          "next_word": 7
+        }
+      ],
+      "text": "Вот это столько огорода он скосил.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 34,
+          "para_id": 8991
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Вот",
+          "wtype": "word",
+          "off_end": 3,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 14
+        },
+        {
+          "off_start": 4,
+          "wf": "теперь",
+          "wtype": "word",
+          "off_end": 10,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 13
+        },
+        {
+          "off_start": 11,
+          "wf": "это",
+          "wtype": "word",
+          "off_end": 14,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 12
+        },
+        {
+          "off_start": 15,
+          "wf": "ворошим",
+          "wtype": "word",
+          "off_end": 22,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 22,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 23,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 24,
+          "wf": "переворачиваем",
+          "wtype": "word",
+          "off_end": 38,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 38,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 39,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 40,
+          "wf": "на",
+          "wtype": "word",
+          "off_end": 42,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 43,
+          "wf": "другую",
+          "wtype": "word",
+          "off_end": 49,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 50,
+          "wf": "сторону",
+          "wtype": "word",
+          "off_end": 57,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 57,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 58,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 59,
+          "wf": "на",
+          "wtype": "word",
+          "off_end": 61,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 62,
+          "wf": "невысохшую",
+          "wtype": "word",
+          "off_end": 72,
+          "next_word": 13,
+          "sentence_index": 12,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 73,
+          "wf": "сторону",
+          "wtype": "word",
+          "off_end": 80,
+          "next_word": 14,
+          "sentence_index": 13,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 81,
+          "wf": "переворачиваем",
+          "wtype": "word",
+          "off_end": 95,
+          "next_word": 15,
+          "sentence_index": 14,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 95,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 96,
+          "next_word": 16
+        }
+      ],
+      "text": "Вот теперь это ворошим, переворачиваем, на другую сторону, на невысохшую сторону переворачиваем.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 96,
+          "para_id": 8992
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Это",
+          "wtype": "word",
+          "off_end": 3,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 4,
+          "wf": "на",
+          "wtype": "word",
+          "off_end": 6,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 7,
+          "wf": "солнце",
+          "wtype": "word",
+          "off_end": 13,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 14,
+          "wf": "полежит",
+          "wtype": "word",
+          "off_end": 21,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 21,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 22,
+          "next_word": 5
+        }
+      ],
+      "text": "Это на солнце полежит.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 22,
+          "para_id": 8993
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Потом",
+          "wtype": "word",
+          "off_end": 5,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 6,
+          "wf": "это",
+          "wtype": "word",
+          "off_end": 9,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 10,
+          "wf": "сено",
+          "wtype": "word",
+          "off_end": 14,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 15,
+          "wf": "сгребаем",
+          "wtype": "word",
+          "off_end": 23,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 24,
+          "wf": "в",
+          "wtype": "word",
+          "off_end": 25,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 26,
+          "wf": "пласт",
+          "wtype": "word",
+          "off_end": 31,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 31,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 32,
+          "next_word": 7
+        }
+      ],
+      "text": "Потом это сено сгребаем в пласт.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 32,
+          "para_id": 8994
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "И",
+          "wtype": "word",
+          "off_end": 1,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 2,
+          "wf": "в",
+          "wtype": "word",
+          "off_end": 3,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 4,
+          "wf": "дорожки",
+          "wtype": "word",
+          "off_end": 11,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 12,
+          "wf": "сгребаем",
+          "wtype": "word",
+          "off_end": 20,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 20,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 21,
+          "next_word": 5
+        }
+      ],
+      "text": "И в дорожки сгребаем.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 21,
+          "para_id": 8995
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "На",
+          "wtype": "word",
+          "off_end": 2,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 15
+        },
+        {
+          "off_start": 3,
+          "wf": "другой",
+          "wtype": "word",
+          "off_end": 9,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 14
+        },
+        {
+          "off_start": 10,
+          "wf": "день",
+          "wtype": "word",
+          "off_end": 14,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 13
+        },
+        {
+          "off_start": 14,
+          "wf": "...",
+          "wtype": "punct",
+          "off_end": 17,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 12
+        },
+        {
+          "off_start": 18,
+          "wf": "вечером",
+          "wtype": "word",
+          "off_end": 25,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 26,
+          "wf": "еще",
+          "wtype": "word",
+          "off_end": 29,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 30,
+          "wf": "сгребаем",
+          "wtype": "word",
+          "off_end": 38,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 38,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 39,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 40,
+          "wf": "из",
+          "wtype": "word",
+          "off_end": 42,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 43,
+          "wf": "пластов",
+          "wtype": "word",
+          "off_end": 50,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 51,
+          "wf": "кучки",
+          "wtype": "word",
+          "off_end": 56,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 57,
+          "wf": "делаем",
+          "wtype": "word",
+          "off_end": 63,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 63,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 64,
+          "next_word": 13,
+          "sentence_index": 12,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 65,
+          "wf": "маленькие",
+          "wtype": "word",
+          "off_end": 74,
+          "next_word": 14,
+          "sentence_index": 13,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 75,
+          "wf": "кучки",
+          "wtype": "word",
+          "off_end": 80,
+          "next_word": 15,
+          "sentence_index": 14,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 81,
+          "wf": "делаем",
+          "wtype": "word",
+          "off_end": 87,
+          "next_word": 16,
+          "sentence_index": 15,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 87,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 88,
+          "next_word": 17
+        }
+      ],
+      "text": "На другой день... вечером еще сгребаем, из пластов кучки делаем, маленькие кучки делаем.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 88,
+          "para_id": 8996
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Чтобы",
+          "wtype": "word",
+          "off_end": 5,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 13
+        },
+        {
+          "off_start": 6,
+          "wf": "немного",
+          "wtype": "word",
+          "off_end": 13,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 12
+        },
+        {
+          "off_start": 14,
+          "wf": "прогрелось",
+          "wtype": "word",
+          "off_end": 24,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 24,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 25,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 26,
+          "wf": "чтобы",
+          "wtype": "word",
+          "off_end": 31,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 32,
+          "wf": "высохло",
+          "wtype": "word",
+          "off_end": 39,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 40,
+          "wf": "лучше",
+          "wtype": "word",
+          "off_end": 45,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 45,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 46,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 47,
+          "wf": "на",
+          "wtype": "word",
+          "off_end": 49,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 50,
+          "wf": "следующий",
+          "wtype": "word",
+          "off_end": 59,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 60,
+          "wf": "день",
+          "wtype": "word",
+          "off_end": 64,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 65,
+          "wf": "эти",
+          "wtype": "word",
+          "off_end": 68,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 69,
+          "wf": "кучки",
+          "wtype": "word",
+          "off_end": 74,
+          "next_word": 13,
+          "sentence_index": 12,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 75,
+          "wf": "разбрасываем",
+          "wtype": "word",
+          "off_end": 87,
+          "next_word": 14,
+          "sentence_index": 13,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 87,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 88,
+          "next_word": 15
+        }
+      ],
+      "text": "Чтобы немного прогрелось, чтобы высохло лучше, на следующий день эти кучки разбрасываем.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 88,
+          "para_id": 8997
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Еще",
+          "wtype": "word",
+          "off_end": 3,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 4,
+          "wf": "ворошим",
+          "wtype": "word",
+          "off_end": 11,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 11,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 12,
+          "next_word": 3
+        }
+      ],
+      "text": "Еще ворошим.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 12,
+          "para_id": 8998
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Если",
+          "wtype": "word",
+          "off_end": 4,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 24
+        },
+        {
+          "off_start": 5,
+          "wf": "высохло",
+          "wtype": "word",
+          "off_end": 12,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 23
+        },
+        {
+          "off_start": 12,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 13,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 22
+        },
+        {
+          "off_start": 14,
+          "wf": "то",
+          "wtype": "word",
+          "off_end": 16,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 21
+        },
+        {
+          "off_start": 17,
+          "wf": "сгребая",
+          "wtype": "word",
+          "off_end": 24,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 20
+        },
+        {
+          "off_start": 25,
+          "wf": "в",
+          "wtype": "word",
+          "off_end": 26,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 19
+        },
+        {
+          "off_start": 27,
+          "wf": "пласты",
+          "wtype": "word",
+          "off_end": 33,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 18
+        },
+        {
+          "off_start": 33,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 34,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 17
+        },
+        {
+          "off_start": 35,
+          "wf": "сложив",
+          "wtype": "word",
+          "off_end": 41,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 16
+        },
+        {
+          "off_start": 42,
+          "wf": "в",
+          "wtype": "word",
+          "off_end": 43,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 15
+        },
+        {
+          "off_start": 44,
+          "wf": "кучки",
+          "wtype": "word",
+          "off_end": 49,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 14
+        },
+        {
+          "off_start": 49,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 50,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 13
+        },
+        {
+          "off_start": 51,
+          "wf": "носим",
+          "wtype": "word",
+          "off_end": 56,
+          "next_word": 13,
+          "sentence_index": 12,
+          "sentence_index_neg": 12
+        },
+        {
+          "off_start": 57,
+          "wf": "на",
+          "wtype": "word",
+          "off_end": 59,
+          "next_word": 14,
+          "sentence_index": 13,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 60,
+          "wf": "носилках",
+          "wtype": "word",
+          "off_end": 68,
+          "next_word": 15,
+          "sentence_index": 14,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 69,
+          "wf": "под",
+          "wtype": "word",
+          "off_end": 72,
+          "next_word": 16,
+          "sentence_index": 15,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 73,
+          "wf": "сарай",
+          "wtype": "word",
+          "off_end": 78,
+          "next_word": 17,
+          "sentence_index": 16,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 78,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 79,
+          "next_word": 18,
+          "sentence_index": 17,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 80,
+          "wf": "во",
+          "wtype": "word",
+          "off_end": 82,
+          "next_word": 19,
+          "sentence_index": 18,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 83,
+          "wf": "двор",
+          "wtype": "word",
+          "off_end": 87,
+          "next_word": 20,
+          "sentence_index": 19,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 88,
+          "wf": "приносим",
+          "wtype": "word",
+          "off_end": 96,
+          "next_word": 21,
+          "sentence_index": 20,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 96,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 97,
+          "next_word": 22,
+          "sentence_index": 21,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 98,
+          "wf": "складываем",
+          "wtype": "word",
+          "off_end": 108,
+          "next_word": 23,
+          "sentence_index": 22,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 109,
+          "wf": "на",
+          "wtype": "word",
+          "off_end": 111,
+          "next_word": 24,
+          "sentence_index": 23,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 112,
+          "wf": "сеновал",
+          "wtype": "word",
+          "off_end": 119,
+          "next_word": 25,
+          "sentence_index": 24,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 119,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 120,
+          "next_word": 26
+        }
+      ],
+      "text": "Если высохло, то сгребая в пласты, сложив в кучки, носим на носилках под сарай, во двор приносим, складываем на сеновал.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 120,
+          "para_id": 8999
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Вилами",
+          "wtype": "word",
+          "off_end": 6,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 7,
+          "wf": "на",
+          "wtype": "word",
+          "off_end": 9,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 10,
+          "wf": "сеновал",
+          "wtype": "word",
+          "off_end": 17,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 18,
+          "wf": "кладешь",
+          "wtype": "word",
+          "off_end": 25,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 25,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 26,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 27,
+          "wf": "один",
+          "wtype": "word",
+          "off_end": 31,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 32,
+          "wf": "кладет",
+          "wtype": "word",
+          "off_end": 38,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 38,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 39,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 40,
+          "wf": "поднимает",
+          "wtype": "word",
+          "off_end": 49,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 50,
+          "wf": "на",
+          "wtype": "word",
+          "off_end": 52,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 53,
+          "wf": "сеновал",
+          "wtype": "word",
+          "off_end": 60,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 60,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 61,
+          "next_word": 12
+        }
+      ],
+      "text": "Вилами на сеновал кладешь, один кладет, поднимает на сеновал.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 61,
+          "para_id": 9000
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Другой",
+          "wtype": "word",
+          "off_end": 6,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 7,
+          "wf": "на",
+          "wtype": "word",
+          "off_end": 9,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 10,
+          "wf": "сеновале",
+          "wtype": "word",
+          "off_end": 18,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 19,
+          "wf": "берет",
+          "wtype": "word",
+          "off_end": 24,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 24,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 25,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 26,
+          "wf": "на",
+          "wtype": "word",
+          "off_end": 28,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 29,
+          "wf": "сеновале",
+          "wtype": "word",
+          "off_end": 37,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 38,
+          "wf": "утрамбовывает",
+          "wtype": "word",
+          "off_end": 51,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 51,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 52,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 53,
+          "wf": "кладет",
+          "wtype": "word",
+          "off_end": 59,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 60,
+          "wf": "там",
+          "wtype": "word",
+          "off_end": 63,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 63,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 64,
+          "next_word": 12
+        }
+      ],
+      "text": "Другой на сеновале берет, на сеновале утрамбовывает, кладет там.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 64,
+          "para_id": 9001
+        }
       ]
     }
   ]

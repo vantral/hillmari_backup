@@ -3500,6 +3500,1773 @@
           "off_end": 125,
           "para_id": 566
         }
+      ],
+      "last": true
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Я",
+          "wtype": "word",
+          "off_end": 1,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 2,
+          "wf": "была",
+          "wtype": "word",
+          "off_end": 6,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 7,
+          "wf": "маленькая",
+          "wtype": "word",
+          "off_end": 16,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 16,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 17,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 18,
+          "wf": "мне",
+          "wtype": "word",
+          "off_end": 21,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 22,
+          "wf": "было",
+          "wtype": "word",
+          "off_end": 26,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 27,
+          "wf": "5",
+          "wtype": "word",
+          "off_end": 28,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 29,
+          "wf": "или",
+          "wtype": "word",
+          "off_end": 32,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 33,
+          "wf": "6",
+          "wtype": "word",
+          "off_end": 34,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 35,
+          "wf": "лет",
+          "wtype": "word",
+          "off_end": 38,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 38,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 39,
+          "next_word": 11
+        }
+      ],
+      "text": "Я была маленькая, мне было 5 или 6 лет.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 39,
+          "para_id": 552
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Мама",
+          "wtype": "word",
+          "off_end": 4,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 5,
+          "wf": "пряжу",
+          "wtype": "word",
+          "off_end": 10,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 11,
+          "wf": "прядет",
+          "wtype": "word",
+          "off_end": 17,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 17,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 18,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 19,
+          "wf": "я",
+          "wtype": "word",
+          "off_end": 20,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 21,
+          "wf": "тоже",
+          "wtype": "word",
+          "off_end": 25,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 26,
+          "wf": "хочу",
+          "wtype": "word",
+          "off_end": 30,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 31,
+          "wf": "прясть",
+          "wtype": "word",
+          "off_end": 37,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 37,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 38,
+          "next_word": 9
+        }
+      ],
+      "text": "Мама пряжу прядет, я тоже хочу прясть.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 38,
+          "para_id": 553
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Нитку",
+          "wtype": "word",
+          "off_end": 5,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 12
+        },
+        {
+          "off_start": 6,
+          "wf": "прясть",
+          "wtype": "word",
+          "off_end": 12,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 13,
+          "wf": "хочу",
+          "wtype": "word",
+          "off_end": 17,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 17,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 18,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 19,
+          "wf": "поэтому",
+          "wtype": "word",
+          "off_end": 26,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 27,
+          "wf": "мама",
+          "wtype": "word",
+          "off_end": 31,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 32,
+          "wf": "мне",
+          "wtype": "word",
+          "off_end": 35,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 36,
+          "wf": "дала",
+          "wtype": "word",
+          "off_end": 40,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 41,
+          "wf": "волокно",
+          "wtype": "word",
+          "off_end": 48,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 48,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 49,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 50,
+          "wf": "чтобы",
+          "wtype": "word",
+          "off_end": 55,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 56,
+          "wf": "нитку",
+          "wtype": "word",
+          "off_end": 61,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 62,
+          "wf": "прясть",
+          "wtype": "word",
+          "off_end": 68,
+          "next_word": 13,
+          "sentence_index": 12,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 68,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 69,
+          "next_word": 14
+        }
+      ],
+      "text": "Нитку прясть хочу, поэтому мама мне дала волокно, чтобы нитку прясть.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 69,
+          "para_id": 554
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Волокно",
+          "wtype": "word",
+          "off_end": 7,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 12
+        },
+        {
+          "off_start": 8,
+          "wf": "дали",
+          "wtype": "word",
+          "off_end": 12,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 12,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 13,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 14,
+          "wf": "и",
+          "wtype": "word",
+          "off_end": 15,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 16,
+          "wf": "я",
+          "wtype": "word",
+          "off_end": 17,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 18,
+          "wf": "пошла",
+          "wtype": "word",
+          "off_end": 23,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 24,
+          "wf": "сидеть",
+          "wtype": "word",
+          "off_end": 30,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 31,
+          "wf": "к",
+          "wtype": "word",
+          "off_end": 32,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 33,
+          "wf": "соседям",
+          "wtype": "word",
+          "off_end": 40,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 40,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 41,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 42,
+          "wf": "к",
+          "wtype": "word",
+          "off_end": 43,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 44,
+          "wf": "дяде",
+          "wtype": "word",
+          "off_end": 48,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 49,
+          "wf": "Андрею",
+          "wtype": "word",
+          "off_end": 55,
+          "next_word": 13,
+          "sentence_index": 12,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 55,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 56,
+          "next_word": 14
+        }
+      ],
+      "text": "Волокно дали, и я пошла сидеть к соседям, к дяде Андрею.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 56,
+          "para_id": 555
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Мне",
+          "wtype": "word",
+          "off_end": 3,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 4,
+          "wf": "дали",
+          "wtype": "word",
+          "off_end": 8,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 9,
+          "wf": "маленький",
+          "wtype": "word",
+          "off_end": 18,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 19,
+          "wf": "стульчик",
+          "wtype": "word",
+          "off_end": 27,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 28,
+          "wf": "и",
+          "wtype": "word",
+          "off_end": 29,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 30,
+          "wf": "прялку",
+          "wtype": "word",
+          "off_end": 36,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 36,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 37,
+          "next_word": 7
+        }
+      ],
+      "text": "Мне дали маленький стульчик и прялку.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 37,
+          "para_id": 556
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Сижу",
+          "wtype": "word",
+          "off_end": 4,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 5,
+          "wf": "у",
+          "wtype": "word",
+          "off_end": 6,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 7,
+          "wf": "него",
+          "wtype": "word",
+          "off_end": 11,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 12,
+          "wf": "(",
+          "wtype": "punct",
+          "off_end": 13,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 13,
+          "wf": "у",
+          "wtype": "word",
+          "off_end": 14,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 15,
+          "wf": "дяди",
+          "wtype": "word",
+          "off_end": 19,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 20,
+          "wf": "Андрея",
+          "wtype": "word",
+          "off_end": 26,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 26,
+          "wf": ")",
+          "wtype": "punct",
+          "off_end": 27,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 28,
+          "wf": "и",
+          "wtype": "word",
+          "off_end": 29,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 30,
+          "wf": "пряду",
+          "wtype": "word",
+          "off_end": 35,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 35,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 36,
+          "next_word": 11
+        }
+      ],
+      "text": "Сижу у него (у дяди Андрея) и пряду.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 36,
+          "para_id": 557
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Дядя",
+          "wtype": "word",
+          "off_end": 4,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 5,
+          "wf": "Андрей",
+          "wtype": "word",
+          "off_end": 11,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 12,
+          "wf": "передо",
+          "wtype": "word",
+          "off_end": 18,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 19,
+          "wf": "мной",
+          "wtype": "word",
+          "off_end": 23,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 24,
+          "wf": "встал",
+          "wtype": "word",
+          "off_end": 29,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 30,
+          "wf": "и",
+          "wtype": "word",
+          "off_end": 31,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 32,
+          "wf": "смеется",
+          "wtype": "word",
+          "off_end": 39,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 39,
+          "wf": ":",
+          "wtype": "punct",
+          "off_end": 40,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 41,
+          "wf": "«",
+          "wtype": "punct",
+          "off_end": 42,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 42,
+          "wf": "Пряди",
+          "wtype": "word",
+          "off_end": 47,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 47,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 48,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 49,
+          "wf": "пряди",
+          "wtype": "word",
+          "off_end": 54,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 54,
+          "wf": "!",
+          "wtype": "punct",
+          "off_end": 55,
+          "next_word": 13
+        }
+      ],
+      "text": "Дядя Андрей передо мной встал и смеется: «Пряди, пряди!",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 55,
+          "para_id": 558
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Весна",
+          "wtype": "word",
+          "off_end": 5,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 6,
+          "wf": "придет",
+          "wtype": "word",
+          "off_end": 12,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 13,
+          "wf": "-",
+          "wtype": "punct",
+          "off_end": 14,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 15,
+          "wf": "во'ронам",
+          "wtype": "word",
+          "off_end": 23,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 24,
+          "wf": "для",
+          "wtype": "word",
+          "off_end": 27,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 28,
+          "wf": "штанов",
+          "wtype": "word",
+          "off_end": 34,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 35,
+          "wf": "пригодится",
+          "wtype": "word",
+          "off_end": 45,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 45,
+          "wf": "».",
+          "wtype": "punct",
+          "off_end": 47,
+          "next_word": 8
+        }
+      ],
+      "text": "Весна придет - во'ронам для штанов пригодится».",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 47,
+          "para_id": 559
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [],
+      "text": "",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 0,
+          "para_id": 560
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Я",
+          "wtype": "word",
+          "off_end": 1,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 2,
+          "wf": "побежала",
+          "wtype": "word",
+          "off_end": 10,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 11,
+          "wf": "домой",
+          "wtype": "word",
+          "off_end": 16,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 16,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 17,
+          "next_word": 4
+        }
+      ],
+      "text": "Я побежала домой.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 17,
+          "para_id": 561
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Я",
+          "wtype": "word",
+          "off_end": 1,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 21
+        },
+        {
+          "off_start": 2,
+          "wf": "прибежала",
+          "wtype": "word",
+          "off_end": 11,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 20
+        },
+        {
+          "off_start": 12,
+          "wf": "к",
+          "wtype": "word",
+          "off_end": 13,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 19
+        },
+        {
+          "off_start": 14,
+          "wf": "маме",
+          "wtype": "word",
+          "off_end": 18,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 18
+        },
+        {
+          "off_start": 19,
+          "wf": "и",
+          "wtype": "word",
+          "off_end": 20,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 17
+        },
+        {
+          "off_start": 21,
+          "wf": "говорю",
+          "wtype": "word",
+          "off_end": 27,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 16
+        },
+        {
+          "off_start": 27,
+          "wf": ":",
+          "wtype": "punct",
+          "off_end": 28,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 15
+        },
+        {
+          "off_start": 29,
+          "wf": "«",
+          "wtype": "punct",
+          "off_end": 30,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 14
+        },
+        {
+          "off_start": 30,
+          "wf": "Мама",
+          "wtype": "word",
+          "off_end": 34,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 13
+        },
+        {
+          "off_start": 34,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 35,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 12
+        },
+        {
+          "off_start": 36,
+          "wf": "дядя",
+          "wtype": "word",
+          "off_end": 40,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 41,
+          "wf": "Андрей",
+          "wtype": "word",
+          "off_end": 47,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 48,
+          "wf": "смеется",
+          "wtype": "word",
+          "off_end": 55,
+          "next_word": 13,
+          "sentence_index": 12,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 55,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 56,
+          "next_word": 14,
+          "sentence_index": 13,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 57,
+          "wf": "моя",
+          "wtype": "word",
+          "off_end": 60,
+          "next_word": 15,
+          "sentence_index": 14,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 61,
+          "wf": "пряжа",
+          "wtype": "word",
+          "off_end": 66,
+          "next_word": 16,
+          "sentence_index": 15,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 67,
+          "wf": "только",
+          "wtype": "word",
+          "off_end": 73,
+          "next_word": 17,
+          "sentence_index": 16,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 74,
+          "wf": "во'ронам",
+          "wtype": "word",
+          "off_end": 82,
+          "next_word": 18,
+          "sentence_index": 17,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 83,
+          "wf": "пригодится",
+          "wtype": "word",
+          "off_end": 93,
+          "next_word": 19,
+          "sentence_index": 18,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 94,
+          "wf": "ведь",
+          "wtype": "word",
+          "off_end": 98,
+          "next_word": 20,
+          "sentence_index": 19,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 98,
+          "wf": "»,",
+          "wtype": "punct",
+          "off_end": 100,
+          "next_word": 21,
+          "sentence_index": 20,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 101,
+          "wf": "говорит",
+          "wtype": "word",
+          "off_end": 108,
+          "next_word": 22,
+          "sentence_index": 21,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 108,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 109,
+          "next_word": 23
+        }
+      ],
+      "text": "Я прибежала к маме и говорю: «Мама, дядя Андрей смеется, моя пряжа только во'ронам пригодится ведь», говорит.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 109,
+          "para_id": 562
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "\"",
+          "wtype": "punct",
+          "off_end": 1,
+          "next_word": 1
+        },
+        {
+          "off_start": 1,
+          "wf": "Ладно",
+          "wtype": "word",
+          "off_end": 6,
+          "next_word": 2,
+          "sentence_index": 0,
+          "sentence_index_neg": 17
+        },
+        {
+          "off_start": 6,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 7,
+          "next_word": 3,
+          "sentence_index": 1,
+          "sentence_index_neg": 16
+        },
+        {
+          "off_start": 8,
+          "wf": "пряди",
+          "wtype": "word",
+          "off_end": 13,
+          "next_word": 4,
+          "sentence_index": 2,
+          "sentence_index_neg": 15
+        },
+        {
+          "off_start": 13,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 14,
+          "next_word": 5,
+          "sentence_index": 3,
+          "sentence_index_neg": 14
+        },
+        {
+          "off_start": 15,
+          "wf": "приди",
+          "wtype": "word",
+          "off_end": 20,
+          "next_word": 6,
+          "sentence_index": 4,
+          "sentence_index_neg": 13
+        },
+        {
+          "off_start": 20,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 21,
+          "next_word": 7,
+          "sentence_index": 5,
+          "sentence_index_neg": 12
+        },
+        {
+          "off_start": 22,
+          "wf": "Не",
+          "wtype": "word",
+          "off_end": 24,
+          "next_word": 8,
+          "sentence_index": 6,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 25,
+          "wf": "только",
+          "wtype": "word",
+          "off_end": 31,
+          "next_word": 9,
+          "sentence_index": 7,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 32,
+          "wf": "вороне",
+          "wtype": "word",
+          "off_end": 38,
+          "next_word": 10,
+          "sentence_index": 8,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 38,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 39,
+          "next_word": 11,
+          "sentence_index": 9,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 40,
+          "wf": "но",
+          "wtype": "word",
+          "off_end": 42,
+          "next_word": 12,
+          "sentence_index": 10,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 43,
+          "wf": "и",
+          "wtype": "word",
+          "off_end": 44,
+          "next_word": 13,
+          "sentence_index": 11,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 45,
+          "wf": "чему-нибудь",
+          "wtype": "word",
+          "off_end": 56,
+          "next_word": 14,
+          "sentence_index": 12,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 57,
+          "wf": "пригодится",
+          "wtype": "word",
+          "off_end": 67,
+          "next_word": 15,
+          "sentence_index": 13,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 67,
+          "wf": "»,",
+          "wtype": "punct",
+          "off_end": 69,
+          "next_word": 16,
+          "sentence_index": 14,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 70,
+          "wf": "-",
+          "wtype": "punct",
+          "off_end": 71,
+          "next_word": 17,
+          "sentence_index": 15,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 72,
+          "wf": "говорит",
+          "wtype": "word",
+          "off_end": 79,
+          "next_word": 18,
+          "sentence_index": 16,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 80,
+          "wf": "мама",
+          "wtype": "word",
+          "off_end": 84,
+          "next_word": 19,
+          "sentence_index": 17,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 84,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 85,
+          "next_word": 20
+        }
+      ],
+      "text": "\"Ладно, пряди, приди. Не только вороне, но и чему-нибудь пригодится», - говорит мама.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 85,
+          "para_id": 563
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Потом",
+          "wtype": "word",
+          "off_end": 5,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 15
+        },
+        {
+          "off_start": 6,
+          "wf": "этой",
+          "wtype": "word",
+          "off_end": 10,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 14
+        },
+        {
+          "off_start": 11,
+          "wf": "нитью",
+          "wtype": "word",
+          "off_end": 16,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 13
+        },
+        {
+          "off_start": 17,
+          "wf": "мама",
+          "wtype": "word",
+          "off_end": 21,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 12
+        },
+        {
+          "off_start": 22,
+          "wf": "сделала",
+          "wtype": "word",
+          "off_end": 29,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 30,
+          "wf": "ткань",
+          "wtype": "word",
+          "off_end": 35,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 36,
+          "wf": "и",
+          "wtype": "word",
+          "off_end": 37,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 38,
+          "wf": "из",
+          "wtype": "word",
+          "off_end": 40,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 41,
+          "wf": "этой",
+          "wtype": "word",
+          "off_end": 45,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 46,
+          "wf": "ткани",
+          "wtype": "word",
+          "off_end": 51,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 52,
+          "wf": "сделала",
+          "wtype": "word",
+          "off_end": 59,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 60,
+          "wf": "салфетку",
+          "wtype": "word",
+          "off_end": 68,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 68,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 69,
+          "next_word": 13,
+          "sentence_index": 12,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 70,
+          "wf": "чтобы",
+          "wtype": "word",
+          "off_end": 75,
+          "next_word": 14,
+          "sentence_index": 13,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 76,
+          "wf": "накрыть",
+          "wtype": "word",
+          "off_end": 83,
+          "next_word": 15,
+          "sentence_index": 14,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 84,
+          "wf": "тесто",
+          "wtype": "word",
+          "off_end": 89,
+          "next_word": 16,
+          "sentence_index": 15,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 89,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 90,
+          "next_word": 17
+        }
+      ],
+      "text": "Потом этой нитью мама сделала ткань и из этой ткани сделала салфетку, чтобы накрыть тесто.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 90,
+          "para_id": 564
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Я",
+          "wtype": "word",
+          "off_end": 1,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 2,
+          "wf": "была",
+          "wtype": "word",
+          "off_end": 6,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 7,
+          "wf": "очень",
+          "wtype": "word",
+          "off_end": 12,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 13,
+          "wf": "рада",
+          "wtype": "word",
+          "off_end": 17,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 17,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 18,
+          "next_word": 5
+        }
+      ],
+      "text": "Я была очень рада.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 18,
+          "para_id": 565
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Не",
+          "wtype": "word",
+          "off_end": 2,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 20
+        },
+        {
+          "off_start": 3,
+          "wf": "во'рону",
+          "wtype": "word",
+          "off_end": 10,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 19
+        },
+        {
+          "off_start": 11,
+          "wf": "для",
+          "wtype": "word",
+          "off_end": 14,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 18
+        },
+        {
+          "off_start": 15,
+          "wf": "штанов",
+          "wtype": "word",
+          "off_end": 21,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 17
+        },
+        {
+          "off_start": 21,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 22,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 16
+        },
+        {
+          "off_start": 23,
+          "wf": "а",
+          "wtype": "word",
+          "off_end": 24,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 15
+        },
+        {
+          "off_start": 25,
+          "wf": "для",
+          "wtype": "word",
+          "off_end": 28,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 14
+        },
+        {
+          "off_start": 29,
+          "wf": "самого",
+          "wtype": "word",
+          "off_end": 35,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 13
+        },
+        {
+          "off_start": 36,
+          "wf": "важного",
+          "wtype": "word",
+          "off_end": 43,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 12
+        },
+        {
+          "off_start": 44,
+          "wf": "предмета",
+          "wtype": "word",
+          "off_end": 52,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 52,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 53,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 54,
+          "wf": "чтобы",
+          "wtype": "word",
+          "off_end": 59,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 60,
+          "wf": "класть",
+          "wtype": "word",
+          "off_end": 66,
+          "next_word": 13,
+          "sentence_index": 12,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 67,
+          "wf": "(",
+          "wtype": "punct",
+          "off_end": 68,
+          "next_word": 14,
+          "sentence_index": 13,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 68,
+          "wf": "укрыть",
+          "wtype": "word",
+          "off_end": 74,
+          "next_word": 15,
+          "sentence_index": 14,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 74,
+          "wf": ")",
+          "wtype": "punct",
+          "off_end": 75,
+          "next_word": 16,
+          "sentence_index": 15,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 76,
+          "wf": "хлеб",
+          "wtype": "word",
+          "off_end": 80,
+          "next_word": 17,
+          "sentence_index": 16,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 80,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 81,
+          "next_word": 18,
+          "sentence_index": 17,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 82,
+          "wf": "моя",
+          "wtype": "word",
+          "off_end": 85,
+          "next_word": 19,
+          "sentence_index": 18,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 86,
+          "wf": "нитка",
+          "wtype": "word",
+          "off_end": 91,
+          "next_word": 20,
+          "sentence_index": 19,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 92,
+          "wf": "пригодилась",
+          "wtype": "word",
+          "off_end": 103,
+          "next_word": 21,
+          "sentence_index": 20,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 103,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 104,
+          "next_word": 22
+        }
+      ],
+      "text": "Не во'рону для штанов, а для самого важного предмета, чтобы класть (укрыть) хлеб, моя нитка пригодилась.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 104,
+          "para_id": 566
+        }
       ]
     }
   ]

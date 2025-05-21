@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Праздник в Апшак-Пеляке",
-    "filename": "corpus/xml/flex_exp.xml"
+    "filename": "corpus\\xml\\flex_exp.xml"
   },
   "sentences": [
     {
@@ -6182,6 +6182,3328 @@
         {
           "off_start": 0,
           "off_end": 85,
+          "para_id": 7206
+        }
+      ],
+      "last": true
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "25-го",
+          "wtype": "word",
+          "off_end": 5,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 6,
+          "wf": "марта",
+          "wtype": "word",
+          "off_end": 11,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 12,
+          "wf": "в",
+          "wtype": "word",
+          "off_end": 13,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 14,
+          "wf": "Апшак-Пеляке",
+          "wtype": "word",
+          "off_end": 26,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 26,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 27,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 28,
+          "wf": "как",
+          "wtype": "word",
+          "off_end": 31,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 32,
+          "wf": "сказать",
+          "wtype": "word",
+          "off_end": 39,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 39,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 40,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 41,
+          "wf": "провели",
+          "wtype": "word",
+          "off_end": 48,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 49,
+          "wf": "проводы",
+          "wtype": "word",
+          "off_end": 56,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 57,
+          "wf": "русской",
+          "wtype": "word",
+          "off_end": 64,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 65,
+          "wf": "зимы",
+          "wtype": "word",
+          "off_end": 69,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 69,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 70,
+          "next_word": 13
+        }
+      ],
+      "text": "25-го марта в Апшак-Пеляке, как сказать, провели проводы русской зимы.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 70,
+          "para_id": 7176
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "По-русски",
+          "wtype": "word",
+          "off_end": 9,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 9,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 10,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 11,
+          "wf": "провели",
+          "wtype": "word",
+          "off_end": 18,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 19,
+          "wf": "Масленицу",
+          "wtype": "word",
+          "off_end": 28,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 28,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 29,
+          "next_word": 5
+        }
+      ],
+      "text": "По-русски, провели Масленицу.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 29,
+          "para_id": 7177
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Варили",
+          "wtype": "word",
+          "off_end": 6,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 7,
+          "wf": "уху",
+          "wtype": "word",
+          "off_end": 10,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 10,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 11,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 12,
+          "wf": "столы",
+          "wtype": "word",
+          "off_end": 17,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 18,
+          "wf": "вытащили",
+          "wtype": "word",
+          "off_end": 26,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 27,
+          "wf": "на",
+          "wtype": "word",
+          "off_end": 29,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 30,
+          "wf": "середину",
+          "wtype": "word",
+          "off_end": 38,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 39,
+          "wf": "улицы",
+          "wtype": "word",
+          "off_end": 44,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 44,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 45,
+          "next_word": 9
+        }
+      ],
+      "text": "Варили уху, столы вытащили на середину улицы.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 45,
+          "para_id": 7178
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Блины",
+          "wtype": "word",
+          "off_end": 5,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 6,
+          "wf": "почти",
+          "wtype": "word",
+          "off_end": 11,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 12,
+          "wf": "в",
+          "wtype": "word",
+          "off_end": 13,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 14,
+          "wf": "каждом",
+          "wtype": "word",
+          "off_end": 20,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 21,
+          "wf": "доме",
+          "wtype": "word",
+          "off_end": 25,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 26,
+          "wf": "напекли",
+          "wtype": "word",
+          "off_end": 33,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 33,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 34,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 35,
+          "wf": "потом",
+          "wtype": "word",
+          "off_end": 40,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 41,
+          "wf": "принесли",
+          "wtype": "word",
+          "off_end": 49,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 50,
+          "wf": "туда",
+          "wtype": "word",
+          "off_end": 54,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 54,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 55,
+          "next_word": 11
+        }
+      ],
+      "text": "Блины почти в каждом доме напекли, потом принесли туда.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 55,
+          "para_id": 7179
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Разные",
+          "wtype": "word",
+          "off_end": 6,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 7,
+          "wf": "блины",
+          "wtype": "word",
+          "off_end": 12,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 12,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 13,
+          "next_word": 3
+        }
+      ],
+      "text": "Разные блины.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 13,
+          "para_id": 7180
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Для",
+          "wtype": "word",
+          "off_end": 3,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 4,
+          "wf": "детей",
+          "wtype": "word",
+          "off_end": 9,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 10,
+          "wf": "провели",
+          "wtype": "word",
+          "off_end": 17,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 18,
+          "wf": "разные",
+          "wtype": "word",
+          "off_end": 24,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 25,
+          "wf": "игры",
+          "wtype": "word",
+          "off_end": 29,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 29,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 30,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 31,
+          "wf": "организовали",
+          "wtype": "word",
+          "off_end": 43,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 43,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 44,
+          "next_word": 8
+        }
+      ],
+      "text": "Для детей провели разные игры, организовали.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 44,
+          "para_id": 7181
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Еще",
+          "wtype": "word",
+          "off_end": 3,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 24
+        },
+        {
+          "off_start": 4,
+          "wf": "сделали",
+          "wtype": "word",
+          "off_end": 11,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 23
+        },
+        {
+          "off_start": 11,
+          "wf": "...",
+          "wtype": "punct",
+          "off_end": 14,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 22
+        },
+        {
+          "off_start": 15,
+          "wf": "так",
+          "wtype": "word",
+          "off_end": 18,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 21
+        },
+        {
+          "off_start": 18,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 19,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 20
+        },
+        {
+          "off_start": 20,
+          "wf": "лыжные",
+          "wtype": "word",
+          "off_end": 26,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 19
+        },
+        {
+          "off_start": 27,
+          "wf": "гонки",
+          "wtype": "word",
+          "off_end": 32,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 18
+        },
+        {
+          "off_start": 32,
+          "wf": "...",
+          "wtype": "punct",
+          "off_end": 35,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 17
+        },
+        {
+          "off_start": 36,
+          "wf": "каждый",
+          "wtype": "word",
+          "off_end": 42,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 16
+        },
+        {
+          "off_start": 42,
+          "wf": "...",
+          "wtype": "punct",
+          "off_end": 45,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 15
+        },
+        {
+          "off_start": 46,
+          "wf": "возрастные",
+          "wtype": "word",
+          "off_end": 56,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 14
+        },
+        {
+          "off_start": 56,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 57,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 13
+        },
+        {
+          "off_start": 58,
+          "wf": "пенсионеры",
+          "wtype": "word",
+          "off_end": 68,
+          "next_word": 13,
+          "sentence_index": 12,
+          "sentence_index_neg": 12
+        },
+        {
+          "off_start": 68,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 69,
+          "next_word": 14,
+          "sentence_index": 13,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 70,
+          "wf": "кому",
+          "wtype": "word",
+          "off_end": 74,
+          "next_word": 15,
+          "sentence_index": 14,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 75,
+          "wf": "за",
+          "wtype": "word",
+          "off_end": 77,
+          "next_word": 16,
+          "sentence_index": 15,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 78,
+          "wf": "70",
+          "wtype": "word",
+          "off_end": 80,
+          "next_word": 17,
+          "sentence_index": 16,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 81,
+          "wf": "лет",
+          "wtype": "word",
+          "off_end": 84,
+          "next_word": 18,
+          "sentence_index": 17,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 84,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 85,
+          "next_word": 19,
+          "sentence_index": 18,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 86,
+          "wf": "надев",
+          "wtype": "word",
+          "off_end": 91,
+          "next_word": 20,
+          "sentence_index": 19,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 92,
+          "wf": "лыжи",
+          "wtype": "word",
+          "off_end": 96,
+          "next_word": 21,
+          "sentence_index": 20,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 96,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 97,
+          "next_word": 22,
+          "sentence_index": 21,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 98,
+          "wf": "вышли",
+          "wtype": "word",
+          "off_end": 103,
+          "next_word": 23,
+          "sentence_index": 22,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 104,
+          "wf": "на",
+          "wtype": "word",
+          "off_end": 106,
+          "next_word": 24,
+          "sentence_index": 23,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 107,
+          "wf": "соревнование",
+          "wtype": "word",
+          "off_end": 119,
+          "next_word": 25,
+          "sentence_index": 24,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 119,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 120,
+          "next_word": 26
+        }
+      ],
+      "text": "Еще сделали... так, лыжные гонки... каждый... возрастные, пенсионеры, кому за 70 лет, надев лыжи, вышли на соревнование.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 120,
+          "para_id": 7182
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Каждому",
+          "wtype": "word",
+          "off_end": 7,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 8,
+          "wf": "оформили",
+          "wtype": "word",
+          "off_end": 16,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 17,
+          "wf": "грамоты",
+          "wtype": "word",
+          "off_end": 24,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 24,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 25,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 26,
+          "wf": "места",
+          "wtype": "word",
+          "off_end": 31,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 32,
+          "wf": "дали",
+          "wtype": "word",
+          "off_end": 36,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 36,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 37,
+          "next_word": 7
+        }
+      ],
+      "text": "Каждому оформили грамоты, места дали.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 37,
+          "para_id": 7183
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Им",
+          "wtype": "word",
+          "off_end": 2,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 3,
+          "wf": "организовали",
+          "wtype": "word",
+          "off_end": 15,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 16,
+          "wf": "призы",
+          "wtype": "word",
+          "off_end": 21,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 21,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 22,
+          "next_word": 4
+        }
+      ],
+      "text": "Им организовали призы.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 22,
+          "para_id": 7184
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Еще",
+          "wtype": "word",
+          "off_end": 3,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 12
+        },
+        {
+          "off_start": 4,
+          "wf": "команды",
+          "wtype": "word",
+          "off_end": 11,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 12,
+          "wf": "играли",
+          "wtype": "word",
+          "off_end": 18,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 19,
+          "wf": "в",
+          "wtype": "word",
+          "off_end": 20,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 21,
+          "wf": "футбол",
+          "wtype": "word",
+          "off_end": 27,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 27,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 28,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 29,
+          "wf": "сперва",
+          "wtype": "word",
+          "off_end": 35,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 36,
+          "wf": "играли",
+          "wtype": "word",
+          "off_end": 42,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 43,
+          "wf": "большая",
+          "wtype": "word",
+          "off_end": 50,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 51,
+          "wf": "сторона",
+          "wtype": "word",
+          "off_end": 58,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 59,
+          "wf": "и",
+          "wtype": "word",
+          "off_end": 60,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 61,
+          "wf": "малая",
+          "wtype": "word",
+          "off_end": 66,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 67,
+          "wf": "сторона",
+          "wtype": "word",
+          "off_end": 74,
+          "next_word": 13,
+          "sentence_index": 12,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 74,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 75,
+          "next_word": 14
+        }
+      ],
+      "text": "Еще команды играли в футбол, сперва играли большая сторона и малая сторона.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 75,
+          "para_id": 7185
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Потом",
+          "wtype": "word",
+          "off_end": 5,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 6,
+          "wf": "играли",
+          "wtype": "word",
+          "off_end": 12,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 13,
+          "wf": "кузнецовские",
+          "wtype": "word",
+          "off_end": 25,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 25,
+          "wf": "...",
+          "wtype": "punct",
+          "off_end": 28,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 29,
+          "wf": "организовали",
+          "wtype": "word",
+          "off_end": 41,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 42,
+          "wf": "сборную",
+          "wtype": "word",
+          "off_end": 49,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 50,
+          "wf": "команду",
+          "wtype": "word",
+          "off_end": 57,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 57,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 58,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 59,
+          "wf": "кузнецовские",
+          "wtype": "word",
+          "off_end": 71,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 72,
+          "wf": "и",
+          "wtype": "word",
+          "off_end": 73,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 74,
+          "wf": "апшак-пелякские",
+          "wtype": "word",
+          "off_end": 89,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 89,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 90,
+          "next_word": 12
+        }
+      ],
+      "text": "Потом играли кузнецовские... организовали сборную команду, кузнецовские и апшак-пелякские.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 90,
+          "para_id": 7186
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Потом",
+          "wtype": "word",
+          "off_end": 5,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 6,
+          "wf": "играли",
+          "wtype": "word",
+          "off_end": 12,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 13,
+          "wf": "Тюмакаево",
+          "wtype": "word",
+          "off_end": 22,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 23,
+          "wf": "и",
+          "wtype": "word",
+          "off_end": 24,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 25,
+          "wf": "малая",
+          "wtype": "word",
+          "off_end": 30,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 31,
+          "wf": "сторона",
+          "wtype": "word",
+          "off_end": 38,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 38,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 39,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 40,
+          "wf": "апшак-пелякские",
+          "wtype": "word",
+          "off_end": 55,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 55,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 56,
+          "next_word": 9
+        }
+      ],
+      "text": "Потом играли Тюмакаево и малая сторона, апшак-пелякские.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 56,
+          "para_id": 7187
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Потом",
+          "wtype": "word",
+          "off_end": 5,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 6,
+          "wf": "играли",
+          "wtype": "word",
+          "off_end": 12,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 13,
+          "wf": "Тюмакаево",
+          "wtype": "word",
+          "off_end": 22,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 23,
+          "wf": "и",
+          "wtype": "word",
+          "off_end": 24,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 25,
+          "wf": "большой",
+          "wtype": "word",
+          "off_end": 32,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 33,
+          "wf": "берег",
+          "wtype": "word",
+          "off_end": 38,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 38,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 39,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 40,
+          "wf": "апшак-пелякские",
+          "wtype": "word",
+          "off_end": 55,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 55,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 56,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 57,
+          "wf": "по-моему",
+          "wtype": "word",
+          "off_end": 65,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 65,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 66,
+          "next_word": 11
+        }
+      ],
+      "text": "Потом играли Тюмакаево и большой берег, апшак-пелякские, по-моему.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 66,
+          "para_id": 7188
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Наша",
+          "wtype": "word",
+          "off_end": 4,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 5,
+          "wf": "сторона",
+          "wtype": "word",
+          "off_end": 12,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 13,
+          "wf": "заняла",
+          "wtype": "word",
+          "off_end": 19,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 20,
+          "wf": "второе",
+          "wtype": "word",
+          "off_end": 26,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 27,
+          "wf": "место",
+          "wtype": "word",
+          "off_end": 32,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 32,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 33,
+          "next_word": 6
+        }
+      ],
+      "text": "Наша сторона заняла второе место.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 33,
+          "para_id": 7189
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Ну",
+          "wtype": "word",
+          "off_end": 2,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 2,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 3,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 4,
+          "wf": "конечно",
+          "wtype": "word",
+          "off_end": 11,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 11,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 12,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 13,
+          "wf": "было",
+          "wtype": "word",
+          "off_end": 17,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 18,
+          "wf": "очень",
+          "wtype": "word",
+          "off_end": 23,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 24,
+          "wf": "интересно",
+          "wtype": "word",
+          "off_end": 33,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 33,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 34,
+          "next_word": 8
+        }
+      ],
+      "text": "Ну, конечно, было очень интересно.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 34,
+          "para_id": 7190
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Такой",
+          "wtype": "word",
+          "off_end": 5,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 6,
+          "wf": "праздник",
+          "wtype": "word",
+          "off_end": 14,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 15,
+          "wf": "давно",
+          "wtype": "word",
+          "off_end": 20,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 21,
+          "wf": "не",
+          "wtype": "word",
+          "off_end": 23,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 24,
+          "wf": "проводили",
+          "wtype": "word",
+          "off_end": 33,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 33,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 34,
+          "next_word": 6
+        }
+      ],
+      "text": "Такой праздник давно не проводили.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 34,
+          "para_id": 7191
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Вот",
+          "wtype": "word",
+          "off_end": 3,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 12
+        },
+        {
+          "off_start": 3,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 4,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 5,
+          "wf": "тем",
+          "wtype": "word",
+          "off_end": 8,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 9,
+          "wf": "более",
+          "wtype": "word",
+          "off_end": 14,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 15,
+          "wf": "зимой",
+          "wtype": "word",
+          "off_end": 20,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 20,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 21,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 22,
+          "wf": "когда",
+          "wtype": "word",
+          "off_end": 27,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 28,
+          "wf": "снег",
+          "wtype": "word",
+          "off_end": 32,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 32,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 33,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 34,
+          "wf": "подготовили",
+          "wtype": "word",
+          "off_end": 45,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 46,
+          "wf": "даже",
+          "wtype": "word",
+          "off_end": 50,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 51,
+          "wf": "футбольное",
+          "wtype": "word",
+          "off_end": 61,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 62,
+          "wf": "поле",
+          "wtype": "word",
+          "off_end": 66,
+          "next_word": 13,
+          "sentence_index": 12,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 66,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 67,
+          "next_word": 14
+        }
+      ],
+      "text": "Вот, тем более зимой, когда снег, подготовили даже футбольное поле.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 67,
+          "para_id": 7192
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Чистили",
+          "wtype": "word",
+          "off_end": 7,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 8,
+          "wf": "трактором",
+          "wtype": "word",
+          "off_end": 17,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 17,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 18,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 19,
+          "wf": "потом",
+          "wtype": "word",
+          "off_end": 24,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 25,
+          "wf": "уже",
+          "wtype": "word",
+          "off_end": 28,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 29,
+          "wf": "сами",
+          "wtype": "word",
+          "off_end": 33,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 34,
+          "wf": "сделали",
+          "wtype": "word",
+          "off_end": 41,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 42,
+          "wf": "линии",
+          "wtype": "word",
+          "off_end": 47,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 48,
+          "wf": "краской",
+          "wtype": "word",
+          "off_end": 55,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 55,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 56,
+          "next_word": 10
+        }
+      ],
+      "text": "Чистили трактором, потом уже сами сделали линии краской.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 56,
+          "para_id": 7193
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Ну",
+          "wtype": "word",
+          "off_end": 2,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 2,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 3,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 4,
+          "wf": "вот",
+          "wtype": "word",
+          "off_end": 7,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 7,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 8,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 9,
+          "wf": "было",
+          "wtype": "word",
+          "off_end": 13,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 14,
+          "wf": "интересно",
+          "wtype": "word",
+          "off_end": 23,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 23,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 24,
+          "next_word": 7
+        }
+      ],
+      "text": "Ну, вот, было интересно.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 24,
+          "para_id": 7194
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Первый",
+          "wtype": "word",
+          "off_end": 6,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 7,
+          "wf": "раз",
+          "wtype": "word",
+          "off_end": 10,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 11,
+          "wf": "такой",
+          "wtype": "word",
+          "off_end": 16,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 17,
+          "wf": "праздник",
+          "wtype": "word",
+          "off_end": 25,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 26,
+          "wf": "в",
+          "wtype": "word",
+          "off_end": 27,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 28,
+          "wf": "Кузнецовском",
+          "wtype": "word",
+          "off_end": 40,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 41,
+          "wf": "поселении",
+          "wtype": "word",
+          "off_end": 50,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 50,
+          "wf": "?",
+          "wtype": "punct",
+          "off_end": 51,
+          "next_word": 8
+        }
+      ],
+      "text": "Первый раз такой праздник в Кузнецовском поселении?",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 51,
+          "para_id": 7195
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Не",
+          "wtype": "word",
+          "off_end": 2,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 31
+        },
+        {
+          "off_start": 3,
+          "wf": "первый",
+          "wtype": "word",
+          "off_end": 9,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 30
+        },
+        {
+          "off_start": 10,
+          "wf": "раз",
+          "wtype": "word",
+          "off_end": 13,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 29
+        },
+        {
+          "off_start": 13,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 14,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 28
+        },
+        {
+          "off_start": 15,
+          "wf": "первый",
+          "wtype": "word",
+          "off_end": 21,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 27
+        },
+        {
+          "off_start": 22,
+          "wf": "раз",
+          "wtype": "word",
+          "off_end": 25,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 26
+        },
+        {
+          "off_start": 26,
+          "wf": "проводили",
+          "wtype": "word",
+          "off_end": 35,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 25
+        },
+        {
+          "off_start": 36,
+          "wf": "на",
+          "wtype": "word",
+          "off_end": 38,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 24
+        },
+        {
+          "off_start": 39,
+          "wf": "нашей",
+          "wtype": "word",
+          "off_end": 44,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 23
+        },
+        {
+          "off_start": 45,
+          "wf": "улице",
+          "wtype": "word",
+          "off_end": 50,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 22
+        },
+        {
+          "off_start": 50,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 51,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 21
+        },
+        {
+          "off_start": 52,
+          "wf": "в",
+          "wtype": "word",
+          "off_end": 53,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 20
+        },
+        {
+          "off_start": 54,
+          "wf": "конце",
+          "wtype": "word",
+          "off_end": 59,
+          "next_word": 13,
+          "sentence_index": 12,
+          "sentence_index_neg": 19
+        },
+        {
+          "off_start": 60,
+          "wf": "деревни",
+          "wtype": "word",
+          "off_end": 67,
+          "next_word": 14,
+          "sentence_index": 13,
+          "sentence_index_neg": 18
+        },
+        {
+          "off_start": 67,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 68,
+          "next_word": 15,
+          "sentence_index": 14,
+          "sentence_index_neg": 17
+        },
+        {
+          "off_start": 69,
+          "wf": "мы",
+          "wtype": "word",
+          "off_end": 71,
+          "next_word": 16,
+          "sentence_index": 15,
+          "sentence_index_neg": 16
+        },
+        {
+          "off_start": 72,
+          "wf": "тогда",
+          "wtype": "word",
+          "off_end": 77,
+          "next_word": 17,
+          "sentence_index": 16,
+          "sentence_index_neg": 15
+        },
+        {
+          "off_start": 77,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 78,
+          "next_word": 18,
+          "sentence_index": 17,
+          "sentence_index_neg": 14
+        },
+        {
+          "off_start": 79,
+          "wf": "сколько",
+          "wtype": "word",
+          "off_end": 86,
+          "next_word": 19,
+          "sentence_index": 18,
+          "sentence_index_neg": 13
+        },
+        {
+          "off_start": 87,
+          "wf": "лет",
+          "wtype": "word",
+          "off_end": 90,
+          "next_word": 20,
+          "sentence_index": 19,
+          "sentence_index_neg": 12
+        },
+        {
+          "off_start": 91,
+          "wf": "назад",
+          "wtype": "word",
+          "off_end": 96,
+          "next_word": 21,
+          "sentence_index": 20,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 97,
+          "wf": "это",
+          "wtype": "word",
+          "off_end": 100,
+          "next_word": 22,
+          "sentence_index": 21,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 101,
+          "wf": "было",
+          "wtype": "word",
+          "off_end": 105,
+          "next_word": 23,
+          "sentence_index": 22,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 105,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 106,
+          "next_word": 24,
+          "sentence_index": 23,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 107,
+          "wf": "мы",
+          "wtype": "word",
+          "off_end": 109,
+          "next_word": 25,
+          "sentence_index": 24,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 110,
+          "wf": "тогда",
+          "wtype": "word",
+          "off_end": 115,
+          "next_word": 26,
+          "sentence_index": 25,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 116,
+          "wf": "приходили",
+          "wtype": "word",
+          "off_end": 125,
+          "next_word": 27,
+          "sentence_index": 26,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 126,
+          "wf": "в",
+          "wtype": "word",
+          "off_end": 127,
+          "next_word": 28,
+          "sentence_index": 27,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 128,
+          "wf": "школу",
+          "wtype": "word",
+          "off_end": 133,
+          "next_word": 29,
+          "sentence_index": 28,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 134,
+          "wf": "играть",
+          "wtype": "word",
+          "off_end": 140,
+          "next_word": 30,
+          "sentence_index": 29,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 141,
+          "wf": "в",
+          "wtype": "word",
+          "off_end": 142,
+          "next_word": 31,
+          "sentence_index": 30,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 143,
+          "wf": "волейбол",
+          "wtype": "word",
+          "off_end": 151,
+          "next_word": 32,
+          "sentence_index": 31,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 151,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 152,
+          "next_word": 33
+        }
+      ],
+      "text": "Не первый раз, первый раз проводили на нашей улице, в конце деревни, мы тогда, сколько лет назад это было, мы тогда приходили в школу играть в волейбол.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 152,
+          "para_id": 7196
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Ну",
+          "wtype": "word",
+          "off_end": 2,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 2,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 3,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 4,
+          "wf": "наших",
+          "wtype": "word",
+          "off_end": 9,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 10,
+          "wf": "деревенских",
+          "wtype": "word",
+          "off_end": 21,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 22,
+          "wf": "как",
+          "wtype": "word",
+          "off_end": 25,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 26,
+          "wf": "бы",
+          "wtype": "word",
+          "off_end": 28,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 28,
+          "wf": "...",
+          "wtype": "punct",
+          "off_end": 31,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 32,
+          "wf": "мы",
+          "wtype": "word",
+          "off_end": 34,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 35,
+          "wf": "играли",
+          "wtype": "word",
+          "off_end": 41,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 42,
+          "wf": "за",
+          "wtype": "word",
+          "off_end": 44,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 45,
+          "wf": "наших",
+          "wtype": "word",
+          "off_end": 50,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 51,
+          "wf": "деревенских",
+          "wtype": "word",
+          "off_end": 62,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 62,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 63,
+          "next_word": 13
+        }
+      ],
+      "text": "Ну, наших деревенских как бы... мы играли за наших деревенских.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 63,
+          "para_id": 7197
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Потом",
+          "wtype": "word",
+          "off_end": 5,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 6,
+          "wf": "уже",
+          "wtype": "word",
+          "off_end": 9,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 10,
+          "wf": "мы",
+          "wtype": "word",
+          "off_end": 12,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 13,
+          "wf": "пришли",
+          "wtype": "word",
+          "off_end": 19,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 20,
+          "wf": "на",
+          "wtype": "word",
+          "off_end": 22,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 23,
+          "wf": "праздник",
+          "wtype": "word",
+          "off_end": 31,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 32,
+          "wf": "последними",
+          "wtype": "word",
+          "off_end": 42,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 42,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 43,
+          "next_word": 8
+        }
+      ],
+      "text": "Потом уже мы пришли на праздник последними.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 43,
+          "para_id": 7198
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Праздник-то",
+          "wtype": "word",
+          "off_end": 11,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 12,
+          "wf": "мы",
+          "wtype": "word",
+          "off_end": 14,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 15,
+          "wf": "увидели",
+          "wtype": "word",
+          "off_end": 22,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 23,
+          "wf": "только",
+          "wtype": "word",
+          "off_end": 29,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 30,
+          "wf": "конец",
+          "wtype": "word",
+          "off_end": 35,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 35,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 36,
+          "next_word": 6
+        }
+      ],
+      "text": "Праздник-то мы увидели только конец.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 36,
+          "para_id": 7199
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [],
+      "text": "",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 0,
+          "para_id": 7200
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "В",
+          "wtype": "word",
+          "off_end": 1,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 2,
+          "wf": "Виловатово",
+          "wtype": "word",
+          "off_end": 12,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 13,
+          "wf": "вот",
+          "wtype": "word",
+          "off_end": 16,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 17,
+          "wf": "не",
+          "wtype": "word",
+          "off_end": 19,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 20,
+          "wf": "знаю",
+          "wtype": "word",
+          "off_end": 24,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 24,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 25,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 26,
+          "wf": "тоже",
+          "wtype": "word",
+          "off_end": 30,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 31,
+          "wf": "есть",
+          "wtype": "word",
+          "off_end": 35,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 35,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 36,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 37,
+          "wf": "наверное",
+          "wtype": "word",
+          "off_end": 45,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 45,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 46,
+          "next_word": 11
+        }
+      ],
+      "text": "В Виловатово вот не знаю, тоже есть, наверное.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 46,
+          "para_id": 7201
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Но",
+          "wtype": "word",
+          "off_end": 2,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 3,
+          "wf": "у",
+          "wtype": "word",
+          "off_end": 4,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 5,
+          "wf": "нас",
+          "wtype": "word",
+          "off_end": 8,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 8,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 9,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 10,
+          "wf": "у",
+          "wtype": "word",
+          "off_end": 11,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 12,
+          "wf": "себя",
+          "wtype": "word",
+          "off_end": 16,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 16,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 17,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 18,
+          "wf": "конечно",
+          "wtype": "word",
+          "off_end": 25,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 25,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 26,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 27,
+          "wf": "всё",
+          "wtype": "word",
+          "off_end": 30,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 31,
+          "wf": "равно",
+          "wtype": "word",
+          "off_end": 36,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 37,
+          "wf": "интересно",
+          "wtype": "word",
+          "off_end": 46,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 46,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 47,
+          "next_word": 13
+        }
+      ],
+      "text": "Но у нас, у себя, конечно, всё равно интересно.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 47,
+          "para_id": 7202
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Дети",
+          "wtype": "word",
+          "off_end": 4,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 5,
+          "wf": "активно",
+          "wtype": "word",
+          "off_end": 12,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 13,
+          "wf": "участвовали",
+          "wtype": "word",
+          "off_end": 24,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 24,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 25,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 26,
+          "wf": "им",
+          "wtype": "word",
+          "off_end": 28,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 29,
+          "wf": "было",
+          "wtype": "word",
+          "off_end": 33,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 34,
+          "wf": "интересно",
+          "wtype": "word",
+          "off_end": 43,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 43,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 44,
+          "next_word": 8
+        }
+      ],
+      "text": "Дети активно участвовали, им было интересно.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 44,
+          "para_id": 7203
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Из",
+          "wtype": "word",
+          "off_end": 2,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 19
+        },
+        {
+          "off_start": 3,
+          "wf": "других",
+          "wtype": "word",
+          "off_end": 9,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 18
+        },
+        {
+          "off_start": 10,
+          "wf": "мест",
+          "wtype": "word",
+          "off_end": 14,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 17
+        },
+        {
+          "off_start": 15,
+          "wf": "были",
+          "wtype": "word",
+          "off_end": 19,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 16
+        },
+        {
+          "off_start": 19,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 20,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 15
+        },
+        {
+          "off_start": 21,
+          "wf": "не",
+          "wtype": "word",
+          "off_end": 23,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 14
+        },
+        {
+          "off_start": 24,
+          "wf": "только",
+          "wtype": "word",
+          "off_end": 30,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 13
+        },
+        {
+          "off_start": 31,
+          "wf": "деревенские",
+          "wtype": "word",
+          "off_end": 42,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 12
+        },
+        {
+          "off_start": 42,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 43,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 44,
+          "wf": "а",
+          "wtype": "word",
+          "off_end": 45,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 46,
+          "wf": "именно",
+          "wtype": "word",
+          "off_end": 52,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 53,
+          "wf": "детей",
+          "wtype": "word",
+          "off_end": 58,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 59,
+          "wf": "из",
+          "wtype": "word",
+          "off_end": 61,
+          "next_word": 13,
+          "sentence_index": 12,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 62,
+          "wf": "других",
+          "wtype": "word",
+          "off_end": 68,
+          "next_word": 14,
+          "sentence_index": 13,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 69,
+          "wf": "мест",
+          "wtype": "word",
+          "off_end": 73,
+          "next_word": 15,
+          "sentence_index": 14,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 74,
+          "wf": "приглашали",
+          "wtype": "word",
+          "off_end": 84,
+          "next_word": 16,
+          "sentence_index": 15,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 85,
+          "wf": "к",
+          "wtype": "word",
+          "off_end": 86,
+          "next_word": 17,
+          "sentence_index": 16,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 87,
+          "wf": "участию",
+          "wtype": "word",
+          "off_end": 94,
+          "next_word": 18,
+          "sentence_index": 17,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 95,
+          "wf": "в",
+          "wtype": "word",
+          "off_end": 96,
+          "next_word": 19,
+          "sentence_index": 18,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 97,
+          "wf": "конкурсах",
+          "wtype": "word",
+          "off_end": 106,
+          "next_word": 20,
+          "sentence_index": 19,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 106,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 107,
+          "next_word": 21
+        }
+      ],
+      "text": "Из других мест были, не только деревенские, а именно детей из других мест приглашали к участию в конкурсах.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 107,
+          "para_id": 7204
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Призы",
+          "wtype": "word",
+          "off_end": 5,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 6,
+          "wf": "приготовили",
+          "wtype": "word",
+          "off_end": 17,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 18,
+          "wf": "им",
+          "wtype": "word",
+          "off_end": 20,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 21,
+          "wf": "тоже",
+          "wtype": "word",
+          "off_end": 25,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 25,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 26,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 27,
+          "wf": "но",
+          "wtype": "word",
+          "off_end": 29,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 30,
+          "wf": "на",
+          "wtype": "word",
+          "off_end": 32,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 33,
+          "wf": "лыжах",
+          "wtype": "word",
+          "off_end": 38,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 39,
+          "wf": "ходили",
+          "wtype": "word",
+          "off_end": 45,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 46,
+          "wf": "и",
+          "wtype": "word",
+          "off_end": 47,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 48,
+          "wf": "малыши",
+          "wtype": "word",
+          "off_end": 54,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 54,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 55,
+          "next_word": 12
+        }
+      ],
+      "text": "Призы приготовили им тоже, но на лыжах ходили и малыши.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 55,
+          "para_id": 7205
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Михаил",
+          "wtype": "word",
+          "off_end": 6,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 13
+        },
+        {
+          "off_start": 7,
+          "wf": "Фёдорович",
+          "wtype": "word",
+          "off_end": 16,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 12
+        },
+        {
+          "off_start": 16,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 17,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 18,
+          "wf": "какое",
+          "wtype": "word",
+          "off_end": 23,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 24,
+          "wf": "место",
+          "wtype": "word",
+          "off_end": 29,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 29,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 30,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 31,
+          "wf": "первое",
+          "wtype": "word",
+          "off_end": 37,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 38,
+          "wf": "место",
+          "wtype": "word",
+          "off_end": 43,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 44,
+          "wf": "занял",
+          "wtype": "word",
+          "off_end": 49,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 49,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 50,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 51,
+          "wf": "наверное",
+          "wtype": "word",
+          "off_end": 59,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 59,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 60,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 61,
+          "wf": "на",
+          "wtype": "word",
+          "off_end": 63,
+          "next_word": 13,
+          "sentence_index": 12,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 64,
+          "wf": "лыжах",
+          "wtype": "word",
+          "off_end": 69,
+          "next_word": 14,
+          "sentence_index": 13,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 69,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 70,
+          "next_word": 15
+        }
+      ],
+      "text": "Михаил Фёдорович, какое место, первое место занял, наверное, на лыжах.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 70,
           "para_id": 7206
         }
       ]

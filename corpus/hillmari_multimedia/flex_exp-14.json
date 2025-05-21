@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Двенадцать палочек (отличие)",
-    "filename": "corpus/xml/flex_exp.xml"
+    "filename": "corpus\\xml\\flex_exp.xml"
   },
   "sentences": [
     {
@@ -2711,6 +2711,1412 @@
         {
           "off_start": 0,
           "off_end": 11,
+          "para_id": 489
+        }
+      ],
+      "last": true
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Когда",
+          "wtype": "word",
+          "off_end": 5,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 15
+        },
+        {
+          "off_start": 6,
+          "wf": "в",
+          "wtype": "word",
+          "off_end": 7,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 14
+        },
+        {
+          "off_start": 8,
+          "wf": "первый",
+          "wtype": "word",
+          "off_end": 14,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 13
+        },
+        {
+          "off_start": 15,
+          "wf": "раз",
+          "wtype": "word",
+          "off_end": 18,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 12
+        },
+        {
+          "off_start": 19,
+          "wf": "наступают",
+          "wtype": "word",
+          "off_end": 28,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 29,
+          "wf": "на",
+          "wtype": "word",
+          "off_end": 31,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 32,
+          "wf": "палочки",
+          "wtype": "word",
+          "off_end": 39,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 39,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 40,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 41,
+          "wf": "говорят",
+          "wtype": "word",
+          "off_end": 48,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 49,
+          "wf": "«",
+          "wtype": "punct",
+          "off_end": 50,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 50,
+          "wf": "двенадцать",
+          "wtype": "word",
+          "off_end": 60,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 61,
+          "wf": "палочек",
+          "wtype": "word",
+          "off_end": 68,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 68,
+          "wf": "»",
+          "wtype": "punct",
+          "off_end": 69,
+          "next_word": 13,
+          "sentence_index": 12,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 70,
+          "wf": "и",
+          "wtype": "word",
+          "off_end": 71,
+          "next_word": 14,
+          "sentence_index": 13,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 72,
+          "wf": "называют",
+          "wtype": "word",
+          "off_end": 80,
+          "next_word": 15,
+          "sentence_index": 14,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 81,
+          "wf": "имя",
+          "wtype": "word",
+          "off_end": 84,
+          "next_word": 16,
+          "sentence_index": 15,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 84,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 85,
+          "next_word": 17
+        }
+      ],
+      "text": "Когда в первый раз наступают на палочки, говорят «двенадцать палочек» и называют имя.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 85,
+          "para_id": 478
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "\"",
+          "wtype": "punct",
+          "off_end": 1,
+          "next_word": 1
+        },
+        {
+          "off_start": 1,
+          "wf": "Двенадцать",
+          "wtype": "word",
+          "off_end": 11,
+          "next_word": 2,
+          "sentence_index": 0,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 12,
+          "wf": "палочек",
+          "wtype": "word",
+          "off_end": 19,
+          "next_word": 3,
+          "sentence_index": 1,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 19,
+          "wf": "»",
+          "wtype": "punct",
+          "off_end": 20,
+          "next_word": 4,
+          "sentence_index": 2,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 21,
+          "wf": "и",
+          "wtype": "word",
+          "off_end": 22,
+          "next_word": 5,
+          "sentence_index": 3,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 23,
+          "wf": "имя",
+          "wtype": "word",
+          "off_end": 26,
+          "next_word": 6,
+          "sentence_index": 4,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 26,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 27,
+          "next_word": 7,
+          "sentence_index": 5,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 28,
+          "wf": "например",
+          "wtype": "word",
+          "off_end": 36,
+          "next_word": 8,
+          "sentence_index": 6,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 36,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 37,
+          "next_word": 9,
+          "sentence_index": 7,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 38,
+          "wf": "«",
+          "wtype": "punct",
+          "off_end": 39,
+          "next_word": 10,
+          "sentence_index": 8,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 39,
+          "wf": "Коля",
+          "wtype": "word",
+          "off_end": 43,
+          "next_word": 11,
+          "sentence_index": 9,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 43,
+          "wf": "».",
+          "wtype": "punct",
+          "off_end": 45,
+          "next_word": 12
+        }
+      ],
+      "text": "\"Двенадцать палочек» и имя, например, «Коля».",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 45,
+          "para_id": 479
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "\"",
+          "wtype": "punct",
+          "off_end": 1,
+          "next_word": 1
+        },
+        {
+          "off_start": 1,
+          "wf": "Двенадцать",
+          "wtype": "word",
+          "off_end": 11,
+          "next_word": 2,
+          "sentence_index": 0,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 12,
+          "wf": "палочек",
+          "wtype": "word",
+          "off_end": 19,
+          "next_word": 3,
+          "sentence_index": 1,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 19,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 20,
+          "next_word": 4,
+          "sentence_index": 2,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 21,
+          "wf": "Коля",
+          "wtype": "word",
+          "off_end": 25,
+          "next_word": 5,
+          "sentence_index": 3,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 25,
+          "wf": "».",
+          "wtype": "punct",
+          "off_end": 27,
+          "next_word": 6
+        }
+      ],
+      "text": "\"Двенадцать палочек, Коля».",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 27,
+          "para_id": 480
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "И",
+          "wtype": "word",
+          "off_end": 1,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 2,
+          "wf": "Коля",
+          "wtype": "word",
+          "off_end": 6,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 7,
+          "wf": "двенадцать",
+          "wtype": "word",
+          "off_end": 17,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 18,
+          "wf": "палочек",
+          "wtype": "word",
+          "off_end": 25,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 26,
+          "wf": "начинает",
+          "wtype": "word",
+          "off_end": 34,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 35,
+          "wf": "собирать",
+          "wtype": "word",
+          "off_end": 43,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 43,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 44,
+          "next_word": 7
+        }
+      ],
+      "text": "И Коля двенадцать палочек начинает собирать.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 44,
+          "para_id": 481
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Собирает",
+          "wtype": "word",
+          "off_end": 8,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 16
+        },
+        {
+          "off_start": 8,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 9,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 15
+        },
+        {
+          "off_start": 10,
+          "wf": "собирает",
+          "wtype": "word",
+          "off_end": 18,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 14
+        },
+        {
+          "off_start": 18,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 19,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 13
+        },
+        {
+          "off_start": 20,
+          "wf": "и",
+          "wtype": "word",
+          "off_end": 21,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 12
+        },
+        {
+          "off_start": 22,
+          "wf": "сразу",
+          "wtype": "word",
+          "off_end": 27,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 28,
+          "wf": "кто",
+          "wtype": "word",
+          "off_end": 31,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 32,
+          "wf": "спрятаться",
+          "wtype": "word",
+          "off_end": 42,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 43,
+          "wf": "успел",
+          "wtype": "word",
+          "off_end": 48,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 48,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 49,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 50,
+          "wf": "кто",
+          "wtype": "word",
+          "off_end": 53,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 54,
+          "wf": "спрятаться",
+          "wtype": "word",
+          "off_end": 64,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 65,
+          "wf": "не",
+          "wtype": "word",
+          "off_end": 67,
+          "next_word": 13,
+          "sentence_index": 12,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 68,
+          "wf": "успел",
+          "wtype": "word",
+          "off_end": 73,
+          "next_word": 14,
+          "sentence_index": 13,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 73,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 74,
+          "next_word": 15,
+          "sentence_index": 14,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 75,
+          "wf": "искать",
+          "wtype": "word",
+          "off_end": 81,
+          "next_word": 16,
+          "sentence_index": 15,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 82,
+          "wf": "начинает",
+          "wtype": "word",
+          "off_end": 90,
+          "next_word": 17,
+          "sentence_index": 16,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 90,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 91,
+          "next_word": 18
+        }
+      ],
+      "text": "Собирает, собирает, и сразу кто спрятаться успел, кто спрятаться не успел, искать начинает.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 91,
+          "para_id": 482
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Кого",
+          "wtype": "word",
+          "off_end": 4,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 37
+        },
+        {
+          "off_start": 5,
+          "wf": "в",
+          "wtype": "word",
+          "off_end": 6,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 36
+        },
+        {
+          "off_start": 7,
+          "wf": "первый",
+          "wtype": "word",
+          "off_end": 13,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 35
+        },
+        {
+          "off_start": 14,
+          "wf": "[",
+          "wtype": "punct",
+          "off_end": 15,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 34
+        },
+        {
+          "off_start": 15,
+          "wf": "раз",
+          "wtype": "word",
+          "off_end": 18,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 33
+        },
+        {
+          "off_start": 18,
+          "wf": "],",
+          "wtype": "punct",
+          "off_end": 20,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 32
+        },
+        {
+          "off_start": 21,
+          "wf": "первым",
+          "wtype": "word",
+          "off_end": 27,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 31
+        },
+        {
+          "off_start": 28,
+          "wf": "найдет",
+          "wtype": "word",
+          "off_end": 34,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 30
+        },
+        {
+          "off_start": 34,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 35,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 29
+        },
+        {
+          "off_start": 36,
+          "wf": "тот",
+          "wtype": "word",
+          "off_end": 39,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 28
+        },
+        {
+          "off_start": 40,
+          "wf": "Коля",
+          "wtype": "word",
+          "off_end": 44,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 27
+        },
+        {
+          "off_start": 45,
+          "wf": "сразу",
+          "wtype": "word",
+          "off_end": 50,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 26
+        },
+        {
+          "off_start": 51,
+          "wf": "наступает",
+          "wtype": "word",
+          "off_end": 60,
+          "next_word": 13,
+          "sentence_index": 12,
+          "sentence_index_neg": 25
+        },
+        {
+          "off_start": 61,
+          "wf": "на",
+          "wtype": "word",
+          "off_end": 63,
+          "next_word": 14,
+          "sentence_index": 13,
+          "sentence_index_neg": 24
+        },
+        {
+          "off_start": 64,
+          "wf": "палочки",
+          "wtype": "word",
+          "off_end": 71,
+          "next_word": 15,
+          "sentence_index": 14,
+          "sentence_index_neg": 23
+        },
+        {
+          "off_start": 71,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 72,
+          "next_word": 16,
+          "sentence_index": 15,
+          "sentence_index_neg": 22
+        },
+        {
+          "off_start": 73,
+          "wf": "тоже",
+          "wtype": "word",
+          "off_end": 77,
+          "next_word": 17,
+          "sentence_index": 16,
+          "sentence_index_neg": 21
+        },
+        {
+          "off_start": 78,
+          "wf": "«",
+          "wtype": "punct",
+          "off_end": 79,
+          "next_word": 18,
+          "sentence_index": 17,
+          "sentence_index_neg": 20
+        },
+        {
+          "off_start": 79,
+          "wf": "двенадцать",
+          "wtype": "word",
+          "off_end": 89,
+          "next_word": 19,
+          "sentence_index": 18,
+          "sentence_index_neg": 19
+        },
+        {
+          "off_start": 90,
+          "wf": "палочек",
+          "wtype": "word",
+          "off_end": 97,
+          "next_word": 20,
+          "sentence_index": 19,
+          "sentence_index_neg": 18
+        },
+        {
+          "off_start": 97,
+          "wf": "»",
+          "wtype": "punct",
+          "off_end": 98,
+          "next_word": 21,
+          "sentence_index": 20,
+          "sentence_index_neg": 17
+        },
+        {
+          "off_start": 99,
+          "wf": "говорит",
+          "wtype": "word",
+          "off_end": 106,
+          "next_word": 22,
+          "sentence_index": 21,
+          "sentence_index_neg": 16
+        },
+        {
+          "off_start": 106,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 107,
+          "next_word": 23,
+          "sentence_index": 22,
+          "sentence_index_neg": 15
+        },
+        {
+          "off_start": 108,
+          "wf": "другое",
+          "wtype": "word",
+          "off_end": 114,
+          "next_word": 24,
+          "sentence_index": 23,
+          "sentence_index_neg": 14
+        },
+        {
+          "off_start": 115,
+          "wf": "имя",
+          "wtype": "word",
+          "off_end": 118,
+          "next_word": 25,
+          "sentence_index": 24,
+          "sentence_index_neg": 13
+        },
+        {
+          "off_start": 119,
+          "wf": "–",
+          "wtype": "punct",
+          "off_end": 120,
+          "next_word": 26,
+          "sentence_index": 25,
+          "sentence_index_neg": 12
+        },
+        {
+          "off_start": 121,
+          "wf": "имя",
+          "wtype": "word",
+          "off_end": 124,
+          "next_word": 27,
+          "sentence_index": 26,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 125,
+          "wf": "«",
+          "wtype": "punct",
+          "off_end": 126,
+          "next_word": 28,
+          "sentence_index": 27,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 126,
+          "wf": "Света",
+          "wtype": "word",
+          "off_end": 131,
+          "next_word": 29,
+          "sentence_index": 28,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 131,
+          "wf": "»",
+          "wtype": "punct",
+          "off_end": 132,
+          "next_word": 30,
+          "sentence_index": 29,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 133,
+          "wf": "говорит",
+          "wtype": "word",
+          "off_end": 140,
+          "next_word": 31,
+          "sentence_index": 30,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 141,
+          "wf": "и",
+          "wtype": "word",
+          "off_end": 142,
+          "next_word": 32,
+          "sentence_index": 31,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 143,
+          "wf": "«",
+          "wtype": "punct",
+          "off_end": 144,
+          "next_word": 33,
+          "sentence_index": 32,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 144,
+          "wf": "Там",
+          "wtype": "word",
+          "off_end": 147,
+          "next_word": 34,
+          "sentence_index": 33,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 148,
+          "wf": "ты",
+          "wtype": "word",
+          "off_end": 150,
+          "next_word": 35,
+          "sentence_index": 34,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 151,
+          "wf": "находишься",
+          "wtype": "word",
+          "off_end": 161,
+          "next_word": 36,
+          "sentence_index": 35,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 161,
+          "wf": "»",
+          "wtype": "punct",
+          "off_end": 162,
+          "next_word": 37,
+          "sentence_index": 36,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 163,
+          "wf": "говорит",
+          "wtype": "word",
+          "off_end": 170,
+          "next_word": 38,
+          "sentence_index": 37,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 170,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 171,
+          "next_word": 39
+        }
+      ],
+      "text": "Кого в первый [раз], первым найдет, тот Коля сразу наступает на палочки, тоже «двенадцать палочек» говорит, другое имя – имя «Света» говорит и «Там ты находишься» говорит.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 171,
+          "para_id": 483
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Вот",
+          "wtype": "word",
+          "off_end": 3,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 4,
+          "wf": "Света",
+          "wtype": "word",
+          "off_end": 9,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 10,
+          "wf": "должна",
+          "wtype": "word",
+          "off_end": 16,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 17,
+          "wf": "прийти",
+          "wtype": "word",
+          "off_end": 23,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 24,
+          "wf": "и",
+          "wtype": "word",
+          "off_end": 25,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 26,
+          "wf": "палочки",
+          "wtype": "word",
+          "off_end": 33,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 34,
+          "wf": "должна",
+          "wtype": "word",
+          "off_end": 40,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 41,
+          "wf": "собирать",
+          "wtype": "word",
+          "off_end": 49,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 49,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 50,
+          "next_word": 9
+        }
+      ],
+      "text": "Вот Света должна прийти и палочки должна собирать.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 50,
+          "para_id": 484
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Так",
+          "wtype": "word",
+          "off_end": 3,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 4,
+          "wf": "игра",
+          "wtype": "word",
+          "off_end": 8,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 9,
+          "wf": "живее",
+          "wtype": "word",
+          "off_end": 14,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 15,
+          "wf": "идет",
+          "wtype": "word",
+          "off_end": 19,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 19,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 20,
+          "next_word": 5
+        }
+      ],
+      "text": "Так игра живее идет.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 20,
+          "para_id": 485
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "А",
+          "wtype": "word",
+          "off_end": 1,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 2,
+          "wf": "стучания",
+          "wtype": "word",
+          "off_end": 10,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 11,
+          "wf": "этим",
+          "wtype": "word",
+          "off_end": 15,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 15,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 16,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 17,
+          "wf": "палкой",
+          "wtype": "word",
+          "off_end": 23,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 24,
+          "wf": "у",
+          "wtype": "word",
+          "off_end": 25,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 26,
+          "wf": "нас",
+          "wtype": "word",
+          "off_end": 29,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 30,
+          "wf": "не",
+          "wtype": "word",
+          "off_end": 32,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 33,
+          "wf": "было",
+          "wtype": "word",
+          "off_end": 37,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 37,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 38,
+          "next_word": 10
+        }
+      ],
+      "text": "А стучания этим, палкой у нас не было.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 38,
+          "para_id": 486
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Вот",
+          "wtype": "word",
+          "off_end": 3,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 4,
+          "wf": "так",
+          "wtype": "word",
+          "off_end": 7,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 7,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 8,
+          "next_word": 3
+        }
+      ],
+      "text": "Вот так.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 8,
+          "para_id": 487
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "И",
+          "wtype": "word",
+          "off_end": 1,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 12
+        },
+        {
+          "off_start": 2,
+          "wf": "Света",
+          "wtype": "word",
+          "off_end": 7,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 8,
+          "wf": "приходит",
+          "wtype": "word",
+          "off_end": 16,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 16,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 17,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 18,
+          "wf": "тоже",
+          "wtype": "word",
+          "off_end": 22,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 23,
+          "wf": "двенадцать",
+          "wtype": "word",
+          "off_end": 33,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 34,
+          "wf": "палочек",
+          "wtype": "word",
+          "off_end": 41,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 42,
+          "wf": "собирает",
+          "wtype": "word",
+          "off_end": 50,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 51,
+          "wf": "и",
+          "wtype": "word",
+          "off_end": 52,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 53,
+          "wf": "потом",
+          "wtype": "word",
+          "off_end": 58,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 59,
+          "wf": "тоже",
+          "wtype": "word",
+          "off_end": 63,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 64,
+          "wf": "искать",
+          "wtype": "word",
+          "off_end": 70,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 71,
+          "wf": "идет",
+          "wtype": "word",
+          "off_end": 75,
+          "next_word": 13,
+          "sentence_index": 12,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 75,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 76,
+          "next_word": 14
+        }
+      ],
+      "text": "И Света приходит, тоже двенадцать палочек собирает и потом тоже искать идет.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 76,
+          "para_id": 488
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Всё",
+          "wtype": "word",
+          "off_end": 3,
+          "next_word": 1,
+          "sentence_index": 0
+        },
+        {
+          "off_start": 3,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 4,
+          "next_word": 2
+        }
+      ],
+      "text": "Всё.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 4,
           "para_id": 489
         }
       ]

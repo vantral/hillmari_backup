@@ -4365,6 +4365,2218 @@
           "off_end": 193,
           "para_id": 9969
         }
+      ],
+      "last": true
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Эту",
+          "wtype": "word",
+          "off_end": 3,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 4,
+          "wf": "церковь",
+          "wtype": "word",
+          "off_end": 11,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 12,
+          "wf": "давно",
+          "wtype": "word",
+          "off_end": 17,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 18,
+          "wf": "построили",
+          "wtype": "word",
+          "off_end": 27,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 27,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 28,
+          "next_word": 5
+        }
+      ],
+      "text": "Эту церковь давно построили.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 28,
+          "para_id": 9949
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Легенда",
+          "wtype": "word",
+          "off_end": 7,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 7,
+          "wf": "...",
+          "wtype": "punct",
+          "off_end": 10,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 11,
+          "wf": "не",
+          "wtype": "word",
+          "off_end": 13,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 14,
+          "wf": "легенда",
+          "wtype": "word",
+          "off_end": 21,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 21,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 22,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 23,
+          "wf": "такой",
+          "wtype": "word",
+          "off_end": 28,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 29,
+          "wf": "рассказ",
+          "wtype": "word",
+          "off_end": 36,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 37,
+          "wf": "есть",
+          "wtype": "word",
+          "off_end": 41,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 41,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 42,
+          "next_word": 9
+        }
+      ],
+      "text": "Легенда... не легенда, такой рассказ есть.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 42,
+          "para_id": 9950
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Сначала",
+          "wtype": "word",
+          "off_end": 7,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 8,
+          "wf": "должны",
+          "wtype": "word",
+          "off_end": 14,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 15,
+          "wf": "были",
+          "wtype": "word",
+          "off_end": 19,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 20,
+          "wf": "построить",
+          "wtype": "word",
+          "off_end": 29,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 30,
+          "wf": "в",
+          "wtype": "word",
+          "off_end": 31,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 32,
+          "wf": "Юлъялах",
+          "wtype": "word",
+          "off_end": 39,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 39,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 40,
+          "next_word": 7
+        }
+      ],
+      "text": "Сначала должны были построить в Юлъялах.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 40,
+          "para_id": 9951
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Ну",
+          "wtype": "word",
+          "off_end": 2,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 2,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 3,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 4,
+          "wf": "почему-то",
+          "wtype": "word",
+          "off_end": 13,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 14,
+          "wf": "не",
+          "wtype": "word",
+          "off_end": 16,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 17,
+          "wf": "знаю",
+          "wtype": "word",
+          "off_end": 21,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 21,
+          "wf": "...",
+          "wtype": "punct",
+          "off_end": 24,
+          "next_word": 6
+        }
+      ],
+      "text": "Ну, почему-то не знаю...",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 24,
+          "para_id": 9952
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Жители",
+          "wtype": "word",
+          "off_end": 6,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 7,
+          "wf": "Юлъял",
+          "wtype": "word",
+          "off_end": 12,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 13,
+          "wf": "там",
+          "wtype": "word",
+          "off_end": 16,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 17,
+          "wf": "эту",
+          "wtype": "word",
+          "off_end": 20,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 21,
+          "wf": "церковь",
+          "wtype": "word",
+          "off_end": 28,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 29,
+          "wf": "строить",
+          "wtype": "word",
+          "off_end": 36,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 36,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 37,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 38,
+          "wf": "видно",
+          "wtype": "word",
+          "off_end": 43,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 43,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 44,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 45,
+          "wf": "не",
+          "wtype": "word",
+          "off_end": 47,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 48,
+          "wf": "захотели",
+          "wtype": "word",
+          "off_end": 56,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 56,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 57,
+          "next_word": 12
+        }
+      ],
+      "text": "Жители Юлъял там эту церковь строить, видно, не захотели.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 57,
+          "para_id": 9953
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Поэтому",
+          "wtype": "word",
+          "off_end": 7,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 16
+        },
+        {
+          "off_start": 8,
+          "wf": "ночью",
+          "wtype": "word",
+          "off_end": 13,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 15
+        },
+        {
+          "off_start": 13,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 14,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 14
+        },
+        {
+          "off_start": 15,
+          "wf": "вечером",
+          "wtype": "word",
+          "off_end": 22,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 13
+        },
+        {
+          "off_start": 23,
+          "wf": "строителей",
+          "wtype": "word",
+          "off_end": 33,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 12
+        },
+        {
+          "off_start": 34,
+          "wf": "напоили",
+          "wtype": "word",
+          "off_end": 41,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 41,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 42,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 43,
+          "wf": "и",
+          "wtype": "word",
+          "off_end": 44,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 45,
+          "wf": "они",
+          "wtype": "word",
+          "off_end": 48,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 49,
+          "wf": "по",
+          "wtype": "word",
+          "off_end": 51,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 52,
+          "wf": "ошибке",
+          "wtype": "word",
+          "off_end": 58,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 59,
+          "wf": "обозначили",
+          "wtype": "word",
+          "off_end": 69,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 70,
+          "wf": "место",
+          "wtype": "word",
+          "off_end": 75,
+          "next_word": 13,
+          "sentence_index": 12,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 76,
+          "wf": "для",
+          "wtype": "word",
+          "off_end": 79,
+          "next_word": 14,
+          "sentence_index": 13,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 80,
+          "wf": "церкви",
+          "wtype": "word",
+          "off_end": 86,
+          "next_word": 15,
+          "sentence_index": 14,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 87,
+          "wf": "в",
+          "wtype": "word",
+          "off_end": 88,
+          "next_word": 16,
+          "sentence_index": 15,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 89,
+          "wf": "Апшак-Пеляке",
+          "wtype": "word",
+          "off_end": 101,
+          "next_word": 17,
+          "sentence_index": 16,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 101,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 102,
+          "next_word": 18
+        }
+      ],
+      "text": "Поэтому ночью, вечером строителей напоили, и они по ошибке обозначили место для церкви в Апшак-Пеляке.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 102,
+          "para_id": 9954
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "А",
+          "wtype": "word",
+          "off_end": 1,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 2,
+          "wf": "жители",
+          "wtype": "word",
+          "off_end": 8,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 9,
+          "wf": "Апшак-Пеляка",
+          "wtype": "word",
+          "off_end": 21,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 22,
+          "wf": "его",
+          "wtype": "word",
+          "off_end": 25,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 26,
+          "wf": "в",
+          "wtype": "word",
+          "off_end": 27,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 28,
+          "wf": "Кузнецово",
+          "wtype": "word",
+          "off_end": 37,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 37,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 38,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 39,
+          "wf": "этот",
+          "wtype": "word",
+          "off_end": 43,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 44,
+          "wf": "знак",
+          "wtype": "word",
+          "off_end": 48,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 49,
+          "wf": "перенесли",
+          "wtype": "word",
+          "off_end": 58,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 58,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 59,
+          "next_word": 11
+        }
+      ],
+      "text": "А жители Апшак-Пеляка его в Кузнецово, этот знак перенесли.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 59,
+          "para_id": 9955
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "А",
+          "wtype": "word",
+          "off_end": 1,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 2,
+          "wf": "утром",
+          "wtype": "word",
+          "off_end": 7,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 8,
+          "wf": "уже",
+          "wtype": "word",
+          "off_end": 11,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 12,
+          "wf": "этот",
+          "wtype": "word",
+          "off_end": 16,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 17,
+          "wf": "знак",
+          "wtype": "word",
+          "off_end": 21,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 22,
+          "wf": "был",
+          "wtype": "word",
+          "off_end": 25,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 26,
+          "wf": "в",
+          "wtype": "word",
+          "off_end": 27,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 28,
+          "wf": "Кузнецово",
+          "wtype": "word",
+          "off_end": 37,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 37,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 38,
+          "next_word": 9
+        }
+      ],
+      "text": "А утром уже этот знак был в Кузнецово.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 38,
+          "para_id": 9956
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Поэтому",
+          "wtype": "word",
+          "off_end": 7,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 8,
+          "wf": "эту",
+          "wtype": "word",
+          "off_end": 11,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 12,
+          "wf": "церковь",
+          "wtype": "word",
+          "off_end": 19,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 20,
+          "wf": "начали",
+          "wtype": "word",
+          "off_end": 26,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 27,
+          "wf": "строить",
+          "wtype": "word",
+          "off_end": 34,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 35,
+          "wf": "в",
+          "wtype": "word",
+          "off_end": 36,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 37,
+          "wf": "Кузнецово",
+          "wtype": "word",
+          "off_end": 46,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 46,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 47,
+          "next_word": 8
+        }
+      ],
+      "text": "Поэтому эту церковь начали строить в Кузнецово.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 47,
+          "para_id": 9957
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Эта",
+          "wtype": "word",
+          "off_end": 3,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 4,
+          "wf": "церковь",
+          "wtype": "word",
+          "off_end": 11,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 12,
+          "wf": "была",
+          "wtype": "word",
+          "off_end": 16,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 17,
+          "wf": "всегда",
+          "wtype": "word",
+          "off_end": 23,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 24,
+          "wf": "на",
+          "wtype": "word",
+          "off_end": 26,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 27,
+          "wf": "одном",
+          "wtype": "word",
+          "off_end": 32,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 33,
+          "wf": "и",
+          "wtype": "word",
+          "off_end": 34,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 35,
+          "wf": "том",
+          "wtype": "word",
+          "off_end": 38,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 39,
+          "wf": "же",
+          "wtype": "word",
+          "off_end": 41,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 42,
+          "wf": "месте",
+          "wtype": "word",
+          "off_end": 47,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 47,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 48,
+          "next_word": 11
+        }
+      ],
+      "text": "Эта церковь была всегда на одном и том же месте.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 48,
+          "para_id": 9958
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Кирпичная",
+          "wtype": "word",
+          "off_end": 9,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 9,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 10,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 11,
+          "wf": "из",
+          "wtype": "word",
+          "off_end": 13,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 14,
+          "wf": "кирпича",
+          "wtype": "word",
+          "off_end": 21,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 22,
+          "wf": "построенная",
+          "wtype": "word",
+          "off_end": 33,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 33,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 34,
+          "next_word": 6
+        }
+      ],
+      "text": "Кирпичная, из кирпича построенная.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 34,
+          "para_id": 9959
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Службы",
+          "wtype": "word",
+          "off_end": 6,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 7,
+          "wf": "там",
+          "wtype": "word",
+          "off_end": 10,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 11,
+          "wf": "шли",
+          "wtype": "word",
+          "off_end": 14,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 15,
+          "wf": "всё",
+          "wtype": "word",
+          "off_end": 18,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 19,
+          "wf": "время",
+          "wtype": "word",
+          "off_end": 24,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 24,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 25,
+          "next_word": 6
+        }
+      ],
+      "text": "Службы там шли всё время.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 25,
+          "para_id": 9960
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Службы",
+          "wtype": "word",
+          "off_end": 6,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 7,
+          "wf": "прекращались",
+          "wtype": "word",
+          "off_end": 19,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 20,
+          "wf": "только",
+          "wtype": "word",
+          "off_end": 26,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 27,
+          "wf": "на",
+          "wtype": "word",
+          "off_end": 29,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 30,
+          "wf": "некоторое",
+          "wtype": "word",
+          "off_end": 39,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 40,
+          "wf": "время",
+          "wtype": "word",
+          "off_end": 45,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 45,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 46,
+          "next_word": 7
+        }
+      ],
+      "text": "Службы прекращались только на некоторое время.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 46,
+          "para_id": 9961
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Но",
+          "wtype": "word",
+          "off_end": 2,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 3,
+          "wf": "почти",
+          "wtype": "word",
+          "off_end": 8,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 9,
+          "wf": "всегда",
+          "wtype": "word",
+          "off_end": 15,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 16,
+          "wf": "не",
+          "wtype": "word",
+          "off_end": 18,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 19,
+          "wf": "давали",
+          "wtype": "word",
+          "off_end": 25,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 26,
+          "wf": "возможность",
+          "wtype": "word",
+          "off_end": 37,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 38,
+          "wf": "закрыть",
+          "wtype": "word",
+          "off_end": 45,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 46,
+          "wf": "церковь",
+          "wtype": "word",
+          "off_end": 53,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 53,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 54,
+          "next_word": 9
+        }
+      ],
+      "text": "Но почти всегда не давали возможность закрыть церковь.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 54,
+          "para_id": 9962
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "В",
+          "wtype": "word",
+          "off_end": 1,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 18
+        },
+        {
+          "off_start": 2,
+          "wf": "настоящее",
+          "wtype": "word",
+          "off_end": 11,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 17
+        },
+        {
+          "off_start": 12,
+          "wf": "время",
+          "wtype": "word",
+          "off_end": 17,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 16
+        },
+        {
+          "off_start": 18,
+          "wf": "внутреннее",
+          "wtype": "word",
+          "off_end": 28,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 15
+        },
+        {
+          "off_start": 29,
+          "wf": "убранство",
+          "wtype": "word",
+          "off_end": 38,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 14
+        },
+        {
+          "off_start": 39,
+          "wf": "церкви",
+          "wtype": "word",
+          "off_end": 45,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 13
+        },
+        {
+          "off_start": 46,
+          "wf": "улучшили",
+          "wtype": "word",
+          "off_end": 54,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 12
+        },
+        {
+          "off_start": 54,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 55,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 56,
+          "wf": "заново",
+          "wtype": "word",
+          "off_end": 62,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 63,
+          "wf": "застелили",
+          "wtype": "word",
+          "off_end": 72,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 73,
+          "wf": "пол",
+          "wtype": "word",
+          "off_end": 76,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 77,
+          "wf": "плиткой",
+          "wtype": "word",
+          "off_end": 84,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 84,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 85,
+          "next_word": 13,
+          "sentence_index": 12,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 86,
+          "wf": "снаружи",
+          "wtype": "word",
+          "off_end": 93,
+          "next_word": 14,
+          "sentence_index": 13,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 94,
+          "wf": "тоже",
+          "wtype": "word",
+          "off_end": 98,
+          "next_word": 15,
+          "sentence_index": 14,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 99,
+          "wf": "покрасили",
+          "wtype": "word",
+          "off_end": 108,
+          "next_word": 16,
+          "sentence_index": 15,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 108,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 109,
+          "next_word": 17,
+          "sentence_index": 16,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 110,
+          "wf": "отреставрировали",
+          "wtype": "word",
+          "off_end": 126,
+          "next_word": 18,
+          "sentence_index": 17,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 127,
+          "wf": "купола",
+          "wtype": "word",
+          "off_end": 133,
+          "next_word": 19,
+          "sentence_index": 18,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 133,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 134,
+          "next_word": 20
+        }
+      ],
+      "text": "В настоящее время внутреннее убранство церкви улучшили, заново застелили пол плиткой, снаружи тоже покрасили, отреставрировали купола.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 134,
+          "para_id": 9963
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Люди",
+          "wtype": "word",
+          "off_end": 4,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 5,
+          "wf": "всё",
+          "wtype": "word",
+          "off_end": 8,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 9,
+          "wf": "время",
+          "wtype": "word",
+          "off_end": 14,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 15,
+          "wf": "ходят",
+          "wtype": "word",
+          "off_end": 20,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 21,
+          "wf": "в",
+          "wtype": "word",
+          "off_end": 22,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 23,
+          "wf": "церковь",
+          "wtype": "word",
+          "off_end": 30,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 30,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 31,
+          "next_word": 7
+        }
+      ],
+      "text": "Люди всё время ходят в церковь.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 31,
+          "para_id": 9964
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Служба",
+          "wtype": "word",
+          "off_end": 6,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 7,
+          "wf": "проходит",
+          "wtype": "word",
+          "off_end": 15,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 16,
+          "wf": "и",
+          "wtype": "word",
+          "off_end": 17,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 18,
+          "wf": "утром",
+          "wtype": "word",
+          "off_end": 23,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 23,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 24,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 25,
+          "wf": "и",
+          "wtype": "word",
+          "off_end": 26,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 27,
+          "wf": "вечером",
+          "wtype": "word",
+          "off_end": 34,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 34,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 35,
+          "next_word": 8
+        }
+      ],
+      "text": "Служба проходит и утром, и вечером.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 35,
+          "para_id": 9965
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "В",
+          "wtype": "word",
+          "off_end": 1,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 2,
+          "wf": "крупные",
+          "wtype": "word",
+          "off_end": 9,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 10,
+          "wf": "праздники",
+          "wtype": "word",
+          "off_end": 19,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 20,
+          "wf": "собирается",
+          "wtype": "word",
+          "off_end": 30,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 31,
+          "wf": "много",
+          "wtype": "word",
+          "off_end": 36,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 37,
+          "wf": "народу",
+          "wtype": "word",
+          "off_end": 43,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 43,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 44,
+          "next_word": 7
+        }
+      ],
+      "text": "В крупные праздники собирается много народу.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 44,
+          "para_id": 9966
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Скоро",
+          "wtype": "word",
+          "off_end": 5,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 6,
+          "wf": "наступит",
+          "wtype": "word",
+          "off_end": 14,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 15,
+          "wf": "Петров",
+          "wtype": "word",
+          "off_end": 21,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 22,
+          "wf": "день",
+          "wtype": "word",
+          "off_end": 26,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 26,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 27,
+          "next_word": 5
+        }
+      ],
+      "text": "Скоро наступит Петров день.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 27,
+          "para_id": 9967
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "К",
+          "wtype": "word",
+          "off_end": 1,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 22
+        },
+        {
+          "off_start": 2,
+          "wf": "этому",
+          "wtype": "word",
+          "off_end": 7,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 21
+        },
+        {
+          "off_start": 8,
+          "wf": "большому",
+          "wtype": "word",
+          "off_end": 16,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 20
+        },
+        {
+          "off_start": 17,
+          "wf": "празднику",
+          "wtype": "word",
+          "off_end": 26,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 19
+        },
+        {
+          "off_start": 26,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 27,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 18
+        },
+        {
+          "off_start": 28,
+          "wf": "это",
+          "wtype": "word",
+          "off_end": 31,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 17
+        },
+        {
+          "off_start": 32,
+          "wf": "престольный",
+          "wtype": "word",
+          "off_end": 43,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 16
+        },
+        {
+          "off_start": 44,
+          "wf": "праздник",
+          "wtype": "word",
+          "off_end": 52,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 15
+        },
+        {
+          "off_start": 53,
+          "wf": "для",
+          "wtype": "word",
+          "off_end": 56,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 14
+        },
+        {
+          "off_start": 57,
+          "wf": "села",
+          "wtype": "word",
+          "off_end": 61,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 13
+        },
+        {
+          "off_start": 62,
+          "wf": "Кузнецово",
+          "wtype": "word",
+          "off_end": 71,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 12
+        },
+        {
+          "off_start": 71,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 72,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 73,
+          "wf": "готовятся",
+          "wtype": "word",
+          "off_end": 82,
+          "next_word": 13,
+          "sentence_index": 12,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 83,
+          "wf": "в",
+          "wtype": "word",
+          "off_end": 84,
+          "next_word": 14,
+          "sentence_index": 13,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 85,
+          "wf": "церкви",
+          "wtype": "word",
+          "off_end": 91,
+          "next_word": 15,
+          "sentence_index": 14,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 92,
+          "wf": "батюшка",
+          "wtype": "word",
+          "off_end": 99,
+          "next_word": 16,
+          "sentence_index": 15,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 99,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 100,
+          "next_word": 17,
+          "sentence_index": 16,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 101,
+          "wf": "матушка",
+          "wtype": "word",
+          "off_end": 108,
+          "next_word": 18,
+          "sentence_index": 17,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 108,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 109,
+          "next_word": 19,
+          "sentence_index": 18,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 110,
+          "wf": "его",
+          "wtype": "word",
+          "off_end": 113,
+          "next_word": 20,
+          "sentence_index": 19,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 114,
+          "wf": "помощники",
+          "wtype": "word",
+          "off_end": 123,
+          "next_word": 21,
+          "sentence_index": 20,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 124,
+          "wf": "и",
+          "wtype": "word",
+          "off_end": 125,
+          "next_word": 22,
+          "sentence_index": 21,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 126,
+          "wf": "прихожане",
+          "wtype": "word",
+          "off_end": 135,
+          "next_word": 23,
+          "sentence_index": 22,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 135,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 136,
+          "next_word": 24
+        }
+      ],
+      "text": "К этому большому празднику, это престольный праздник для села Кузнецово, готовятся в церкви батюшка, матушка, его помощники и прихожане.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 136,
+          "para_id": 9968
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Престольный",
+          "wtype": "word",
+          "off_end": 11,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 23
+        },
+        {
+          "off_start": 12,
+          "wf": "праздник",
+          "wtype": "word",
+          "off_end": 20,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 22
+        },
+        {
+          "off_start": 21,
+          "wf": "двенадцатого",
+          "wtype": "word",
+          "off_end": 33,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 21
+        },
+        {
+          "off_start": 34,
+          "wf": "июля",
+          "wtype": "word",
+          "off_end": 38,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 20
+        },
+        {
+          "off_start": 38,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 39,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 19
+        },
+        {
+          "off_start": 40,
+          "wf": "ну",
+          "wtype": "word",
+          "off_end": 42,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 18
+        },
+        {
+          "off_start": 42,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 43,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 17
+        },
+        {
+          "off_start": 44,
+          "wf": "двенадцатого",
+          "wtype": "word",
+          "off_end": 56,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 16
+        },
+        {
+          "off_start": 57,
+          "wf": "июля",
+          "wtype": "word",
+          "off_end": 61,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 15
+        },
+        {
+          "off_start": 62,
+          "wf": "проходит",
+          "wtype": "word",
+          "off_end": 70,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 14
+        },
+        {
+          "off_start": 71,
+          "wf": "большая",
+          "wtype": "word",
+          "off_end": 78,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 13
+        },
+        {
+          "off_start": 79,
+          "wf": "служба",
+          "wtype": "word",
+          "off_end": 85,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 12
+        },
+        {
+          "off_start": 85,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 86,
+          "next_word": 13,
+          "sentence_index": 12,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 87,
+          "wf": "а",
+          "wtype": "word",
+          "off_end": 88,
+          "next_word": 14,
+          "sentence_index": 13,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 89,
+          "wf": "еще",
+          "wtype": "word",
+          "off_end": 92,
+          "next_word": 15,
+          "sentence_index": 14,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 93,
+          "wf": "тринадцатого",
+          "wtype": "word",
+          "off_end": 105,
+          "next_word": 16,
+          "sentence_index": 15,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 106,
+          "wf": "июля",
+          "wtype": "word",
+          "off_end": 110,
+          "next_word": 17,
+          "sentence_index": 16,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 111,
+          "wf": "приезжают",
+          "wtype": "word",
+          "off_end": 120,
+          "next_word": 18,
+          "sentence_index": 17,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 121,
+          "wf": "из",
+          "wtype": "word",
+          "off_end": 123,
+          "next_word": 19,
+          "sentence_index": 18,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 124,
+          "wf": "Йошкар-Олы",
+          "wtype": "word",
+          "off_end": 134,
+          "next_word": 20,
+          "sentence_index": 19,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 135,
+          "wf": "и",
+          "wtype": "word",
+          "off_end": 136,
+          "next_word": 21,
+          "sentence_index": 20,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 137,
+          "wf": "проходит",
+          "wtype": "word",
+          "off_end": 145,
+          "next_word": 22,
+          "sentence_index": 21,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 146,
+          "wf": "большая",
+          "wtype": "word",
+          "off_end": 153,
+          "next_word": 23,
+          "sentence_index": 22,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 154,
+          "wf": "служба",
+          "wtype": "word",
+          "off_end": 160,
+          "next_word": 24,
+          "sentence_index": 23,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 160,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 161,
+          "next_word": 25
+        }
+      ],
+      "text": "Престольный праздник двенадцатого июля, ну, двенадцатого июля проходит большая служба, а еще тринадцатого июля приезжают из Йошкар-Олы и проходит большая служба.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 161,
+          "para_id": 9969
+        }
       ]
     }
   ]

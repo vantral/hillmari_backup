@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Марийский язык",
-    "filename": "corpus/xml/flex_exp.xml"
+    "filename": "corpus\\xml\\flex_exp.xml"
   },
   "sentences": [
     {
@@ -5851,6 +5851,3019 @@
         {
           "off_start": 0,
           "off_end": 27,
+          "para_id": 4818
+        }
+      ],
+      "last": true
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "В",
+          "wtype": "word",
+          "off_end": 1,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 19
+        },
+        {
+          "off_start": 2,
+          "wf": "кузнецовской",
+          "wtype": "word",
+          "off_end": 14,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 18
+        },
+        {
+          "off_start": 15,
+          "wf": "школе",
+          "wtype": "word",
+          "off_end": 20,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 17
+        },
+        {
+          "off_start": 21,
+          "wf": "марийский",
+          "wtype": "word",
+          "off_end": 30,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 16
+        },
+        {
+          "off_start": 31,
+          "wf": "язык",
+          "wtype": "word",
+          "off_end": 35,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 15
+        },
+        {
+          "off_start": 35,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 36,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 14
+        },
+        {
+          "off_start": 37,
+          "wf": "горномарийский",
+          "wtype": "word",
+          "off_end": 51,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 13
+        },
+        {
+          "off_start": 52,
+          "wf": "язык",
+          "wtype": "word",
+          "off_end": 56,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 12
+        },
+        {
+          "off_start": 57,
+          "wf": "изучаем",
+          "wtype": "word",
+          "off_end": 64,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 65,
+          "wf": "как",
+          "wtype": "word",
+          "off_end": 68,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 69,
+          "wf": "родной",
+          "wtype": "word",
+          "off_end": 75,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 76,
+          "wf": "язык",
+          "wtype": "word",
+          "off_end": 80,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 80,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 81,
+          "next_word": 13,
+          "sentence_index": 12,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 82,
+          "wf": "начиная",
+          "wtype": "word",
+          "off_end": 89,
+          "next_word": 14,
+          "sentence_index": 13,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 90,
+          "wf": "с",
+          "wtype": "word",
+          "off_end": 91,
+          "next_word": 15,
+          "sentence_index": 14,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 92,
+          "wf": "первого",
+          "wtype": "word",
+          "off_end": 99,
+          "next_word": 16,
+          "sentence_index": 15,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 100,
+          "wf": "класса",
+          "wtype": "word",
+          "off_end": 106,
+          "next_word": 17,
+          "sentence_index": 16,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 107,
+          "wf": "до",
+          "wtype": "word",
+          "off_end": 109,
+          "next_word": 18,
+          "sentence_index": 17,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 110,
+          "wf": "одиннадцатого",
+          "wtype": "word",
+          "off_end": 123,
+          "next_word": 19,
+          "sentence_index": 18,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 124,
+          "wf": "класса",
+          "wtype": "word",
+          "off_end": 130,
+          "next_word": 20,
+          "sentence_index": 19,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 130,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 131,
+          "next_word": 21
+        }
+      ],
+      "text": "В кузнецовской школе марийский язык, горномарийский язык изучаем как родной язык, начиная с первого класса до одиннадцатого класса.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 131,
+          "para_id": 4798
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "В",
+          "wtype": "word",
+          "off_end": 1,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 12
+        },
+        {
+          "off_start": 2,
+          "wf": "десятом",
+          "wtype": "word",
+          "off_end": 9,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 10,
+          "wf": "и",
+          "wtype": "word",
+          "off_end": 11,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 12,
+          "wf": "одиннадцатом",
+          "wtype": "word",
+          "off_end": 24,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 25,
+          "wf": "классе",
+          "wtype": "word",
+          "off_end": 31,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 32,
+          "wf": "уроков",
+          "wtype": "word",
+          "off_end": 38,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 39,
+          "wf": "марийского",
+          "wtype": "word",
+          "off_end": 49,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 50,
+          "wf": "языка",
+          "wtype": "word",
+          "off_end": 55,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 56,
+          "wf": "нет",
+          "wtype": "word",
+          "off_end": 59,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 59,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 60,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 61,
+          "wf": "изучаем",
+          "wtype": "word",
+          "off_end": 68,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 69,
+          "wf": "только",
+          "wtype": "word",
+          "off_end": 75,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 76,
+          "wf": "литературу",
+          "wtype": "word",
+          "off_end": 86,
+          "next_word": 13,
+          "sentence_index": 12,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 86,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 87,
+          "next_word": 14
+        }
+      ],
+      "text": "В десятом и одиннадцатом классе уроков марийского языка нет, изучаем только литературу.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 87,
+          "para_id": 4799
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Произведения",
+          "wtype": "word",
+          "off_end": 12,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 14
+        },
+        {
+          "off_start": 13,
+          "wf": "марийских",
+          "wtype": "word",
+          "off_end": 22,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 13
+        },
+        {
+          "off_start": 23,
+          "wf": "писателей",
+          "wtype": "word",
+          "off_end": 32,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 12
+        },
+        {
+          "off_start": 33,
+          "wf": "читаем",
+          "wtype": "word",
+          "off_end": 39,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 39,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 40,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 41,
+          "wf": "разбираем",
+          "wtype": "word",
+          "off_end": 50,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 51,
+          "wf": "их",
+          "wtype": "word",
+          "off_end": 53,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 53,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 54,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 55,
+          "wf": "пишем",
+          "wtype": "word",
+          "off_end": 60,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 61,
+          "wf": "сочинения",
+          "wtype": "word",
+          "off_end": 70,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 70,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 71,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 72,
+          "wf": "анализ",
+          "wtype": "word",
+          "off_end": 78,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 78,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 79,
+          "next_word": 13,
+          "sentence_index": 12,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 80,
+          "wf": "стихотворения",
+          "wtype": "word",
+          "off_end": 93,
+          "next_word": 14,
+          "sentence_index": 13,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 94,
+          "wf": "анализируем",
+          "wtype": "word",
+          "off_end": 105,
+          "next_word": 15,
+          "sentence_index": 14,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 105,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 106,
+          "next_word": 16
+        }
+      ],
+      "text": "Произведения марийских писателей читаем, разбираем их, пишем сочинения, анализ, стихотворения анализируем.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 106,
+          "para_id": 4800
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "А",
+          "wtype": "word",
+          "off_end": 1,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 15
+        },
+        {
+          "off_start": 2,
+          "wf": "с",
+          "wtype": "word",
+          "off_end": 3,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 14
+        },
+        {
+          "off_start": 4,
+          "wf": "первого",
+          "wtype": "word",
+          "off_end": 11,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 13
+        },
+        {
+          "off_start": 12,
+          "wf": "до",
+          "wtype": "word",
+          "off_end": 14,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 12
+        },
+        {
+          "off_start": 15,
+          "wf": "девятого",
+          "wtype": "word",
+          "off_end": 23,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 24,
+          "wf": "класса",
+          "wtype": "word",
+          "off_end": 30,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 31,
+          "wf": "есть",
+          "wtype": "word",
+          "off_end": 35,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 36,
+          "wf": "уроки",
+          "wtype": "word",
+          "off_end": 41,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 42,
+          "wf": "марийской",
+          "wtype": "word",
+          "off_end": 51,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 52,
+          "wf": "литературы",
+          "wtype": "word",
+          "off_end": 62,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 62,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 63,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 64,
+          "wf": "и",
+          "wtype": "word",
+          "off_end": 65,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 66,
+          "wf": "есть",
+          "wtype": "word",
+          "off_end": 70,
+          "next_word": 13,
+          "sentence_index": 12,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 71,
+          "wf": "уроки",
+          "wtype": "word",
+          "off_end": 76,
+          "next_word": 14,
+          "sentence_index": 13,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 77,
+          "wf": "марийского",
+          "wtype": "word",
+          "off_end": 87,
+          "next_word": 15,
+          "sentence_index": 14,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 88,
+          "wf": "языка",
+          "wtype": "word",
+          "off_end": 93,
+          "next_word": 16,
+          "sentence_index": 15,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 93,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 94,
+          "next_word": 17
+        }
+      ],
+      "text": "А с первого до девятого класса есть уроки марийской литературы, и есть уроки марийского языка.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 94,
+          "para_id": 4801
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "В",
+          "wtype": "word",
+          "off_end": 1,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 38
+        },
+        {
+          "off_start": 2,
+          "wf": "первом",
+          "wtype": "word",
+          "off_end": 8,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 37
+        },
+        {
+          "off_start": 9,
+          "wf": "классе",
+          "wtype": "word",
+          "off_end": 15,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 36
+        },
+        {
+          "off_start": 16,
+          "wf": "в",
+          "wtype": "word",
+          "off_end": 17,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 35
+        },
+        {
+          "off_start": 18,
+          "wf": "неделю",
+          "wtype": "word",
+          "off_end": 24,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 34
+        },
+        {
+          "off_start": 25,
+          "wf": "3",
+          "wtype": "word",
+          "off_end": 26,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 33
+        },
+        {
+          "off_start": 27,
+          "wf": "урока",
+          "wtype": "word",
+          "off_end": 32,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 32
+        },
+        {
+          "off_start": 32,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 33,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 31
+        },
+        {
+          "off_start": 34,
+          "wf": "во",
+          "wtype": "word",
+          "off_end": 36,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 30
+        },
+        {
+          "off_start": 37,
+          "wf": "втором",
+          "wtype": "word",
+          "off_end": 43,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 29
+        },
+        {
+          "off_start": 43,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 44,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 28
+        },
+        {
+          "off_start": 45,
+          "wf": "в",
+          "wtype": "word",
+          "off_end": 46,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 27
+        },
+        {
+          "off_start": 47,
+          "wf": "третьем",
+          "wtype": "word",
+          "off_end": 54,
+          "next_word": 13,
+          "sentence_index": 12,
+          "sentence_index_neg": 26
+        },
+        {
+          "off_start": 54,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 55,
+          "next_word": 14,
+          "sentence_index": 13,
+          "sentence_index_neg": 25
+        },
+        {
+          "off_start": 56,
+          "wf": "в",
+          "wtype": "word",
+          "off_end": 57,
+          "next_word": 15,
+          "sentence_index": 14,
+          "sentence_index_neg": 24
+        },
+        {
+          "off_start": 58,
+          "wf": "четвертом",
+          "wtype": "word",
+          "off_end": 67,
+          "next_word": 16,
+          "sentence_index": 15,
+          "sentence_index_neg": 23
+        },
+        {
+          "off_start": 67,
+          "wf": "...",
+          "wtype": "punct",
+          "off_end": 70,
+          "next_word": 17,
+          "sentence_index": 16,
+          "sentence_index_neg": 22
+        },
+        {
+          "off_start": 71,
+          "wf": "во",
+          "wtype": "word",
+          "off_end": 73,
+          "next_word": 18,
+          "sentence_index": 17,
+          "sentence_index_neg": 21
+        },
+        {
+          "off_start": 74,
+          "wf": "втором",
+          "wtype": "word",
+          "off_end": 80,
+          "next_word": 19,
+          "sentence_index": 18,
+          "sentence_index_neg": 20
+        },
+        {
+          "off_start": 81,
+          "wf": "и",
+          "wtype": "word",
+          "off_end": 82,
+          "next_word": 20,
+          "sentence_index": 19,
+          "sentence_index_neg": 19
+        },
+        {
+          "off_start": 83,
+          "wf": "в",
+          "wtype": "word",
+          "off_end": 84,
+          "next_word": 21,
+          "sentence_index": 20,
+          "sentence_index_neg": 18
+        },
+        {
+          "off_start": 85,
+          "wf": "третьем",
+          "wtype": "word",
+          "off_end": 92,
+          "next_word": 22,
+          "sentence_index": 21,
+          "sentence_index_neg": 17
+        },
+        {
+          "off_start": 93,
+          "wf": "классах",
+          "wtype": "word",
+          "off_end": 100,
+          "next_word": 23,
+          "sentence_index": 22,
+          "sentence_index_neg": 16
+        },
+        {
+          "off_start": 101,
+          "wf": "в",
+          "wtype": "word",
+          "off_end": 102,
+          "next_word": 24,
+          "sentence_index": 23,
+          "sentence_index_neg": 15
+        },
+        {
+          "off_start": 103,
+          "wf": "неделю",
+          "wtype": "word",
+          "off_end": 109,
+          "next_word": 25,
+          "sentence_index": 24,
+          "sentence_index_neg": 14
+        },
+        {
+          "off_start": 110,
+          "wf": "2",
+          "wtype": "word",
+          "off_end": 111,
+          "next_word": 26,
+          "sentence_index": 25,
+          "sentence_index_neg": 13
+        },
+        {
+          "off_start": 112,
+          "wf": "урока",
+          "wtype": "word",
+          "off_end": 117,
+          "next_word": 27,
+          "sentence_index": 26,
+          "sentence_index_neg": 12
+        },
+        {
+          "off_start": 118,
+          "wf": "языка",
+          "wtype": "word",
+          "off_end": 123,
+          "next_word": 28,
+          "sentence_index": 27,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 124,
+          "wf": "и",
+          "wtype": "word",
+          "off_end": 125,
+          "next_word": 29,
+          "sentence_index": 28,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 126,
+          "wf": "2",
+          "wtype": "word",
+          "off_end": 127,
+          "next_word": 30,
+          "sentence_index": 29,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 128,
+          "wf": "урока",
+          "wtype": "word",
+          "off_end": 133,
+          "next_word": 31,
+          "sentence_index": 30,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 134,
+          "wf": "родного",
+          "wtype": "word",
+          "off_end": 141,
+          "next_word": 32,
+          "sentence_index": 31,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 142,
+          "wf": "литературного",
+          "wtype": "word",
+          "off_end": 155,
+          "next_word": 33,
+          "sentence_index": 32,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 156,
+          "wf": "чтения",
+          "wtype": "word",
+          "off_end": 162,
+          "next_word": 34,
+          "sentence_index": 33,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 162,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 163,
+          "next_word": 35,
+          "sentence_index": 34,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 164,
+          "wf": "по-русски",
+          "wtype": "word",
+          "off_end": 173,
+          "next_word": 36,
+          "sentence_index": 35,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 174,
+          "wf": "так",
+          "wtype": "word",
+          "off_end": 177,
+          "next_word": 37,
+          "sentence_index": 36,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 178,
+          "wf": "называется",
+          "wtype": "word",
+          "off_end": 188,
+          "next_word": 38,
+          "sentence_index": 37,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 189,
+          "wf": "предмет",
+          "wtype": "word",
+          "off_end": 196,
+          "next_word": 39,
+          "sentence_index": 38,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 196,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 197,
+          "next_word": 40
+        }
+      ],
+      "text": "В первом классе в неделю 3 урока, во втором, в третьем, в четвертом... во втором и в третьем классах в неделю 2 урока языка и 2 урока родного литературного чтения, по-русски так называется предмет.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 197,
+          "para_id": 4802
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "В",
+          "wtype": "word",
+          "off_end": 1,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 2,
+          "wf": "четвертом",
+          "wtype": "word",
+          "off_end": 11,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 12,
+          "wf": "классе",
+          "wtype": "word",
+          "off_end": 18,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 19,
+          "wf": "1",
+          "wtype": "word",
+          "off_end": 20,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 21,
+          "wf": "урок",
+          "wtype": "word",
+          "off_end": 25,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 26,
+          "wf": "чтения",
+          "wtype": "word",
+          "off_end": 32,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 33,
+          "wf": "и",
+          "wtype": "word",
+          "off_end": 34,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 35,
+          "wf": "2",
+          "wtype": "word",
+          "off_end": 36,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 37,
+          "wf": "урока",
+          "wtype": "word",
+          "off_end": 42,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 43,
+          "wf": "марийского",
+          "wtype": "word",
+          "off_end": 53,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 54,
+          "wf": "языка",
+          "wtype": "word",
+          "off_end": 59,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 59,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 60,
+          "next_word": 12
+        }
+      ],
+      "text": "В четвертом классе 1 урок чтения и 2 урока марийского языка.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 60,
+          "para_id": 4803
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "В",
+          "wtype": "word",
+          "off_end": 1,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 21
+        },
+        {
+          "off_start": 2,
+          "wf": "пятом",
+          "wtype": "word",
+          "off_end": 7,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 20
+        },
+        {
+          "off_start": 8,
+          "wf": "классе",
+          "wtype": "word",
+          "off_end": 14,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 19
+        },
+        {
+          "off_start": 15,
+          "wf": "по",
+          "wtype": "word",
+          "off_end": 17,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 18
+        },
+        {
+          "off_start": 18,
+          "wf": "2",
+          "wtype": "word",
+          "off_end": 19,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 17
+        },
+        {
+          "off_start": 20,
+          "wf": "урока",
+          "wtype": "word",
+          "off_end": 25,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 16
+        },
+        {
+          "off_start": 26,
+          "wf": "марийского",
+          "wtype": "word",
+          "off_end": 36,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 15
+        },
+        {
+          "off_start": 37,
+          "wf": "языка",
+          "wtype": "word",
+          "off_end": 42,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 14
+        },
+        {
+          "off_start": 43,
+          "wf": "и",
+          "wtype": "word",
+          "off_end": 44,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 13
+        },
+        {
+          "off_start": 45,
+          "wf": "литературы",
+          "wtype": "word",
+          "off_end": 55,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 12
+        },
+        {
+          "off_start": 55,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 56,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 57,
+          "wf": "а",
+          "wtype": "word",
+          "off_end": 58,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 59,
+          "wf": "с",
+          "wtype": "word",
+          "off_end": 60,
+          "next_word": 13,
+          "sentence_index": 12,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 61,
+          "wf": "шестого",
+          "wtype": "word",
+          "off_end": 68,
+          "next_word": 14,
+          "sentence_index": 13,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 69,
+          "wf": "по",
+          "wtype": "word",
+          "off_end": 71,
+          "next_word": 15,
+          "sentence_index": 14,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 72,
+          "wf": "девятый",
+          "wtype": "word",
+          "off_end": 79,
+          "next_word": 16,
+          "sentence_index": 15,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 80,
+          "wf": "класс",
+          "wtype": "word",
+          "off_end": 85,
+          "next_word": 17,
+          "sentence_index": 16,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 86,
+          "wf": "в",
+          "wtype": "word",
+          "off_end": 87,
+          "next_word": 18,
+          "sentence_index": 17,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 88,
+          "wf": "неделю",
+          "wtype": "word",
+          "off_end": 94,
+          "next_word": 19,
+          "sentence_index": 18,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 95,
+          "wf": "проводится",
+          "wtype": "word",
+          "off_end": 105,
+          "next_word": 20,
+          "sentence_index": 19,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 106,
+          "wf": "3",
+          "wtype": "word",
+          "off_end": 107,
+          "next_word": 21,
+          "sentence_index": 20,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 108,
+          "wf": "урока",
+          "wtype": "word",
+          "off_end": 113,
+          "next_word": 22,
+          "sentence_index": 21,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 113,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 114,
+          "next_word": 23
+        }
+      ],
+      "text": "В пятом классе по 2 урока марийского языка и литературы, а с шестого по девятый класс в неделю проводится 3 урока.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 114,
+          "para_id": 4804
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Это",
+          "wtype": "word",
+          "off_end": 3,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 4,
+          "wf": "мы",
+          "wtype": "word",
+          "off_end": 6,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 7,
+          "wf": "чередуем",
+          "wtype": "word",
+          "off_end": 15,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 15,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 16,
+          "next_word": 4
+        }
+      ],
+      "text": "Это мы чередуем.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 16,
+          "para_id": 4805
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "В",
+          "wtype": "word",
+          "off_end": 1,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 26
+        },
+        {
+          "off_start": 2,
+          "wf": "первом",
+          "wtype": "word",
+          "off_end": 8,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 25
+        },
+        {
+          "off_start": 9,
+          "wf": "полугодии",
+          "wtype": "word",
+          "off_end": 18,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 24
+        },
+        {
+          "off_start": 19,
+          "wf": "в",
+          "wtype": "word",
+          "off_end": 20,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 23
+        },
+        {
+          "off_start": 21,
+          "wf": "неделю",
+          "wtype": "word",
+          "off_end": 27,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 22
+        },
+        {
+          "off_start": 28,
+          "wf": "проводим",
+          "wtype": "word",
+          "off_end": 36,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 21
+        },
+        {
+          "off_start": 37,
+          "wf": "2",
+          "wtype": "word",
+          "off_end": 38,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 20
+        },
+        {
+          "off_start": 39,
+          "wf": "урока",
+          "wtype": "word",
+          "off_end": 44,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 19
+        },
+        {
+          "off_start": 45,
+          "wf": "марийского",
+          "wtype": "word",
+          "off_end": 55,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 18
+        },
+        {
+          "off_start": 56,
+          "wf": "языка",
+          "wtype": "word",
+          "off_end": 61,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 17
+        },
+        {
+          "off_start": 61,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 62,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 16
+        },
+        {
+          "off_start": 63,
+          "wf": "1",
+          "wtype": "word",
+          "off_end": 64,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 15
+        },
+        {
+          "off_start": 65,
+          "wf": "урок",
+          "wtype": "word",
+          "off_end": 69,
+          "next_word": 13,
+          "sentence_index": 12,
+          "sentence_index_neg": 14
+        },
+        {
+          "off_start": 70,
+          "wf": "литературы",
+          "wtype": "word",
+          "off_end": 80,
+          "next_word": 14,
+          "sentence_index": 13,
+          "sentence_index_neg": 13
+        },
+        {
+          "off_start": 80,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 81,
+          "next_word": 15,
+          "sentence_index": 14,
+          "sentence_index_neg": 12
+        },
+        {
+          "off_start": 82,
+          "wf": "а",
+          "wtype": "word",
+          "off_end": 83,
+          "next_word": 16,
+          "sentence_index": 15,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 84,
+          "wf": "во",
+          "wtype": "word",
+          "off_end": 86,
+          "next_word": 17,
+          "sentence_index": 16,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 87,
+          "wf": "втором",
+          "wtype": "word",
+          "off_end": 93,
+          "next_word": 18,
+          "sentence_index": 17,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 94,
+          "wf": "полугодии",
+          "wtype": "word",
+          "off_end": 103,
+          "next_word": 19,
+          "sentence_index": 18,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 104,
+          "wf": "2",
+          "wtype": "word",
+          "off_end": 105,
+          "next_word": 20,
+          "sentence_index": 19,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 106,
+          "wf": "урока",
+          "wtype": "word",
+          "off_end": 111,
+          "next_word": 21,
+          "sentence_index": 20,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 112,
+          "wf": "литературы",
+          "wtype": "word",
+          "off_end": 122,
+          "next_word": 22,
+          "sentence_index": 21,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 123,
+          "wf": "и",
+          "wtype": "word",
+          "off_end": 124,
+          "next_word": 23,
+          "sentence_index": 22,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 125,
+          "wf": "1",
+          "wtype": "word",
+          "off_end": 126,
+          "next_word": 24,
+          "sentence_index": 23,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 127,
+          "wf": "урок",
+          "wtype": "word",
+          "off_end": 131,
+          "next_word": 25,
+          "sentence_index": 24,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 132,
+          "wf": "марийского",
+          "wtype": "word",
+          "off_end": 142,
+          "next_word": 26,
+          "sentence_index": 25,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 143,
+          "wf": "языка",
+          "wtype": "word",
+          "off_end": 148,
+          "next_word": 27,
+          "sentence_index": 26,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 148,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 149,
+          "next_word": 28
+        }
+      ],
+      "text": "В первом полугодии в неделю проводим 2 урока марийского языка, 1 урок литературы, а во втором полугодии 2 урока литературы и 1 урок марийского языка.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 149,
+          "para_id": 4806
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "На",
+          "wtype": "word",
+          "off_end": 2,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 16
+        },
+        {
+          "off_start": 3,
+          "wf": "уроках",
+          "wtype": "word",
+          "off_end": 9,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 15
+        },
+        {
+          "off_start": 10,
+          "wf": "дети",
+          "wtype": "word",
+          "off_end": 14,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 14
+        },
+        {
+          "off_start": 15,
+          "wf": "говорят",
+          "wtype": "word",
+          "off_end": 22,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 13
+        },
+        {
+          "off_start": 23,
+          "wf": "по-марийски",
+          "wtype": "word",
+          "off_end": 34,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 12
+        },
+        {
+          "off_start": 34,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 35,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 36,
+          "wf": "на",
+          "wtype": "word",
+          "off_end": 38,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 39,
+          "wf": "уроках",
+          "wtype": "word",
+          "off_end": 45,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 46,
+          "wf": "марийского",
+          "wtype": "word",
+          "off_end": 56,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 57,
+          "wf": "языка",
+          "wtype": "word",
+          "off_end": 62,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 63,
+          "wf": "дети",
+          "wtype": "word",
+          "off_end": 67,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 68,
+          "wf": "изучают",
+          "wtype": "word",
+          "off_end": 75,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 76,
+          "wf": "грамматику",
+          "wtype": "word",
+          "off_end": 86,
+          "next_word": 13,
+          "sentence_index": 12,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 86,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 87,
+          "next_word": 14,
+          "sentence_index": 13,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 88,
+          "wf": "морфологию",
+          "wtype": "word",
+          "off_end": 98,
+          "next_word": 15,
+          "sentence_index": 14,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 98,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 99,
+          "next_word": 16,
+          "sentence_index": 15,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 100,
+          "wf": "синтаксис",
+          "wtype": "word",
+          "off_end": 109,
+          "next_word": 17,
+          "sentence_index": 16,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 109,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 110,
+          "next_word": 18
+        }
+      ],
+      "text": "На уроках дети говорят по-марийски, на уроках марийского языка дети изучают грамматику, морфологию, синтаксис.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 110,
+          "para_id": 4807
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Пишем",
+          "wtype": "word",
+          "off_end": 5,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 12
+        },
+        {
+          "off_start": 6,
+          "wf": "сочинения",
+          "wtype": "word",
+          "off_end": 15,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 15,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 16,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 17,
+          "wf": "разбираем",
+          "wtype": "word",
+          "off_end": 26,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 27,
+          "wf": "предложения",
+          "wtype": "word",
+          "off_end": 38,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 38,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 39,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 40,
+          "wf": "сами",
+          "wtype": "word",
+          "off_end": 44,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 45,
+          "wf": "разбираем",
+          "wtype": "word",
+          "off_end": 54,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 54,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 55,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 56,
+          "wf": "сами",
+          "wtype": "word",
+          "off_end": 60,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 61,
+          "wf": "тексты",
+          "wtype": "word",
+          "off_end": 67,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 68,
+          "wf": "придуманные",
+          "wtype": "word",
+          "off_end": 79,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 80,
+          "wf": "пишем",
+          "wtype": "word",
+          "off_end": 85,
+          "next_word": 13,
+          "sentence_index": 12,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 85,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 86,
+          "next_word": 14
+        }
+      ],
+      "text": "Пишем сочинения, разбираем предложения, сами разбираем, сами тексты придуманные пишем.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 86,
+          "para_id": 4808
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "На",
+          "wtype": "word",
+          "off_end": 2,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 14
+        },
+        {
+          "off_start": 3,
+          "wf": "уроках",
+          "wtype": "word",
+          "off_end": 9,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 13
+        },
+        {
+          "off_start": 10,
+          "wf": "марийской",
+          "wtype": "word",
+          "off_end": 19,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 12
+        },
+        {
+          "off_start": 20,
+          "wf": "литературы",
+          "wtype": "word",
+          "off_end": 30,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 31,
+          "wf": "по",
+          "wtype": "word",
+          "off_end": 33,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 34,
+          "wf": "программе",
+          "wtype": "word",
+          "off_end": 43,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 44,
+          "wf": "все",
+          "wtype": "word",
+          "off_end": 47,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 48,
+          "wf": "марийские",
+          "wtype": "word",
+          "off_end": 57,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 58,
+          "wf": "литературные",
+          "wtype": "word",
+          "off_end": 70,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 71,
+          "wf": "пис",
+          "wtype": "word",
+          "off_end": 74,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 74,
+          "wf": "...",
+          "wtype": "punct",
+          "off_end": 77,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 78,
+          "wf": "произведения",
+          "wtype": "word",
+          "off_end": 90,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 91,
+          "wf": "читаем",
+          "wtype": "word",
+          "off_end": 97,
+          "next_word": 13,
+          "sentence_index": 12,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 97,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 98,
+          "next_word": 14,
+          "sentence_index": 13,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 99,
+          "wf": "разбираем",
+          "wtype": "word",
+          "off_end": 108,
+          "next_word": 15,
+          "sentence_index": 14,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 108,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 109,
+          "next_word": 16
+        }
+      ],
+      "text": "На уроках марийской литературы по программе все марийские литературные пис... произведения читаем, разбираем.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 109,
+          "para_id": 4809
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Сочинения",
+          "wtype": "word",
+          "off_end": 9,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 10,
+          "wf": "тоже",
+          "wtype": "word",
+          "off_end": 14,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 15,
+          "wf": "пишем",
+          "wtype": "word",
+          "off_end": 20,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 20,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 21,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 22,
+          "wf": "образы",
+          "wtype": "word",
+          "off_end": 28,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 29,
+          "wf": "разбираем",
+          "wtype": "word",
+          "off_end": 38,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 38,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 39,
+          "next_word": 7
+        }
+      ],
+      "text": "Сочинения тоже пишем, образы разбираем.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 39,
+          "para_id": 4810
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Разбираем",
+          "wtype": "word",
+          "off_end": 9,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 9,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 10,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 11,
+          "wf": "чем",
+          "wtype": "word",
+          "off_end": 14,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 15,
+          "wf": "отличаются",
+          "wtype": "word",
+          "off_end": 25,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 26,
+          "wf": "художественные",
+          "wtype": "word",
+          "off_end": 40,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 41,
+          "wf": "произведения",
+          "wtype": "word",
+          "off_end": 53,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 53,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 54,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 55,
+          "wf": "чем",
+          "wtype": "word",
+          "off_end": 58,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 59,
+          "wf": "похожи",
+          "wtype": "word",
+          "off_end": 65,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 65,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 66,
+          "next_word": 10
+        }
+      ],
+      "text": "Разбираем, чем отличаются художественные произведения, чем похожи.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 66,
+          "para_id": 4811
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Дети",
+          "wtype": "word",
+          "off_end": 4,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 5,
+          "wf": "любят",
+          "wtype": "word",
+          "off_end": 10,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 11,
+          "wf": "учить",
+          "wtype": "word",
+          "off_end": 16,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 17,
+          "wf": "марийский",
+          "wtype": "word",
+          "off_end": 26,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 27,
+          "wf": "язык",
+          "wtype": "word",
+          "off_end": 31,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 31,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 32,
+          "next_word": 6
+        }
+      ],
+      "text": "Дети любят учить марийский язык.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 32,
+          "para_id": 4812
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Все",
+          "wtype": "word",
+          "off_end": 3,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 13
+        },
+        {
+          "off_start": 4,
+          "wf": "разборы",
+          "wtype": "word",
+          "off_end": 11,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 12
+        },
+        {
+          "off_start": 12,
+          "wf": "умеют",
+          "wtype": "word",
+          "off_end": 17,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 18,
+          "wf": "делать",
+          "wtype": "word",
+          "off_end": 24,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 24,
+          "wf": ":",
+          "wtype": "punct",
+          "off_end": 25,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 26,
+          "wf": "фонетический",
+          "wtype": "word",
+          "off_end": 38,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 38,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 39,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 40,
+          "wf": "морфологический",
+          "wtype": "word",
+          "off_end": 55,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 55,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 56,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 57,
+          "wf": "морфемный",
+          "wtype": "word",
+          "off_end": 66,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 66,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 67,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 68,
+          "wf": "синтаксический",
+          "wtype": "word",
+          "off_end": 82,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 83,
+          "wf": "разборы",
+          "wtype": "word",
+          "off_end": 90,
+          "next_word": 13,
+          "sentence_index": 12,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 91,
+          "wf": "делают",
+          "wtype": "word",
+          "off_end": 97,
+          "next_word": 14,
+          "sentence_index": 13,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 97,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 98,
+          "next_word": 15
+        }
+      ],
+      "text": "Все разборы умеют делать: фонетический, морфологический, морфемный, синтаксический разборы делают.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 98,
+          "para_id": 4813
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Но",
+          "wtype": "word",
+          "off_end": 2,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 14
+        },
+        {
+          "off_start": 3,
+          "wf": "читать",
+          "wtype": "word",
+          "off_end": 9,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 13
+        },
+        {
+          "off_start": 10,
+          "wf": "художественные",
+          "wtype": "word",
+          "off_end": 24,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 12
+        },
+        {
+          "off_start": 25,
+          "wf": "произведения",
+          "wtype": "word",
+          "off_end": 37,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 37,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 38,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 39,
+          "wf": "читать",
+          "wtype": "word",
+          "off_end": 45,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 46,
+          "wf": "не",
+          "wtype": "word",
+          "off_end": 48,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 49,
+          "wf": "очень-то",
+          "wtype": "word",
+          "off_end": 57,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 58,
+          "wf": "любят",
+          "wtype": "word",
+          "off_end": 63,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 63,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 64,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 65,
+          "wf": "это",
+          "wtype": "word",
+          "off_end": 68,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 69,
+          "wf": "в",
+          "wtype": "word",
+          "off_end": 70,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 71,
+          "wf": "настоящее",
+          "wtype": "word",
+          "off_end": 80,
+          "next_word": 13,
+          "sentence_index": 12,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 81,
+          "wf": "время",
+          "wtype": "word",
+          "off_end": 86,
+          "next_word": 14,
+          "sentence_index": 13,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 87,
+          "wf": "проблема",
+          "wtype": "word",
+          "off_end": 95,
+          "next_word": 15,
+          "sentence_index": 14,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 95,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 96,
+          "next_word": 16
+        }
+      ],
+      "text": "Но читать художественные произведения, читать не очень-то любят, это в настоящее время проблема.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 96,
+          "para_id": 4814
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "И",
+          "wtype": "word",
+          "off_end": 1,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 2,
+          "wf": "по",
+          "wtype": "word",
+          "off_end": 4,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 5,
+          "wf": "русской",
+          "wtype": "word",
+          "off_end": 12,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 13,
+          "wf": "литературе",
+          "wtype": "word",
+          "off_end": 23,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 24,
+          "wf": "такая",
+          "wtype": "word",
+          "off_end": 29,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 30,
+          "wf": "же",
+          "wtype": "word",
+          "off_end": 32,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 33,
+          "wf": "проблема",
+          "wtype": "word",
+          "off_end": 41,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 42,
+          "wf": "вот",
+          "wtype": "word",
+          "off_end": 45,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 45,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 46,
+          "next_word": 9
+        }
+      ],
+      "text": "И по русской литературе такая же проблема вот.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 46,
+          "para_id": 4815
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Читать",
+          "wtype": "word",
+          "off_end": 6,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 7,
+          "wf": "не",
+          "wtype": "word",
+          "off_end": 9,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 10,
+          "wf": "очень-то",
+          "wtype": "word",
+          "off_end": 18,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 19,
+          "wf": "любят",
+          "wtype": "word",
+          "off_end": 24,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 25,
+          "wf": "это",
+          "wtype": "word",
+          "off_end": 28,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 28,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 29,
+          "next_word": 6
+        }
+      ],
+      "text": "Читать не очень-то любят это.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 29,
+          "para_id": 4816
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Ну",
+          "wtype": "word",
+          "off_end": 2,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 12
+        },
+        {
+          "off_start": 3,
+          "wf": "а",
+          "wtype": "word",
+          "off_end": 4,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 5,
+          "wf": "так",
+          "wtype": "word",
+          "off_end": 8,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 9,
+          "wf": "нет",
+          "wtype": "word",
+          "off_end": 12,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 13,
+          "wf": "таких",
+          "wtype": "word",
+          "off_end": 18,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 18,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 19,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 20,
+          "wf": "кто",
+          "wtype": "word",
+          "off_end": 23,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 24,
+          "wf": "говорит",
+          "wtype": "word",
+          "off_end": 31,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 31,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 32,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 33,
+          "wf": "зачем",
+          "wtype": "word",
+          "off_end": 38,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 39,
+          "wf": "марийский",
+          "wtype": "word",
+          "off_end": 48,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 49,
+          "wf": "язык",
+          "wtype": "word",
+          "off_end": 53,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 54,
+          "wf": "нужен",
+          "wtype": "word",
+          "off_end": 59,
+          "next_word": 13,
+          "sentence_index": 12,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 59,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 60,
+          "next_word": 14
+        }
+      ],
+      "text": "Ну а так нет таких, кто говорит, зачем марийский язык нужен.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 60,
+          "para_id": 4817
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Дети",
+          "wtype": "word",
+          "off_end": 4,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 5,
+          "wf": "учатся",
+          "wtype": "word",
+          "off_end": 11,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 11,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 12,
+          "next_word": 3
+        }
+      ],
+      "text": "Дети учатся.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 12,
           "para_id": 4818
         }
       ]

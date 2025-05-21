@@ -1406,6 +1406,899 @@
           "off_end": 63,
           "para_id": 5335
         }
+      ],
+      "last": true
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "То",
+          "wtype": "word",
+          "off_end": 2,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 13
+        },
+        {
+          "off_start": 3,
+          "wf": "есть",
+          "wtype": "word",
+          "off_end": 7,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 12
+        },
+        {
+          "off_start": 7,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 8,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 9,
+          "wf": "с",
+          "wtype": "word",
+          "off_end": 10,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 11,
+          "wf": "одной",
+          "wtype": "word",
+          "off_end": 16,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 17,
+          "wf": "стороны",
+          "wtype": "word",
+          "off_end": 24,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 25,
+          "wf": "может",
+          "wtype": "word",
+          "off_end": 30,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 31,
+          "wf": "войти",
+          "wtype": "word",
+          "off_end": 36,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 36,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 37,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 38,
+          "wf": "с",
+          "wtype": "word",
+          "off_end": 39,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 40,
+          "wf": "другой",
+          "wtype": "word",
+          "off_end": 46,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 47,
+          "wf": "стороны",
+          "wtype": "word",
+          "off_end": 54,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 55,
+          "wf": "может",
+          "wtype": "word",
+          "off_end": 60,
+          "next_word": 13,
+          "sentence_index": 12,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 61,
+          "wf": "выйти",
+          "wtype": "word",
+          "off_end": 66,
+          "next_word": 14,
+          "sentence_index": 13,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 66,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 67,
+          "next_word": 15
+        }
+      ],
+      "text": "То есть, с одной стороны может войти, с другой стороны может выйти.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 67,
+          "para_id": 5331
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Чтобы",
+          "wtype": "word",
+          "off_end": 5,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 25
+        },
+        {
+          "off_start": 6,
+          "wf": "сверху",
+          "wtype": "word",
+          "off_end": 12,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 24
+        },
+        {
+          "off_start": 13,
+          "wf": "разные",
+          "wtype": "word",
+          "off_end": 19,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 23
+        },
+        {
+          "off_start": 20,
+          "wf": "во'роны",
+          "wtype": "word",
+          "off_end": 27,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 22
+        },
+        {
+          "off_start": 27,
+          "wf": "...",
+          "wtype": "punct",
+          "off_end": 30,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 21
+        },
+        {
+          "off_start": 31,
+          "wf": "ястреб",
+          "wtype": "word",
+          "off_end": 37,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 20
+        },
+        {
+          "off_start": 37,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 38,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 19
+        },
+        {
+          "off_start": 39,
+          "wf": "ястреб",
+          "wtype": "word",
+          "off_end": 45,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 18
+        },
+        {
+          "off_start": 46,
+          "wf": "как",
+          "wtype": "word",
+          "off_end": 49,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 17
+        },
+        {
+          "off_start": 50,
+          "wf": "же",
+          "wtype": "word",
+          "off_end": 52,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 16
+        },
+        {
+          "off_start": 52,
+          "wf": "...",
+          "wtype": "punct",
+          "off_end": 55,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 15
+        },
+        {
+          "off_start": 56,
+          "wf": "ну",
+          "wtype": "word",
+          "off_end": 58,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 14
+        },
+        {
+          "off_start": 58,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 59,
+          "next_word": 13,
+          "sentence_index": 12,
+          "sentence_index_neg": 13
+        },
+        {
+          "off_start": 60,
+          "wf": "в",
+          "wtype": "word",
+          "off_end": 61,
+          "next_word": 14,
+          "sentence_index": 13,
+          "sentence_index_neg": 12
+        },
+        {
+          "off_start": 62,
+          "wf": "общем",
+          "wtype": "word",
+          "off_end": 67,
+          "next_word": 15,
+          "sentence_index": 14,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 67,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 68,
+          "next_word": 16,
+          "sentence_index": 15,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 69,
+          "wf": "всякие",
+          "wtype": "word",
+          "off_end": 75,
+          "next_word": 17,
+          "sentence_index": 16,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 76,
+          "wf": "хищники",
+          "wtype": "word",
+          "off_end": 83,
+          "next_word": 18,
+          "sentence_index": 17,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 84,
+          "wf": "сверху",
+          "wtype": "word",
+          "off_end": 90,
+          "next_word": 19,
+          "sentence_index": 18,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 91,
+          "wf": "не",
+          "wtype": "word",
+          "off_end": 93,
+          "next_word": 20,
+          "sentence_index": 19,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 94,
+          "wf": "смогли",
+          "wtype": "word",
+          "off_end": 100,
+          "next_word": 21,
+          "sentence_index": 20,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 101,
+          "wf": "спуститься",
+          "wtype": "word",
+          "off_end": 111,
+          "next_word": 22,
+          "sentence_index": 21,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 111,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 112,
+          "next_word": 23,
+          "sentence_index": 22,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 113,
+          "wf": "поэтому",
+          "wtype": "word",
+          "off_end": 120,
+          "next_word": 24,
+          "sentence_index": 23,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 121,
+          "wf": "делает",
+          "wtype": "word",
+          "off_end": 127,
+          "next_word": 25,
+          "sentence_index": 24,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 128,
+          "wf": "крышу",
+          "wtype": "word",
+          "off_end": 133,
+          "next_word": 26,
+          "sentence_index": 25,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 133,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 134,
+          "next_word": 27
+        }
+      ],
+      "text": "Чтобы сверху разные во'роны... ястреб, ястреб как же... ну, в общем, всякие хищники сверху не смогли спуститься, поэтому делает крышу.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 134,
+          "para_id": 5332
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Еще",
+          "wtype": "word",
+          "off_end": 3,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 19
+        },
+        {
+          "off_start": 3,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 4,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 18
+        },
+        {
+          "off_start": 5,
+          "wf": "по-моему",
+          "wtype": "word",
+          "off_end": 13,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 17
+        },
+        {
+          "off_start": 13,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 14,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 16
+        },
+        {
+          "off_start": 15,
+          "wf": "среди",
+          "wtype": "word",
+          "off_end": 20,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 15
+        },
+        {
+          "off_start": 21,
+          "wf": "ветвей",
+          "wtype": "word",
+          "off_end": 27,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 14
+        },
+        {
+          "off_start": 28,
+          "wf": "еще",
+          "wtype": "word",
+          "off_end": 31,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 13
+        },
+        {
+          "off_start": 32,
+          "wf": "укладывает",
+          "wtype": "word",
+          "off_end": 42,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 12
+        },
+        {
+          "off_start": 43,
+          "wf": "землю",
+          "wtype": "word",
+          "off_end": 48,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 48,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 49,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 50,
+          "wf": "глину",
+          "wtype": "word",
+          "off_end": 55,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 55,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 56,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 57,
+          "wf": "чтобы",
+          "wtype": "word",
+          "off_end": 62,
+          "next_word": 13,
+          "sentence_index": 12,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 63,
+          "wf": "гнездо",
+          "wtype": "word",
+          "off_end": 69,
+          "next_word": 14,
+          "sentence_index": 13,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 70,
+          "wf": "стало",
+          "wtype": "word",
+          "off_end": 75,
+          "next_word": 15,
+          "sentence_index": 14,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 76,
+          "wf": "более",
+          "wtype": "word",
+          "off_end": 81,
+          "next_word": 16,
+          "sentence_index": 15,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 82,
+          "wf": "плотным",
+          "wtype": "word",
+          "off_end": 89,
+          "next_word": 17,
+          "sentence_index": 16,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 89,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 90,
+          "next_word": 18,
+          "sentence_index": 17,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 91,
+          "wf": "так",
+          "wtype": "word",
+          "off_end": 94,
+          "next_word": 19,
+          "sentence_index": 18,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 95,
+          "wf": "сказать",
+          "wtype": "word",
+          "off_end": 102,
+          "next_word": 20,
+          "sentence_index": 19,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 102,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 103,
+          "next_word": 21
+        }
+      ],
+      "text": "Еще, по-моему, среди ветвей еще укладывает землю, глину, чтобы гнездо стало более плотным, так сказать.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 103,
+          "para_id": 5333
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Грач",
+          "wtype": "word",
+          "off_end": 4,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 16
+        },
+        {
+          "off_start": 5,
+          "wf": "крышу",
+          "wtype": "word",
+          "off_end": 10,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 15
+        },
+        {
+          "off_start": 11,
+          "wf": "не",
+          "wtype": "word",
+          "off_end": 13,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 14
+        },
+        {
+          "off_start": 14,
+          "wf": "делает",
+          "wtype": "word",
+          "off_end": 20,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 13
+        },
+        {
+          "off_start": 20,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 21,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 12
+        },
+        {
+          "off_start": 22,
+          "wf": "[",
+          "wtype": "punct",
+          "off_end": 23,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 11
+        },
+        {
+          "off_start": 23,
+          "wf": "Прим",
+          "wtype": "word",
+          "off_end": 27,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 27,
+          "wf": ".:",
+          "wtype": "punct",
+          "off_end": 29,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 30,
+          "wf": "рассказчик",
+          "wtype": "word",
+          "off_end": 40,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 41,
+          "wf": "понимает",
+          "wtype": "word",
+          "off_end": 49,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 50,
+          "wf": "и",
+          "wtype": "word",
+          "off_end": 51,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 52,
+          "wf": "использует",
+          "wtype": "word",
+          "off_end": 62,
+          "next_word": 12,
+          "sentence_index": 11,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 63,
+          "wf": "слово",
+          "wtype": "word",
+          "off_end": 68,
+          "next_word": 13,
+          "sentence_index": 12,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 69,
+          "wf": "karak",
+          "wtype": "word",
+          "off_end": 74,
+          "next_word": 14,
+          "sentence_index": 13,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 75,
+          "wf": "как",
+          "wtype": "word",
+          "off_end": 78,
+          "next_word": 15,
+          "sentence_index": 14,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 79,
+          "wf": "«",
+          "wtype": "punct",
+          "off_end": 80,
+          "next_word": 16,
+          "sentence_index": 15,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 80,
+          "wf": "грач",
+          "wtype": "word",
+          "off_end": 84,
+          "next_word": 17,
+          "sentence_index": 16,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 84,
+          "wf": "»].",
+          "wtype": "punct",
+          "off_end": 87,
+          "next_word": 18
+        }
+      ],
+      "text": "Грач крышу не делает. [Прим.: рассказчик понимает и использует слово karak как «грач»].",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 87,
+          "para_id": 5334
+        }
+      ]
+    },
+    {
+      "lang": 1,
+      "words": [
+        {
+          "off_start": 0,
+          "wf": "Гнездо",
+          "wtype": "word",
+          "off_end": 6,
+          "next_word": 1,
+          "sentence_index": 0,
+          "sentence_index_neg": 10
+        },
+        {
+          "off_start": 7,
+          "wf": "грача",
+          "wtype": "word",
+          "off_end": 12,
+          "next_word": 2,
+          "sentence_index": 1,
+          "sentence_index_neg": 9
+        },
+        {
+          "off_start": 13,
+          "wf": "открытое",
+          "wtype": "word",
+          "off_end": 21,
+          "next_word": 3,
+          "sentence_index": 2,
+          "sentence_index_neg": 8
+        },
+        {
+          "off_start": 21,
+          "wf": "...",
+          "wtype": "punct",
+          "off_end": 24,
+          "next_word": 4,
+          "sentence_index": 3,
+          "sentence_index_neg": 7
+        },
+        {
+          "off_start": 25,
+          "wf": "открытое",
+          "wtype": "word",
+          "off_end": 33,
+          "next_word": 5,
+          "sentence_index": 4,
+          "sentence_index_neg": 6
+        },
+        {
+          "off_start": 33,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 34,
+          "next_word": 6,
+          "sentence_index": 5,
+          "sentence_index_neg": 5
+        },
+        {
+          "off_start": 35,
+          "wf": "как",
+          "wtype": "word",
+          "off_end": 38,
+          "next_word": 7,
+          "sentence_index": 6,
+          "sentence_index_neg": 4
+        },
+        {
+          "off_start": 39,
+          "wf": "сказать",
+          "wtype": "word",
+          "off_end": 46,
+          "next_word": 8,
+          "sentence_index": 7,
+          "sentence_index_neg": 3
+        },
+        {
+          "off_start": 46,
+          "wf": ",",
+          "wtype": "punct",
+          "off_end": 47,
+          "next_word": 9,
+          "sentence_index": 8,
+          "sentence_index_neg": 2
+        },
+        {
+          "off_start": 48,
+          "wf": "открытое",
+          "wtype": "word",
+          "off_end": 56,
+          "next_word": 10,
+          "sentence_index": 9,
+          "sentence_index_neg": 1
+        },
+        {
+          "off_start": 57,
+          "wf": "гнездо",
+          "wtype": "word",
+          "off_end": 63,
+          "next_word": 11,
+          "sentence_index": 10,
+          "sentence_index_neg": 0
+        },
+        {
+          "off_start": 63,
+          "wf": ".",
+          "wtype": "punct",
+          "off_end": 64,
+          "next_word": 12
+        }
+      ],
+      "text": "Гнездо грача открытое... открытое, как сказать, открытое гнездо.",
+      "para_alignment": [
+        {
+          "off_start": 0,
+          "off_end": 64,
+          "para_id": 5335
+        }
       ]
     }
   ]
